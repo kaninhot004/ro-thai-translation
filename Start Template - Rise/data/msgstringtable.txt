@@ -52,8 +52,8 @@ Chat Filter: Yeah, uh, I don't think so buddy...#
 You cannot overlap items on a window.#
 You cannot carry more items because you are overweight.#
 You cannot get the item.#
-The deal has successfully completed.#
-You do not have enough zeny.#
+แลกเปลี่ยนเรียบร้อยแล้ว#
+เกิดข้อผิดพลาด: Zeny ไม่เพียงพอ#
 You are over your Weight Limit.#
 The deal has failed.#
 You've blocked whispers from everyone.#
@@ -90,7 +90,7 @@ Ask %s to join your party#
 Pri:#
 Pub:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
-Please select a Deal Type.#
+เลือกประเภทการแลกเปลี่ยน#
  requests a deal.#
  Party has sent you an invitation. Would you like to join?#
 Invalid Command#
@@ -102,9 +102,9 @@ Information#
 ตั้งค่า Party#
 Friend#
 Party#
-Equip#
+สวมใส่อุปกรณ์#
 ความสามารถ#
-Inventory#
+ช่องเก็บของ#
 /organize ''Party Name'' To organize a party. Type /leave To leave a Party.#
 If you are the party master, you can invite someone into your party by right-clicking on a Character.#
 Consumables#
@@ -151,7 +151,7 @@ There is no such character name or the user is offline.#
  is not in the mood to talk with anyone.#
 Kick/Disconnected User.#
 Kick has failed.#
-You got %s (%d).#
+รับ %s (%d)#
 [Alt] + [=]: Fix the interval error between letters.#
 [F10]: To toggle Chat Window size; [Alt] + [F10]: Toggle Chat Window On or Off#
 How to Whisper: Enter a Character's Name on the left side of chat window and type your message on the right side. The Tab key helps you move between these boxes.#
@@ -164,12 +164,12 @@ You haven't learned enough Basic Skills to create a chat room.#
 You haven't learned enough Basic Skills to Party.#
 You haven't learned enough skills to Shout.#
 You haven't learned enough skills for Pking.#
-Buying Items#
+Item ที่จะซื้อ#
 Item Shop#
-Selling Items#
+Item ที่จะขาย#
 Storage#
- is put on.#
- is taken off.#
+ ถูกสวมใส่#
+ ถูกถอดออก#
 To add names on the Whispering List#
 How to Take Screen Shots: Press [Print Screen] or [Scroll Lock]#
 Tip of the Day#
@@ -180,11 +180,11 @@ There are %d Players Currently Connected.#
 (%s) has entered.#
 (%s) has left.#
 (%s) was kicked out.#
-%d ea.#
-%s: %d ea.#
+%d ชิ้น#
+%s: %d ชิ้น#
 %s %s: %d#
-Available Items to sell#
-Shop Items#
+Item ที่ขายได้#
+Item ในร้าน#
 Unknown Area#
 Your Client language doesn't match the Server language.#
 Please move your equipment to the inventory. And close the equipment window.#
@@ -293,7 +293,7 @@ Party Share#
 การแบ่ง EXP#
 การแบ่ง Item#
 Only the Party Leader can change this setting.#
-Toggle Item Amount.#
+ใช้งาน Double-Click และข้ามการใส่จำนวน#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
 You cannot trade more than 10 types of items per trade.#
 You are not old enough to use this server.#
@@ -694,7 +694,7 @@ Internet Cafe Time Plan has been ended. Would you like to continue the game with
 #
 Your lack of zeny or your zeny limit have prevented you from performing this action.#
 Your character has fainted. Push the ESC key to restart.#
- - %d obtained.#
+ - %d ได้รับ#
 Spell List#
 /minimize#
 This item has been damaged.#
@@ -1607,7 +1607,7 @@ Someone#
  [%s] attacked by [%s] with '%d' damage points.#
  [%s] receives '%d' damage points.#
  [%s] attacks [%s] with '%d' damage points.#
-You dropped %s (%d).#
+ทิ้ง %s (%d)#
 [%s] quest - defeating [%s] progress (%d/%d).#
 [%s] quest was deleted.#
 [%s] #
@@ -1803,7 +1803,7 @@ Enter the card name or prefix/suffix.#
 Attempts: %d#
 Nothing found.#
 The item price is too high.#
-General#
+ของสวมใส่ปกติ#
 Costume#
 minute(s)#
 second(s)#
@@ -1854,7 +1854,7 @@ Consumables#
 Other#
 Cost#
 Quantity#
-Total#
+รวม#
 Free Cash : %s C#
 Cash Points : %s C#
 You cannot summon a monster in this area.#
@@ -1991,7 +1991,7 @@ The same file exists already.#
 Record Start#
  is Saved.#
 Weight: %3d / %3d#
-Total: %s C#
+รวม: %s C#
 [Shuriken] must be equipped.#
 Base Lv. %d#
 Job Lv. %d#
@@ -2683,8 +2683,8 @@ You cannot add anymore.#
 only otp user login allow#
 When this button pressed, you will receive a specified initialized roulette item.#
 When this button pressed, the flashing arrows from the lines of the roulette wheel begins.#
-Title#
-Disable Title#
+ฉายา#
+ปิดการแสดงฉายา#
 Can't create a Guild in this area.#
 Can't disband a Guild in this area.#
 Can't join a Guild in this area.#
@@ -2840,8 +2840,8 @@ You can level up the skill from the base Lv. %d.#
 Special symbol can't be used in name#
 MaxHP is too low to use this skill#
 MaxSP is too low to use this skill#
-Compare equips#
-Lock item drop#
+เปรียบเทียบอุปกรณ์สวมใส่#
+Lock การทิ้ง Item#
 Screenshot is not attached#
 Twitter#
 General#
@@ -2949,8 +2949,8 @@ Total trade will be sent to RODEX #
 Name isn't available#
 Item has been delivered#
 Thank you for purchasing#
-NPC sale lock applied#
-NPC sale lock#
+ซ่อนในรายการขายเรียบร้อยแล้ว#
+ซ่อนในรายการขาย#
 There is no callable location nearby#
 Capture full screens#
 Capture part of screen#
@@ -2984,7 +2984,7 @@ The same vend shop NPC has been set up#
 Opening shop is not allowed on this location#
 Opening shop is not allowed when there is other character#
 Failed to feed pet, please close RODEX window#
-Swap Equipment#
+เปลี่ยนชุดอุปกรณ์สวมใส่#
 Equip#
 Equipment will dissapear when refine fails#
 Equipment's refine level will be decreased when refine fails#
@@ -3005,7 +3005,7 @@ You can not do it while talking with NPC#
 You can not do it while opening chat room#
 Party members are not connected.#
 You need %d arrow(s) to use the skill.#
-Align items#
+เรียง Item#
 To discard item, please close the Swap Equipment window.#
 There is no item to replace.#
 Deleted character#
@@ -3074,7 +3074,7 @@ Exp#
  all on#
 Play Replay File#
 P#
-Total#
+รวม#
 Basicinfo#
 Equip#
 Item#
@@ -3108,8 +3108,8 @@ Complete#
 Incomplete#
 (Complete!)#
 (Incomplete)#
-Swap Equipment#
-CHANGE#
+เปลี่ยนชุดอุปกรณ์สวมใส่#
+เปลี่ยน#
 Strength: ^66cc33ATK^ffffff และ ^66cc33แรงแบก Item^ffffff#
 Agility: ^66cc33ASPD, FLEE^ffffff และ ^66cc33DEF^ffffff#
 Vitality: ^66cc33MaxHP, DEF^ffffff และ ^66cc33MDEF^ffffff#
@@ -3228,7 +3228,7 @@ Character with this level cannot join the party#
 '%lld' Job Experience#
 %lld Job Experience obtained#
 Unable to open a shop at the current location#
- seconds left before it become usable again.#
+ วินาทีก่อนที่จะใช้ได้อีกครั้ง#
 Cap#
 SNS Failed to send(%d)#
 SNS Failed to connect to server#
@@ -3475,7 +3475,7 @@ Attendance check#
 Currently there is no attendance check event.#
 Guild experience reaches max, You can no longer accumulate Guild EXP#
 Character experience reaches max, You can no longer accumulate Guild EXP#
-message#
+ข้อความ#
 Failed to send message to twitter#
 Must at least 4 characters in English, or 2 characters in Hangul.#
 Monster taming is prohibited in this map.#
@@ -3558,13 +3558,13 @@ Not enough items to exchange.#
 The item has been sold and out of stock.#
 KO'ed#
 PvP#
-Expand possession limit#
-Do you want to expand the maximum possession limit by using ^0000ff%s^000000? \nIt will expand from (^0000ff%d^000000) to (^0000ff%d^000000).\n^ff0000 Expanded item possession limit can't be reversed.^000000#
+ขยายช่องเก็บของ#
+ยืนยัน?#
 Failed to expand the maximum possession limit.#
 To expand the possession limit, please close other windows.#
-Failed to expand the maximum possession limit, insufficient required item.#
-You can no longer expand the maximum possession limit.#
-You have successfully expanded the possession limit.#
+เกิดข้อผิดพลาดในการขยายช่องเก็บของ: ขาด Item#
+เกิดข้อผิดพลาดในการขยายช่องเก็บของ: ขยายมากกว่านี้ไม่ได้อีกแล้ว#
+ขยายช่องเก็บของเรียบร้อยแล้ว#
 You can't have more the same %d item at a time.#
 It is not possible to purchase as it will exceeds the possession limit.#
 You can only buy one item at a time.#
@@ -3572,7 +3572,7 @@ Star Emperor#
 Soul Reaper#
 The settings are stored on the server on normal exit.#
 Capture Monster#
-message#
+ข้อความ#
 TITLE#
 Expand Damage#
 Display Map Name#
@@ -3638,7 +3638,7 @@ Mounting/Dismounting#
 Import#
 Get the item information registered in the previous stall.#
 Login is restricted due to server issues.#
-Message#
+ข้อความ#
 You can play only with +18 or higher.#
 We don't recommend playing over 3 hours.#
 You don't have enough AP.#
@@ -3647,7 +3647,7 @@ The refine level is higher than required for the combination.#
 A card is inserted or it's enchanted.#
 ขฎA#
 Z#
-Total : %s Zeny#
+รวม : %s Zeny#
 Limited Account Sales Registration Window#
 Item DB Name#
 Item DB Number#
@@ -3697,8 +3697,8 @@ That rodex can be opened on server "%s".#
 This mail can only be deleted from server "%s".#
 This mail can only be received from the "%s" server.#
 The mail can be read only on the "%s" server.#
-Total: %d z#
-message#
+รวม: %d z#
+ข้อความ#
 During the opening of a purchasing store, you cannot purchase the items of a private store.#
 The grade has been successfully upgraded.#
 Refinement failed.#
@@ -3823,7 +3823,7 @@ You can't upgrade past it's refine level.#
 Equipment will not be destroyed.#
 No additional material has been selected. Do you want to continue the grade enhancement?#
 The client file has been tampered with#
-message#
+ข้อความ#
 The total amount of items to sell exceeds the amount of Zeny you can have. \nPlease modify the quantity and price.#
 Reputation Status#
 %u / 1000 P#
@@ -3953,7 +3953,7 @@ Return to tab#
 Add tab#
 Delete tab#
 You can start chatting by pressing the Enter key#
-Unequip All#
+ถอดทั้งหมด#
 Please try again in 10 seconds.#
 It can be used in the range of the Twinkling Galaxy skill.#
 Requires Soul Energy.#
