@@ -3,7 +3,7 @@ Do you agree?#
 Disconnected from Server.#
 Disconnected from Server!#
 Server Closed.#
-Someone has Logged in with this ID.#
+มีคนอื่นเข้าเกมด้วย ID นี้#
 Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#
 ID หรือรหัสผ่านผิด#
 This ID is expired.#
@@ -50,7 +50,7 @@ F12 Brings up a Hotkey Window which allows you to drag and drop Recovery Items, 
 You can't type the same word/phrase more than 3 times.#
 Chat Filter: Yeah, uh, I don't think so buddy...#
 You cannot overlap items on a window.#
-You cannot carry more items because you are overweight.#
+เกิดข้อผิดพลาด: แบกของไม่ไหวแล้ว#
 You cannot get the item.#
 แลกเปลี่ยนเรียบร้อยแล้ว#
 เกิดข้อผิดพลาด: Zeny ไม่เพียงพอ#
@@ -67,22 +67,22 @@ Room Limit Exceeded.#
 Same Room exists.#
 The Room is full.#
 You have been kicked out of this room.#
-The deal has been rejected.#
+การแลกเปลี่ยนถูกยกเลิก#
 You are too far away from the person to trade.#
 The Character is not currently online or does not exist.#
 The person is in another deal.#
 You cannot trade because this character will exceed his weight limit.#
-The deal has been canceled.#
-The deal has successfully completed.#
-The deal has failed.#
-Party has successfully been organized.#
-That Party Name already exists.#
+การแลกเปลี่ยนถูกยกเลิก#
+แลกเปลี่ยนเรียบร้อยแล้ว#
+เกิดข้อผิดพลาดในการแลกเปลี่ยน#
+จัดตั้ง Party เรียบร้อยแล้ว#
+เกิดข้อผิดพลาด: มีคนใช้ชื่อ Party ดังกล่าวไปแล้ว#
 The Character is already in a party.#
-The Character already joined another party.#
+ตัวละครดังกล่าวมี Party อยู่แล้ว (หรือส่งคำชวนไปแล้ว)#
 Request for party rejected.#
 Request for party accepted.#
 Party Capacity exceeded.#
-You left the party.#
+คุณออกจาก Party#
 Send to All#
 Send to Party#
 Request a deal with %s#
@@ -91,11 +91,11 @@ Pri:#
 Pub:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
 เลือกประเภทการแลกเปลี่ยน#
- requests a deal.#
- Party has sent you an invitation. Would you like to join?#
+ ต้องการแลกเปลี่ยนกับคุณ#
+ เชิญเข้าสู่ Party ต้องการเข้าร่วมหรือไม่?#
 Invalid Command#
-Leave party#
-Expel from party#
+ออกจาก Party#
+ขับไล่ออกจาก Party#
 Send Message#
 1:1 Chat#
 Information#
@@ -204,7 +204,7 @@ Insufficient SP#
 Insufficient HP#
 Skill has failed.#
 Steal has failed.#
-Trade#
+การแลกเปลี่ยน#
 Envenom skill has failed.#
 You cannot use this ID on this server.#
 Speed has increased.#
@@ -218,7 +218,7 @@ You haven't learned Warp skill.#
 Current location is saved as a Memo Point for Warp Skill.#
 Cancel#
 There is a Delay after using a Skill.#
-You can't have this item because you will exceed the weight limit.#
+เกิดข้อผิดพลาด: ช่องเก็บของเต็ม#
 Out of the maximum capacity#
 Cart Items#
 Take off Cart#
@@ -285,10 +285,10 @@ Name#
 Skill Point: %d#
 Skill has failed.#
 Passive#
-Each Take #
-Even Share#
-Each Take#
-Party Share#
+ปกติ#
+รับเท่า ๆ กัน#
+ปกติ#
+เก็บของคนอื่นได้#
 ตั้งค่า Party#
 การแบ่ง EXP#
 การแบ่ง Item#
@@ -354,8 +354,8 @@ Close since next#
 Last Log-in Time#
 Last Log-in IP#
 Friend Setup#
-Are you sure that you want to delete it?#
-Are you sure that you want to leave?#
+ยืนยัน?#
+ยืนยัน?#
 Register as a Friend#
 Open 1:1 Chat between Friends#
 Open 1:1 Chat#
@@ -390,7 +390,7 @@ Received negative manner point from %s.#
 Align with a Good Point#
 Align with a Bad Point#
 ขอแลกเปลี่ยนกับ %s#
-Ask (%s) to join your party#
+เชิญ %s เข้า Party#
  ขอเป็นพันธมิตรได้หรือไม่?#
 Your Guild is already in an Alliance with this Guild.#
 You rejected the Alliance Request.#
@@ -487,7 +487,7 @@ Guild Member %s has connected.#
 Guild Member %s has disconnected.#
 You got %s Base EXP.#
 You got %s Job EXP.#
-You left the guild.#
+คุณออกจาก Guild#
 You have been expelled from the Guild.#
 Item Appraisal has completed successfully.#
 Item Appraisal has failed.#
@@ -606,7 +606,7 @@ Item at 0 Zeny exists. Do you wish to continue?#
 [New Emoji List]#
 N/A#
 N/A#
-Character in the same account already joined.#
+เกิดข้อผิดพลาด: ตัวละครดังกล่าว (หรือมีตัวละครซ้ำ ID) อยู่ใน Party อยู่แล้ว#
 (%d ppl) - over the age 18#
  Provoke initiated.#
  Provoke canceled.#
@@ -737,7 +737,7 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
 ประเภทการแบ่ง Item#
-ของใครของมัน#
+ปกติ#
 รับเท่า ๆ กัน#
 nProtect KeyCrypt#
 Keyboard Driver has been detected. \n\nDo you want to install a program for keyboard security?    \n\n(After installation, System Reboot is required)#
@@ -1024,8 +1024,8 @@ Hate with a Passion#
 Homunculus has been customized.#
 Homunculus has been activated with the basic AI.#
 Mail List#
-Write Mail#
-Read Mail#
+เขียนจดหมาย#
+อ่านจดหมาย#
 You cannot change a map's designation once it is designated. Are you sure that you want to designate this map?#
 Item has been added in the Item Window.#
 You have failed to add the item in the Item Window.#
@@ -1295,8 +1295,8 @@ Mobile Authentication#
 Read#
 Auto Read#
 Bookmark#
-Previous#
-Next#
+ก่อนหน้า#
+ต่อไป#
 Close#
 %s's equipment has been damaged.#
 %s's %s was damaged.#
@@ -1530,8 +1530,8 @@ Cannot be used anymore.#
 [Acid Bottle] is required.#
 [Plant Bottle] is required.#
 [Mandragora Flowerpot] is required.#
-Assign Party Leader#
-Switch Party Leader?#
+มอบหัวหน้า Party#
+ยืนยัน?#
 Can't re-assign party leader#
 Can't be changed because of level gap#
 [%s] required '%d' amount.#
@@ -1624,8 +1624,8 @@ Quest information#
 Battlefield message#
 #
 Casts [%s] skill.#
-Activate lock function#
-Deactivate lock function#
+Lock หน้าต่าง Party เล็ก: ON#
+Lock หน้าต่าง Party เล็ก: OFF#
 %s has opened [%s] and recieved [%s].#
 Swordman#
 Mage#
@@ -1692,7 +1692,7 @@ Recruiting Party#
 [Bow] must be equipped.#
 [Musical Instrument/Whip] must be equipped.#
 Only alphanumeric characters are allowed.#
-Notice#
+ประกาศ#
 Item purchase failed due to incorrect shop information.#
 เกิดข้อผิดพลาด: Item ไม่สามารถทิ้งจากหน้าต่างนี้ได้#
 hour(s)#
@@ -1829,7 +1829,7 @@ No list matching search criteria were found.#
 Failed to remove result.#
 No results have been found.#
 No payment information has been found.#
-Screenshot Trade#
+ถ่ายภาพเมื่อแลกเปลี่ยน#
 [Trade_%s]#
 Death due to the auto insurance young people are spending.#
 Chat Dialog#
@@ -2053,13 +2053,13 @@ Fav#
  Drop Lock: On/Off#
 Party Alarm#
 สร้าง Party#
-Leave Party#
-Party Invitation#
-Party Name:#
-Player Name:#
- has recieved an invitation to join your party.#
- rejected your party invitation.#
- accepted your party invitation.#
+ออกจาก Party#
+เชิญผู้เล่นอื่นเข้า Party#
+ชื่อ Party:#
+ชื่อตัวละคร:#
+ ได้รับคำชวนเข้า Party เรียบร้อยแล้ว#
+ ปฎิเสธคำชวน#
+ รับคำชวนเรียบร้อยแล้ว#
 Recruitment is already a party.#
 Same conditions such as the previous search.#
 Guild after withdrawl.#
@@ -2092,8 +2092,8 @@ The character is not online or does not exist.#
 Failed to call Falcon.#
 %d%%(default 100%%+ Premium%d%%+%s Server%d%%)#
 This user is currently participating in WoE.#
-It is only possible to change the party leader while on the same map.#
-In the current region it is not possible to change the party.#
+เกิดข้อผิดพลาด: ต้องอยู่ Map เดียวกัน#
+เกิดข้อผิดพลาด: อยู่ใน Map ที่เปลี่ยนแปลง Party ไม่ได้#
 Dismount from Gryphon#
 Delete: %d/%d - %d:%d:%d#
 You can't invite characters in WoE maps.#
@@ -2585,15 +2585,15 @@ Update#
 %d days ago#
 %d%% ( Premium %d%% + %s Server )#
 Mailed#
-Your mail has been sent.#
-This item has been moved to the inventory.#
-Failed to get items.#
-Please empty your inventory.#
-Zeny received.#
-Failed to get zeny.#
+จดหมายของคุณถูกส่งเรียบร้อยแล้ว#
+Item ถูกส่งไปยังช่องเก็บของของคุณเรียบร้อยแล้ว#
+เกิดข้อผิดพลาด: ไม่สามารถรับ Item ได้#
+เกิดข้อผิดพลาด: ช่องเก็บของเต็ม#
+รับ Zeny เรียบร้อยแล้ว#
+เกิดข้อผิดพลาด: ไม่สามารถรับ Zeny ได้#
 Exceeded the limit of zeny.#
-Item successfully attached.#
-The name of the recipient must be included.#
+แนบ Item เรียบร้อยแล้ว#
+เกิดข้อผิดพลาด: ไม่พบชื่อตัวละคร#
 The length of the title must be 4 to 50 characters long.#
 Mail delivery failed.#
 Transmission has failed to inappropriate items.#
@@ -2609,11 +2609,11 @@ Unequip pet accessory first to begin pet evolution#
 in %d minutes#
 in %d hours#
 in %d days#
-Press the OK button to confirm the C-CODE.#
-Please claim all attachments before deleting your mail.#
-You cannot send any more zeny.#
+เกิดข้อผิดพลาด: ต้องตรวจสอบชื่อตัวละครก่อน#
+เกิดข้อผิดพลาด: ต้องรับสิ่งที่แนบมาก่อน#
+เกิดข้อผิดพลาด: Zeny ไม่เพียงพอ#
 Fee: %s Zeny#
-The recipient's name does not exist.#
+เกิดข้อผิดพลาด: ไม่พบชื่อตัวละคร#
 E X P : %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
 DROP  : %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
 DEATH : %.1f%% ( basic %.1f%% premium %.1f%% + %s %.1f%%)#
@@ -2628,7 +2628,7 @@ The SP's summoned enough.#
 %s/%s#
 The maximum length of the message content is 1K.#
 Failed to attach an item.#
-The weight of the items that can be attached to mail has been exceeded.#
+เกิดข้อผิดพลาด: น้ำหนัก Item มากเกินไป#
 Is already in service. Please try again in a few minutes.#
 Unable to open the window of Lucky Roulette.#
 Unable to close the window of the Lucky Roulette.#
@@ -2641,7 +2641,7 @@ Failed to open stalls.#
 The roulette wheel is spinning. Please try again after checking with prizes.#
 Lucky Roulette#
 Notify when item sells out#
-Please check the fees.#
+เกิดข้อผิดพลาด: Zeny ไม่เพียงพอ#
 Verify user name#
 Schedule deletion#
 Achievement Challenges#
@@ -2699,8 +2699,8 @@ The number of items that can be attached is exceeded.#
 Notify when item purchased#
 Unable to attach the items.#
 Because you cannot win a slam room and turn the roulette of the next higher step.#
-Write reply#
-Read mail#
+ตอบกลับ#
+อ่านจดหมาย#
 Delete mail#
 Crackers  : %d#
 %s %s crackers #
@@ -2806,7 +2806,7 @@ Unable to use because there is similiar effect exist.#
 Screen shake ON#
 Screen shake OFF#
 Illegal program detected.#
-Send a mail#
+ส่งจดหมาย#
 E X P : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
 DROP  : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
 DEATH : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
@@ -2845,9 +2845,9 @@ Lock การทิ้ง Item#
 Screenshot is not attached#
 Twitter#
 General#
-Notice#
-Return#
-Refresh#
+ประกาศ#
+ส่งกลับ#
+โหลดใหม่#
 %d minute#
 %d hour#
 %d day#
@@ -2954,7 +2954,7 @@ Thank you for purchasing#
 There is no callable location nearby#
 Capture full screens#
 Capture part of screen#
-Send#
+ส่ง#
 Family Affairs agent#
 Acknowledgement of family member registrations.#
 Dear whom it may concern. \r\n\r\n Today, \"%s\" and \"%s\" 's son/daughter \"%s\" has fully separated and independent from your member of family.\r\n\r\nHereat, we inform you in writing.\r\n\r\nPlease contact to Prontera Family Affairs if you have any enquiries.\r\n\r\nThank you.#
@@ -3099,8 +3099,8 @@ Total Zeny reward#
 Total %d reward: %s#
 Purchase Zeny#
 Refund amount: %d Zeny\r\nRefund reason: Server failed to draw lottery#
-Add small party window#
-Remove small party window#
+เพิ่มไปยังหน้าต่าง Party เล็ก#
+นำออกจากหน้าต่าง Party เล็ก#
 Lottery drawing is over, please verify if you've won the prize.#
 Deletable on: %02d/%02d#
 Until next level#
@@ -3158,7 +3158,7 @@ Costume#
 Sort order#
 General#
 Costume#
-Title#
+หัวข้อ#
 /quake : Screen shake effect ON/OFF#
 /aura2 : Completly turn aura effect ON/OFF#
 Basic Settings#
@@ -3190,7 +3190,7 @@ Select receiving group#
 Change size(F10)#
 Loading mailbox, Please don't delete the^c92114 message^000000~!!#
 NOW LOADING..#
-Title#
+หัวข้อ#
 Sender#
 Can't open two game windows, game installation might corrupt#
 More commands#
@@ -3229,7 +3229,7 @@ Character with this level cannot join the party#
 %lld Job Experience obtained#
 Unable to open a shop at the current location#
  วินาทีก่อนที่จะใช้ได้อีกครั้ง#
-Cap#
+จำนวน#
 SNS Failed to send(%d)#
 SNS Failed to connect to server#
 SNS will available after login.#
@@ -3255,7 +3255,7 @@ Please enter a search term#
 MOTP#
 Certification Number#
 GNJOY MOTP downloaded to your phone, Please enter your verification number.#
-There is no party member that can be delegated. Do you want to disband the party instead?#
+ไม่พบสมาชิก Party เพื่อแต่งตัวเป็นหัวหน้า Party ใหม่ ต้องการยุบ Party แทนหรือไม่?#
  - Age 18+#
  - Paid server#
  - Free server#
@@ -3309,7 +3309,7 @@ Star Emperor(Girl)#
 Soul Reaper(Girl)#
 Star Emperor(Boy)#
 Soul Reaper(Boy)#
-Your weight limit is over %d, HP and SP will not recover naturally.#
+HP และ SP จะไม่ฟื้นฟูเนื่องจากแบกของมากเกิน %d%%#
 The number of items that can be purchased in 8.#
 https://rathena.org/board/crowdfunding/#
 UNKNOWN ERROR:%d#
@@ -3342,7 +3342,7 @@ Billing information#
 เข้าสู่โลก#
 ลบ#
 รายการตัวละคร#
-Notice#
+ประกาศ#
 สร้าง#
 ทรงผม#
 สีผม#
@@ -3512,7 +3512,7 @@ Zoom Out#
 Zoom Out is turned (On)#
 Zoom Out is turned (Off)#
 /zoom#
-Adventurer's Agency#
+ค้นหานักพจญภัย#
 You can not request to join, if you are a party leader.#
 Registering at the Adventurer's Agency. Please wait.#
 You can no longer choose a job.#
@@ -3543,11 +3543,11 @@ NOW LOADING..#
 Delete#
 Reply#
 Send#
-Validate name#
-Notice#
-General#
-Return#
-Search#
+ตรวจสอบ#
+ประกาศ#
+ทั่วไป#
+ส่งกลับ#
+ค้นหา#
 Failed to feed the pet. Pet in a state that can't be fed.#
 Failed to feed the homunculus. Homunculus in a state that can't be fed.#
 money#
@@ -3573,26 +3573,26 @@ Soul Reaper#
 The settings are stored on the server on normal exit.#
 Capture Monster#
 ข้อความ#
-TITLE#
+หัวข้อ#
 Expand Damage#
 Display Map Name#
 #
 Vertical Sync#
 Material#
 http://rodata.zhaouc.com/renwu.html#
-Title#
+หัวข้อ#
 Frame Limit#
 If it exceeds %d it can no longer be installed.#
 Destination#
 Please try again in a few minutes.#
 This file cannot be registered.#
 Delete Selection#
-Delete all#
-Are you sure you want to delete all mails in the [%s] mailbox?#
+ลบทั้งหมด#
+ยืนยัน?#
 Retrieve selected#
-Retrieve all#
+รับทั้งหมด#
 Would you like to retrieve the attachment of the selected email?#
-Would you like to retrieve all attached items in the [%s] mailbox?#
+ยืนยัน?#
 Skill Bar 2#
 สลับแถบ Skill#
 ขฎc#
@@ -3865,7 +3865,7 @@ All users have been set to receive status.#
 %s is unsubscribed.#
 RODEX has been returned.#
 RODEX return failed.#
-The sender of this RODEX is not a friend or guild member. Please be careful.#
+ผู้ส่งไม่ได้เพิ่มเพื่อนกับคุณ ต้องการอ่านจดหมายจริง ๆ หรือไม่?#
 Recieve RODEX from all users#
 The duration of the same effect exceeds the limit and cannot be used.#
 If successful, Refine Level is reset to 0!#
@@ -3879,7 +3879,7 @@ Lv.%d %s#
 Quest List#
 Cash Shop#
 Shortcut Information#
-Adventurer Agency#
+ค้นหานักพจญภัย#
 UI Theme#
 Legacy UI#
 New UI#
@@ -3981,7 +3981,7 @@ Wind Hawk#
 Emblem registration failed.#
 Server registration failed.#
 File registration failed.#
-Sort Mini Party Window#
+เรียงหน้าต่าง Party เล็ก#
 It is evenly distributed.\nItems cannot be obtained because the weight or type of party members is excessive.#
 [%s] obtained '+%d %s' from [%s].#
 Please reopen your mailbox.#
