@@ -167,7 +167,7 @@ You haven't learned enough skills for Pking.#
 Item ที่จะซื้อ#
 Item Shop#
 Item ที่จะขาย#
-Storage#
+คลังเก็บของ#
  ถูกสวมใส่#
  ถูกถอดออก#
 To add names on the Whispering List#
@@ -305,9 +305,9 @@ The character was not deleted because the password was wrong.#
 You can't sell more than 15 types of Items at one time.#
 You are underaged and cannot join this server.#
 HP and SP natural regeneration are disabled because your Weight is over 50% of the Weight Limit.#
-Attacks and skills cannot be used when your Weight is over 90%.#
-Your HP/SP are now being restored naturally.#
-Attack and Skills are now available.#
+การโจมตีและ Skill ไม่สามารถกระทำได้เนื่องจากแบกของมากเกิน 90%#
+HP/SP กลับมาฟื้นฟูได้ตามปกติ#
+การโจมตีและ Skill สามารถกระทำได้แล้ว#
 Your Game's Exe File is not the latest version.#
 Items are sold out.#
 Save Chat as Text File#
@@ -508,13 +508,13 @@ Note#
 แต้มสนับสนุน#
 ออกจาก Guild#
 ขับไล่#
-Rank#
-Position Title#
-Invite#
-Expel#
-Tax %#
-Title#
-Contents#
+ลำดับ#
+ชื่อตำแหน่ง#
+เชิญ#
+ขับไล่#
+ภาษี %#
+หัวข้อ#
+เนื้อหา#
 Guild Name#
 Guild Level#
 Number of Members#
@@ -2497,7 +2497,7 @@ ITEM#
 Guild storage is not available.#
 You are not joining any guild. Please try again after joining a guild.#
 Other guild member is using it. Please try againt later.#
-Storage#
+คลัง Guild#
 Guild Storage#
 You do not have permission to use guild storage.#
 Limited Sale Registration Window#
@@ -3309,7 +3309,7 @@ Star Emperor(Girl)#
 Soul Reaper(Girl)#
 Star Emperor(Boy)#
 Soul Reaper(Boy)#
-HP และ SP จะไม่ฟื้นฟูเนื่องจากแบกของมากเกิน %d%%#
+HP/SP จะไม่ฟื้นฟูเนื่องจากแบกของมากเกิน %d%%#
 The number of items that can be purchased in 8.#
 https://rathena.org/board/crowdfunding/#
 UNKNOWN ERROR:%d#
