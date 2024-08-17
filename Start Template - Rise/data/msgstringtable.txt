@@ -326,30 +326,30 @@ Sprite Resolution#
 Texture Resolution#
 Arrange Detail#
 %s Zeny obtained#
-Guild Name#
+ชื่อ Guild#
 Guild Level#
-Guild Master#
-Members#
-Avg.lvl of Members#
-Castles Owned#
+หัวหน้า Guild#
+สมาชิก#
+Level เฉลี่ย#
+ครองปราสาท#
 Tendency#
 EXP#
-Emblem#
+สัญลักษณ์#
 Tax Point#
-Alliances#
-Antagonists#
-Guild Info#
-Member#
-Position#
+พันธมิตร#
+ศัตรู#
+ข้อมูล Guild#
+สมาชิก#
+ตำแหน่ง#
 Guild Skill#
-Expel List#
-Announcement#
+ขับไล่#
+ประกาศ#
 Entire Guild List#
 Whispering List#
 Open Whispering Window#
 How to Open Whispering List: Press [Alt] + [H]#
 Automatically open Whispering List#
-Delete#
+ลบ#
 Close since next#
 Last Log-in Time#
 Last Log-in IP#
@@ -368,19 +368,19 @@ You have failed to disband the guild.#
 Disband Reason: %s#
 This account has been deleted.#
 Price: #
-%s has been expelled from the guild.#
-Expulsion Reason: %s#
+%s ถูกขับไล่ออกจาก Guild#
+ข้อหา: %s#
 You can't put this item on.#
 You can't modify Party Setup.#
 สร้าง Guild เรียบร้อยแล้ว#
 คุณมี Guild อยู่แล้ว#
 ชื่อ Guild ดังกล่าวถูกใช้ไปแล้ว#
- Guild has sent you an invitation. Would you like to join this Guild?#
-He/She is already in a Guild.#
-You have refused the guild invitation.#
-You have accepted the guild invitation.#
-Your Guild is full.#
-Send (%s) a Guild Invitation#
+ เชิญเข้าสู่ Guild ต้องการเข้าร่วมหรือไม่?#
+ผู้เล่นดังกล่าวมี Guild อยู่แล้ว#
+การเชิญชวนเข้า Guild ของคุณถูกปฎิเสธ#
+การเชิญชวนเข้า Guild เรียบร้อยแล้ว#
+สมาชิก Guild ของคุณเต็มแล้ว#
+เชิญ %s เข้า Guild#
 You haven't learned enough skills for aligning.#
 Aligning completed.#
 You already spent your point for today.#
@@ -393,19 +393,19 @@ Align with a Bad Point#
 เชิญ %s เข้า Party#
  ขอเป็นพันธมิตรได้หรือไม่?#
 Your Guild is already in an Alliance with this Guild.#
-You rejected the Alliance Request.#
-You accepted the Alliance Request.#
-เกิดข้อผิดพลาดในการขอเป็นพันธมิตร#
-คุณมีพันธมิตรมากเกินไป#
+คำขอเป็นพันธมิตรถูกปฎิเสธ#
+เป็นพันธมิตรเรียบร้อยแล้ว#
+คำขอเป็นพันธมิตรถูกปฎิเสธ#
+เกิดข้อผิดพลาด: พันธมิตร Guild เต็มแล้ว#
 ขอเป็นพันธมิตร Guild#
 ยุบ Guild เรียบร้อยแล้ว#
 You have failed to disband the guild due to your incorrect SSN.#
 You have failed to disband the guild because there are guildsmen still present.#
-Set this guild as an Antagonist#
+ตั้ง Guild ดังกล่าวเป็นศัตรู#
 Choose Hair Color#
 You need the necessary item to create a Guild.#
 Monster Info#
-Name#
+ชื่อตัวละคร#
 Level#
 HP#
 Size#
@@ -460,7 +460,7 @@ Kick %s#
 Very Strong #
 Very Very Strong #
 Very Very Very Strong #
-The Reason of Expulsion#
+ข้อหา#
 Attack Speed is increased.#
 Attack Speed is reduced.#
 Weapon Damage is improved.#
@@ -483,8 +483,8 @@ Maximize-Power canceled.#
 [New Server]#
 (%d players)#
 (On the maintenance)#
-Guild Member %s has connected.#
-Guild Member %s has disconnected.#
+สมาชิก Guild %s Online แล้ว#
+สมาชิก Guild %s Offline แล้ว#
 You got %s Base EXP.#
 You got %s Job EXP.#
 คุณออกจาก Guild#
@@ -493,21 +493,21 @@ Item Appraisal has completed successfully.#
 Item Appraisal has failed.#
 Compounding has completed successfully.#
 Compounding has failed.#
-Antagonist has been set.#
-Guild has too many Antagonists.#
-Already set as an Antagonist#
+ตั้ง Guild ดังกล่าวเป็นศัตรูเรียบร้อยแล้ว#
+เกิดข้อผิดพลาด: ศัตรู Guild เต็มแล้ว#
+เกิดข้อผิดพลาด: ตั้ง Guild ดังกล่าวเป็นศัตรูอยู่แล้ว#
 Upgrade success!!#
 Upgrade failed!!#
 Unavailable Area to Teleport#
 Unable to memorize this place as Warp Point#
 Please wait 10 seconds before trying to log out.#
-Position#
-Job#
+ตำแหน่ง#
+อาชีพ#
 Note#
-Tax#
-Contribution#
-Leave Guild#
-Expel#
+ภาษี#
+แต้มสนับสนุน#
+ออกจาก Guild#
+ขับไล่#
 Rank#
 Position Title#
 Invite#
@@ -522,7 +522,7 @@ Ranking#
 Item Appraisal#
 Insert Card#
 Please enter the reason of Withdrawal.#
-Please enter the reason of Expulsion.#
+ข้อหา#
 Please close Shop.#
 Skill #
 Item Name#
@@ -720,8 +720,8 @@ Use auto attack with Ctrl. [Auto attack OFF]#
 Mute this player.#
 Unmute player & Erase mute time.#
 Decrease Player Mute time.#
-Normal Font Displayed. [showname type 1]#
-Font will be thin and party name will be shown [showname type 2]#
+Font จะปกติ [showname แบบที่ 1]#
+Font จะบางและจะแสดงชื่อ Party [showname แบบที่ 2]#
 /doridori: Shake head#
 Internet cafe is paying now.#
 Prepaid voucher validate until %d days %d hours %d minutes later.\nTime limit voucher validate untill %d hours %d minutes later.#
@@ -1328,7 +1328,7 @@ The character blocked the party invitation.#
 This item will be permanently bound to this character once it is equipped. Do you really want to equip this item?#
 %s is now permanently bound to this character.#
 You do not have enough Kafra Credit Points. Please enter whether you have free credit points.#
-Request to Join Party#
+เชิญเข้า Party#
 WOE Information#
 Memorial Dungeon %s's reservation has been canceled.#
 Failed to create Memorial Dungeon %s. Please try again.#
@@ -2862,7 +2862,7 @@ Total possession item type#
 /minimap#
 Show minimap buttons#
 Hide minimap buttons#
-Show guild member login status#
+แจ้งเตือนสมาชิก Guild เข้าออกเกม#
 ^0000CCIntimacy:^000000 %s#
 Unknown#
 Team name#
@@ -2921,8 +2921,8 @@ Malangdo Special Can 100 pc#
 Cannot carry anymore because weight limit is over 80%#
 Unsold items are sent to RODEX#
 Preview#
-Assign Guild Leader#
-Are sure want to assign %s as guild leader? After assigned your position will become %s#
+มอบหัวหน้า Guild#
+ยืนยัน?#
 Cancel#
 Do you want to close the shop?#
 %02d day %02d hour %02d min %02d sec#
@@ -3010,7 +3010,7 @@ To discard item, please close the Swap Equipment window.#
 There is no item to replace.#
 Deleted character#
 %y.%m.%d#
-Access date: %s#
+Online ล่าสุด: %s#
 You can not use bank while refining. Bank has been closed.#
 You can not use bank while refining.#
 This item has been set for Swap Equipment.#
@@ -3540,7 +3540,7 @@ Available in English or Russian only.#
 you must have an AccessTicket to login#
 Loading Guild Storage.#
 NOW LOADING..#
-Delete#
+ลบ#
 Reply#
 Send#
 ตรวจสอบ#
