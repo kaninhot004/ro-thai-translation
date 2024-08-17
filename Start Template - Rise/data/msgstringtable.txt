@@ -1093,7 +1093,7 @@ Armor#
 Card#
 Etc.#
 Bid#
-Search#
+ค้นหา#
 You have ended the auction.#
 You cannot end the auction.#
 Bid Number is incorrect.#
@@ -1366,7 +1366,7 @@ Free Trial users can only hold up to 50,000 zeny.#
 Battlefield Chat has been activated.#
 Battlefield Chat has been deactivated.#
 Mercenary Info - Monster Type#
-World Map#
+แผนที่โลก#
 The Memorial Dungeon is now closed.#
 ^ff0000Deleting a Mercenary Soldier^000000 will also delete his growth history. Do you really want to proceed with the deletion?#
 The Memorial Dungeon is now open.#
@@ -2194,8 +2194,8 @@ Rewards#
 Required Items#
 Time Limit#
 Deadline#
-Search#
-Navigation#
+ค้นหา#
+การนำทาง#
 Back to Navigation#
 View List#
 Toggle Minimap#
@@ -2208,7 +2208,7 @@ All#
 Map#
 Npc#
 Mob#
-Enter search string... (Ex: word word ...#
+ใส่คำที่ต้องการค้นหา#
 Scroll#
 Use Scroll?#
 Service#
@@ -2219,7 +2219,7 @@ Use Airship?#
 >> Destination <<#
 << Goal... >>#
 -----------#
-Navigation#
+การนำทาง#
 = search result (%d) ==#
 Npc)%s:%s#
 Mob)%s:%s#
@@ -2351,7 +2351,7 @@ Selected System Shutdown is activated in your account,Time Left: %1.2d hours %1.
 Replay#
 Macro#
 Webbrowser#
-Navigation#
+การนำทาง#
 UAEURL#
 Clan Info#
 Clan Level#
@@ -2438,7 +2438,7 @@ Time Left: %d hours %d minutes#
 After %d hours %d minutes, your game will be terminated.#
 This Account is permanently Banned.#
 This Account is banned.\nTermination Time:%04d-%02d-%02d %02d:%02d #
-Monster(Tab)#
+Monster#
 Map(Alt)#
 Product Information#
 Find Information#
@@ -2857,7 +2857,7 @@ Show information#
 Zoom in#
 Zoom out#
 Maximize#
-World Map#
+แผนที่โลก#
 Total possession item type#
 /minimap#
 Show minimap buttons#
@@ -3211,7 +3211,7 @@ Location error#
 Search result[%d]#
 Show navigation icon setting#
 Path that uses zeny#
-Open navigation window#
+เปิดหน้าต่างการนำทาง#
 Account is not active#
 Click on the location to share it in a chat room#
 4. Select Service project, Contains use of zeny and airship#
@@ -3364,7 +3364,7 @@ Dungeon#
 MD#
 Paradise#
 Other#
-Search#
+ค้นหา#
 Reset#
 Registration for Party#
 Purpose#
@@ -3775,7 +3775,7 @@ Requires %d Servant Weapons#
 https://member.gnjoy.com.tw/billing.aspx#
 Descending#
 #
-Search#
+ค้นหา#
 The Research Report Status will be displayed.#
 The Research Report Status has been cleared.#
 Successful manufacturing.#
@@ -3788,7 +3788,7 @@ The Attack Device has been activated.#
 The Attack Device has been disabled.#
 DEF and RES increased.#
 The Defense Device has been disabled.#
-Search#
+ค้นหา#
 You can now use Ensemble skills alone.#
 The Sonata of Kvasir effect has been canceled.#
 The effect of Mystic Symphony has been granted.#
