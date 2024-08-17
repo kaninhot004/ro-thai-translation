@@ -99,7 +99,7 @@ Expel from party#
 Send Message#
 1:1 Chat#
 Information#
-Party Setup#
+ตั้งค่า Party#
 Friend#
 Party#
 Equip#
@@ -289,9 +289,9 @@ Each Take #
 Even Share#
 Each Take#
 Party Share#
-Party Setup#
-How to share EXP#
-How to share Items#
+ตั้งค่า Party#
+การแบ่ง EXP#
+การแบ่ง Item#
 Only the Party Leader can change this setting.#
 Toggle Item Amount.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
@@ -372,9 +372,9 @@ Price: #
 Expulsion Reason: %s#
 You can't put this item on.#
 You can't modify Party Setup.#
-Guild has been created.#
-You are already in a Guild.#
-That Guild Name already exists.#
+สร้าง Guild เรียบร้อยแล้ว#
+คุณมี Guild อยู่แล้ว#
+ชื่อ Guild ดังกล่าวถูกใช้ไปแล้ว#
  Guild has sent you an invitation. Would you like to join this Guild?#
 He/She is already in a Guild.#
 You have refused the guild invitation.#
@@ -389,16 +389,16 @@ Received positive manner point from %s.#
 Received negative manner point from %s.#
 Align with a Good Point#
 Align with a Bad Point#
-Request a deal with (%s)#
+ขอแลกเปลี่ยนกับ %s#
 Ask (%s) to join your party#
- Guild is asking for an Alliance with them. Do you accept?#
+ ขอเป็นพันธมิตรได้หรือไม่?#
 Your Guild is already in an Alliance with this Guild.#
 You rejected the Alliance Request.#
 You accepted the Alliance Request.#
-Other Guild has too many Alliances.#
-You have too many Alliances.#
-Send an Guild Alliance Request#
-Guild was successfully disbanded.#
+เกิดข้อผิดพลาดในการขอเป็นพันธมิตร#
+คุณมีพันธมิตรมากเกินไป#
+ขอเป็นพันธมิตร Guild#
+ยุบ Guild เรียบร้อยแล้ว#
 You have failed to disband the guild due to your incorrect SSN.#
 You have failed to disband the guild because there are guildsmen still present.#
 Set this guild as an Antagonist#
@@ -736,9 +736,9 @@ Chat content will not be displayed in the chat window. [Display OFF]#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
-Item sharing type#
-Individual#
-Shared#
+ประเภทการแบ่ง Item#
+ของใครของมัน#
+รับเท่า ๆ กัน#
 nProtect KeyCrypt#
 Keyboard Driver has been detected. \n\nDo you want to install a program for keyboard security?    \n\n(After installation, System Reboot is required)#
 Installation has been completed.  \n\nSystem will be rebooted.#
@@ -1358,8 +1358,8 @@ This character cannot be deleted.#
 This character's equipment information is not open to the public.#
 #
 #
-กำลังดูอุปกรณ์สวมใส่ของ %s#
-%s's Equipment#
+ดูอุปกรณ์สวมใส่ของ %s#
+อุปกรณ์สวมใส่ของ %s#
 เล่นฟรี ไม่มีเติมเงิน#
 This service is only available for premium users.#
 Free Trial users can only hold up to 50,000 zeny.#
@@ -3110,22 +3110,22 @@ Incomplete#
 (Incomplete)#
 Swap Equipment#
 CHANGE#
-Strength: ^66cc33ATK^ffffff and ^66cc33Weight Capacity^ffffff#
-Agility: ^66cc33ASPD, FLEE^ffffff and ^66cc33DEF^ffffff#
-Vitality: ^66cc33MaxHP, DEF^ffffff and ^66cc33MDEF^ffffff#
-Intelligence: ^66cc33MATK, Casting Time^ffffff and ^66cc33MDEF^ffffff#
-Dexterity: ^66cc33Ranged ATK, HIT, MATK^ffffff and ^66cc33Casting Time^ffffff#
-Luck: ^66cc33Critical, HIT, ATK, MATK^ffffff and ^66cc33Perfect Dodge^ffffff#
-Physical Damage#
-Physical Defense#
-Hit Rate#
-Critical Rate#
-Affiliated Guild#
-Status point#
-Magical Damage#
-Magical Defense#
-Flee Rate#
-Attack Speed#
+Strength: ^66cc33ATK^ffffff และ ^66cc33แรงแบก Item^ffffff#
+Agility: ^66cc33ASPD, FLEE^ffffff และ ^66cc33DEF^ffffff#
+Vitality: ^66cc33MaxHP, DEF^ffffff และ ^66cc33MDEF^ffffff#
+Intelligence: ^66cc33MATK, ร่ายไวขึ้น^ffffff และ ^66cc33MDEF^ffffff#
+Dexterity: ^66cc33ATK ตีไกล, HIT, MATK^ffffff และ ^66cc33ร่ายไวขึ้น^ffffff#
+Luck: ^66cc33Critical, HIT, ATK, MATK^ffffff และ ^66cc33Perfect Dodge^ffffff#
+Damage กายภาพ#
+Defense กายภาพ#
+อัตราความแม่นยำ#
+อัตรา Critical#
+พันธมิตร Guild#
+แต้ม Status#
+Damage เวทย์#
+Defense เวทย์#
+อัตราการหลบหลีก#
+ความเร็วการโจมตี#
 Shortcut Description#
 Effect#
 Skill shortcut (F1 ~ F9)#
@@ -3611,20 +3611,20 @@ Stop#
 Free Movement#
 %d hours, %s %d#
 Using Free Pass#
-Trait Status#
-Power: ^66cc33Status ATK^ffffff and ^66cc33P.ATK^ffffff#
-Stamina: ^66cc33Physical Resistance^ffffff#
-Wisdom: ^66cc33Magical Resistance^ffffff#
-Spell: ^66cc33Status MATK^ffffff and ^66cc33S.MATK^ffffff#
-Concentration: ^66cc33HIT, FLEE, P.ATK^ffffff and ^66cc33S.MATK^ffffff#
-Creative: ^66cc33H.Plus^ffffff and ^66cc33C.RATE^ffffff#
-Final Physical Damage#
-Final Magic Damage#
-Physical Resistance#
-Magical Resistance#
-Heal Plus#
-Critical Damage Rate#
-Trait Points available#
+ความสามารถแฝง#
+Power: ^66cc33ATK^ffffff และ ^66cc33P.ATK^ffffff#
+Stamina: ^66cc33RES^ffffff#
+Wisdom: ^66cc33MRES^ffffff#
+Spell: ^66cc33MATK^ffffff และ ^66cc33S.MATK^ffffff#
+Concentration: ^66cc33HIT, FLEE, P.ATK^ffffff และ ^66cc33S.MATK^ffffff#
+Creative: ^66cc33H.PLUS^ffffff และ ^66cc33C.RATE^ffffff#
+Damage กายภาพคำนวณท้ายสุด#
+Damage เวทย์คำนวณท้ายสุด#
+ทนทานต่อกายภาพ#
+ทนทานต่อเวทย์#
+Heal แรงขึ้น#
+อัตราความแรง Critical#
+แต้ม Trait#
 J.Lv#
 AP#
 Go to destination#
