@@ -146,7 +146,7 @@ Congratulations! You are the MVP! Your reward item is #
 Congratulations! You are the MVP! Your reward EXP Points are #
 !!#
 You are the MVP, but you can't take the reward because you are over your weight limit.#
-There is no such character name or the user is offline.#
+ Offline อยู่#
  doesn't want to receive your messages.#
  is not in the mood to talk with anyone.#
 Kick/Disconnected User.#
@@ -356,12 +356,12 @@ Last Log-in IP#
 Friend Setup#
 ยืนยัน?#
 ยืนยัน?#
-Register as a Friend#
+เพิ่มเพื่อน#
 Open 1:1 Chat between Friends#
-Open 1:1 Chat#
+สนทนาส่วนตัว#
 Open 1:1 Chat between Strangers#
 Alarm when recieve a 1:1 Chat#
-Are you sure that you want to expel him/her?#
+ยืนยัน?#
 %s has left the guild.#
 Withdrawal Reason: %s#
 You have failed to disband the guild.#
@@ -917,7 +917,7 @@ Full Divestment cannot pierce the target. The target is fully shielded.#
 You cannot adopt a married person.#
 This name is not registered in your Friend List. Please check the name again.#
 /hi or /hi message: Send greetings to people who are online and registered on your Friend List.#
-This character is not your guildsman. Please check the name again.#
+#
 Please be aware that the maximum selling price is fixed as 2 Billion. You cannot sell an item higher than that.#
 Whispers from friends are displayed as [ Friend ], and ones from guildsmen are displayed as [ Member ].#
 ( From character name: ) is from an anonymous character who is neither your friend nor guildsman.#
@@ -1532,8 +1532,8 @@ Cannot be used anymore.#
 [Mandragora Flowerpot] is required.#
 มอบหัวหน้า Party#
 ยืนยัน?#
-Can't re-assign party leader#
-Can't be changed because of level gap#
+เกิดข้อผิดพลาด: ตัวละครดังกล่าว Offline อยู่#
+Level ห่างกันเกินไป#
 [%s] required '%d' amount.#
 Is now refining the value lowered.#
 Please equip [%s].#
@@ -1550,7 +1550,7 @@ Do you really want to go back to your savepoint?#
 Search Message for Party Members#
 Message option is off the search party members.#
 10 seconds delay of party support is in effect#
-Party leader is [%s].#
+หัวหน้า Party คือ [%s]#
 Unable to enter due to system error.#
 Cannot wait to enter the number of excess.#
 Has already been applied.#
