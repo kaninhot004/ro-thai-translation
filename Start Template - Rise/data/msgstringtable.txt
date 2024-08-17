@@ -281,7 +281,7 @@ You cannot carry more than 30,000 of one kind of item.#
 You cannot delete a Character with a level greater than 30. If you want to delete the character please contact a Game Master.#
 You cannot use an NPC shop while in a trade.#
 Name#
-Skill Tree#
+ตาราง Skill#
 Skill Point: %d#
 Skill has failed.#
 Passive#
@@ -320,7 +320,7 @@ Shows ''Miss'' Off#
 Camera Zooming On#
 Camera Zooming Off#
 /camera: Camera Zooming On or Off. /miss: Toggle ''Miss'' display#
-View Skill Info#
+รายละเอียด Skill#
 Change Skill#
 Sprite Resolution#
 Texture Resolution#
@@ -1374,8 +1374,8 @@ This account has not been confirmed by connecting to the safe communication key.
 The number of accounts connected to this IP has exceeded the limit.#
 You have received a new quest.#
 ^CC3399Requirement:#
-View Skill Info#
-Once used, skill points cannot be re-allocated. Would you like to use the skill points?#
+รายละเอียด Skill#
+ยืนยัน?#
 1stJob#
 2ndJob#
 This account has been used for illegal program or hacking program. Block Time: %s#
@@ -1694,7 +1694,7 @@ Recruiting Party#
 Only alphanumeric characters are allowed.#
 Notice#
 Item purchase failed due to incorrect shop information.#
-Item cannot be discarded from the window.#
+เกิดข้อผิดพลาด: Item ไม่สามารถทิ้งจากหน้าต่างนี้ได้#
 hour(s)#
 Map#
 You can't use, equip or disarm items when you're trading.#
@@ -2052,7 +2052,7 @@ Eqp#
 Fav#
  Drop Lock: On/Off#
 Party Alarm#
-Create Party#
+สร้าง Party#
 Leave Party#
 Party Invitation#
 Party Name:#
@@ -3594,7 +3594,7 @@ Retrieve all#
 Would you like to retrieve the attachment of the selected email?#
 Would you like to retrieve all attached items in the [%s] mailbox?#
 Skill Bar 2#
-Change Skill Bar#
+สลับแถบ Skill#
 ขฎc#
 ขฎe#
 ขฎฉก#
