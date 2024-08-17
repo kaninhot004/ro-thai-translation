@@ -20,7 +20,7 @@ Passwords are at least 4 characters long. Please try again.#
 ยืนยัน?#
 Foul Language Detected.#
 เกิดข้อผิดพลาด ต้องมี 4 ตัวอักษรขึ้นไป#
-Command List: /h | /help#
+รายการคำสั่ง: /h | /help#
 Effects On#
 Effects Off#
 Sound Volume#
@@ -1323,8 +1323,8 @@ Memorial Dungeon, [%s] is already booked.#
 Memorial Dungeon, [%s] is created.\n Please enter in 5 minutes.#
 Failed to create Memorial Dungeon, [%s].\n Please try again.#
 The character blocked the party invitation.#
-Block all party invitations.#
-Allow all party invitations.#
+รับคำชวน Party: OFF#
+รับคำชวน Party: ON#
 This item will be permanently bound to this character once it is equipped. Do you really want to equip this item?#
 %s is now permanently bound to this character.#
 You do not have enough Kafra Credit Points. Please enter whether you have free credit points.#
@@ -1356,11 +1356,11 @@ Not Yet Implemented#
 You are not eligible to open the Character Slot.#
 This character cannot be deleted.#
 This character's equipment information is not open to the public.#
-Equipment information not open to the public.#
-Equipment information open to the public.#
-Check %s's Equipment Info#
+#
+#
+กำลังดูอุปกรณ์สวมใส่ของ %s#
 %s's Equipment#
-Show Equip#
+เล่นฟรี ไม่มีเติมเงิน#
 This service is only available for premium users.#
 Free Trial users can only hold up to 50,000 zeny.#
 Battlefield Chat has been activated.#
@@ -2577,8 +2577,8 @@ Lack of required materials for evolution.#
 Pet can only be evolved when intimacy is Loyal.#
 Automatic feeding#
 Your pet has been fed. %s (%d) remaining#
-Automatic feeding is ON#
-Automatic feeding is OFF#
+ให้อาหารสัตว์เลี้ยงอัตโนมัติ: OFF#
+ให้อาหารสัตว์เลี้ยงอัตโนมัติ: ON#
 Update#
 %d minutes ago#
 %d hours ago#
@@ -2795,7 +2795,7 @@ Can't be auctioned#
 Can't be put in Guild Storage#
 Can't be sold to NPC#
 Item move restrictions#
-Click here to create a Character#
+สร้างตัวละคร#
 Please unequip ammunition first.#
 Unable to enter, due to exceeding number of players.#
 Access denied, due to exceeding number of players.#
@@ -2976,8 +2976,8 @@ Success#
 Return#
 With Mr/Miss#
 The Homunculus's name will be changed to^0000ff^0000ff %s^000000^000000, Are you sure?#
-Call function is ON#
-Call function is OFF#
+รับการเรียกหาจากคู่สมรส: ON#
+รับการเรียกหาจากคู่สมรส: OFF#
 Display Call messages#
 This character is currently opening a shop and can't be deleted#
 The same vend shop NPC has been set up#
@@ -3280,8 +3280,8 @@ Modified file is found. Please restart the game.#
 Auto \nFeeding#
 You can't feed Homunculus while the RODEX window is open.#
 Homunculus has been fed. [%s] - %d remaining#
-Homunculus automatic feeding is ON#
-Homunculus automatic feeding is OFF#
+ให้อาหาร Homunculus อัตโนมัติ: ON#
+ให้อาหาร Homunculus อัตโนมัติ: OFF#
 Homunculus receives \n10% of master's experience.#
 Rate : %d%%#
 The target isn't in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
@@ -3576,7 +3576,7 @@ message#
 TITLE#
 Expand Damage#
 Display Map Name#
-System Message: The current shop display function is in %s state. (/showshop)#
+#
 Vertical Sync#
 Material#
 http://rodata.zhaouc.com/renwu.html#
