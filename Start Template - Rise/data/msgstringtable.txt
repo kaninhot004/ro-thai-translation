@@ -1297,7 +1297,7 @@ Auto Read#
 Bookmark#
 ก่อนหน้า#
 ต่อไป#
-Close#
+ปิด#
 %s's equipment has been damaged.#
 %s's %s was damaged.#
 Weapon#
@@ -2199,11 +2199,11 @@ Deadline#
 Back to Navigation#
 View List#
 Toggle Minimap#
-Read external file path information#
+อ่านข้อมูลจาก File อื่น ๆ#
 Exit#
-Change to basic UI#
-Change to simple UI#
-Help#
+เปลี่ยนเป็น UI ปกติ#
+เปลี่ยนเป็น UI ง่าย ๆ#
+ช่วยเหลือ#
 All#
 Map#
 Npc#
@@ -2238,23 +2238,23 @@ Goal: (%d, %d)#
 E%2d) %s(%d,%d)=>(%d,%d)#
 E%2d) %s#
 Do you want to cancel navigation?#
-How to Use Navigation#
-------------------- Instruction --------------------#
-1) /Navigation or /navi#
-ex) /navi prontera 100 100 -> /navi 'MAPNAME', 100, 100#
-2) /Navigation2 or /navi2 #
-ex) /navi2 prontera 100 111#
--> MAPNAME location (100 90), Scroll | Zeny | Plane (1: Enable or 0: Disable)#
--> /navi2 goes with the case with location coordinates. They must be no less than 3 characters #
-3) $$all Output all the items (Can take a while...) #
-4) $$lv30 monsters are placed in the output #
-5) $$lv20~30 monsters in that level range are placed in the output #
--------------------  Description  --------------------#
-1) One can search for monsters, npcs, maps, or all at once#
-2) You can press the search button to get results. It will out put the results depending on what rule you choose#
-ex) Drop down box -> Select 'Npc', then type in the box 'Kafra'. Results will now be displayed#
-3) When you select an item from a list, information about it are displayed.#
--> When button is clicked, it will point you towards your destination if available#
+วิธีใช้การนำทาง#
+ลองกด ๆ ดูเดี๋ยวก็ใช้เป็น#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
 4) Scroll | Zeny | Plane options can be checked to find a faster route#
 5) Guide button is pressed, the result list window displays where routes can change direction#
 6) Using the button below, search results can be found#
@@ -2295,7 +2295,7 @@ That does not support the navigation area#
 The purpose is unclear#
 Does not meet the map requirement#
 Information Failure | Change settings#
-Failed to set info for location!#
+เกิดข้อผิดพลาด: ไม่สามารถระบุจุดหมายได้!#
 Failed to find a path#
 Failed to find players #
 No Information#
@@ -2306,19 +2306,19 @@ Directions were started#
 Is the map that you're looking for mob#
 Map appears on the guide you are looking for#
 Please navigate using the item#
-To find the location, follow the arrows#
-Arrived at the target map#
+เดินตามเส้นทางที่ปรากฎ#
+ถึงจุดหมายแล้ว#
 Arrived on the map that has the Npc you're looking for. Follow the arrows to go to that NPC.#
-You have arrived at the mob you were looking for#
+ถึงจุดหมายแล้ว#
 You have reached your goal#
 Please go to indicated direction.#
 The goal has been reached#
-Navigation >: %s#
-Navigation >: Talk to [%s]#
-Navigation >: Please move to [%s] map#
-Navigation >: Then select [%s]#
-Navigation >: Please move to the Airship#
-Navigation >: Use the Warp Portal to move to the next area.#
+การนำทาง >: %s#
+การนำทาง >: คุยกับ [%s]#
+การนำทาง >: ไปยัง [%s]#
+การนำทาง >: และเลือก [%s]#
+การนำทาง >: โปรดขึ้นเรือเหาะ#
+การนำทาง >: โปรดไปยัง Map ถัดไป#
 Item: #
 $$#
 $$lv#
@@ -2739,7 +2739,7 @@ The player has already requested you to be a friend.#
 SCRIPT ERROR AID#
 \nErrorfile : %s\nErrorLine : %d line\nErrorContent: \n*before line : %s \n*Errorline : %s \n*next line:\n %s#
 ^ff0000Do you want to purchase the item? after confirmation will consume %d point and %d crackers.#
-Close#
+ปิด#
 Quest#
 Show Quest icon#
 Facility#
@@ -3043,7 +3043,7 @@ Loading the player's name#
 The message contains unrecognizable character#
 Purchase failed#
 ID card is incorrect#
-Close#
+ปิด#
 Rules#
 Buy 1 ea.#
 Buy 10 ea.#
@@ -3201,22 +3201,22 @@ No identification number, supplement your registration information#
 Account block#
 System error#
 unknown error found.#
-Navigation guide icon set#
-navigation UI#
-Navigation information#
-Share current location#
-Search result[0]#
-Search & description#
+ตั้งค่า Icon การนำทาง#
+รายการการนำทาง#
+ข้อมูลการนำทาง#
+Share จุดหมาย#
+ผลการค้นหา[0]#
+การค้นหา & รายละเอียด#
 Location error#
 Search result[%d]#
-Show navigation icon setting#
-Path that uses zeny#
+ตั้งค่า Icon การนำทาง#
+เส้นทางที่ใช้ Zeny#
 เปิดหน้าต่างการนำทาง#
 Account is not active#
-Click on the location to share it in a chat room#
-4. Select Service project, Contains use of zeny and airship#
-5. [<-]ID : navigation mode<->swap search mode#
-Share mode -> use it when searching#
+กดที่จุดหมายเพื่อ Share ใส่ช่องสนทนา#
+#
+#
+#
 %lld Base Experience obtained#
 '%lld' Base Experience#
 ^b- Street vending fee description^/b: will be set according to item price, with certain percentage of fee.^b> Fee rate^/b The proportion of fee described as follows: 0 z ~ 10,000 z = Fee rate : ^1567fe0%^000000, 10,001 z ~ 100,000 z = Fee rate : ^1567fe2%^000000, 100,001 z ~ 1,000,000 z = Fee rate : ^1567fe4%^000000, 1,000,001 z ~ 10,000,000 z = Fee rate : ^1567fe6%^000000, 10,000,001 z ~ 100,000,000 z = Fee rate : ^1567fe8%^000000, more than 100,000,001 z = Fee rate : ^1567fe10%^000000#
@@ -3328,10 +3328,10 @@ INPUT DATA ERROR#
 ERROR DATABASE#
 ERROR SYSTEM#
 Use %s#
-Payment#
+ชำระด้วย#
 This map isn't available for restart.#
-You can't teleport in this map#
-Insufficient item.#
+ยังไม่ได้เลือก Map#
+Item ไม่เพียงพอ#
 Please enter one line without line breaks.#
 Names with bad words can not be registered.#
 Go to the official website for membership.#
@@ -3583,7 +3583,7 @@ http://rodata.zhaouc.com/renwu.html#
 หัวข้อ#
 Frame Limit#
 If it exceeds %d it can no longer be installed.#
-Destination#
+จุดหมาย#
 Please try again in a few minutes.#
 This file cannot be registered.#
 Delete Selection#
