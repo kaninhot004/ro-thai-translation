@@ -207,8 +207,8 @@ Steal has failed.#
 การแลกเปลี่ยน#
 Envenom skill has failed.#
 You cannot use this ID on this server.#
-Speed has increased.#
-Speed has decreased.#
+ความเร็วเพิ่มขึ้น#
+ความเร็วลดลง#
 /memo: To memorize a place as Warp Point (If you are an Acolyte Class character)#
 Random Area#
 Select an Area to Warp#
@@ -608,52 +608,52 @@ N/A#
 N/A#
 เกิดข้อผิดพลาด: ตัวละครดังกล่าว (หรือมีตัวละครซ้ำ ID) อยู่ใน Party อยู่แล้ว#
 (%d ppl) - over the age 18#
- Provoke initiated.#
- Provoke canceled.#
- Endure initiated.#
- Endure canceled.#
- Improve Concentration initiated.#
- Improve Concentration canceled.#
- Hiding initiated.#
- Hiding canceled.#
- Cloaking initiated.#
- Cloaking canceled.#
- Poison React initiated.#
- Poison React canceled.#
- Movement Speed reduced.#
- Quagmire canceled.#
- Defense increased.#
- Angelus canceled.#
- STR, INT and DEX increased.#
- Blessing canceled.#
- Signum Crusis initiated.#
- Signum Crusis canceled.#
- Slow Poison initiated.#
- Slow Poison canceled.#
- SP Regeneration is increased.#
- Magnificat canceled.#
- LUK increased.#
- Gloria canceled.#
- You will receive double damage from 1 attack.#
- Lex Aeterna canceled.#
+ Provoke มีผลแล้ว#
+ Provoke สิ้นสุดแล้ว#
+ Endure มีผลแล้ว#
+ Endure สิ้นสุดแล้ว#
+ Improve Concentration มีผลแล้ว#
+ Improve Concentration สิ้นสุดแล้ว#
+ Hiding มีผลแล้ว#
+ Hiding สิ้นสุดแล้ว#
+ Cloaking มีผลแล้ว#
+ Cloaking สิ้นสุดแล้ว#
+ Poison React มีผลแล้ว#
+ Poison React สิ้นสุดแล้ว#
+ Quagmire มีผลแล้ว#
+ Quagmire สิ้นสุดแล้ว#
+ Angelus มีผลแล้ว#
+ Angelus สิ้นสุดแล้ว#
+ Blessing มีผลแล้ว#
+ Blessing สิ้นสุดแล้ว#
+ Signum Crusis มีผลแล้ว#
+ Signum Crusis สิ้นสุดแล้ว#
+ Slow Poison มีผลแล้ว#
+ Slow Poison สิ้นสุดแล้ว#
+ Magnificat มีผลแล้ว#
+ Magnificat สิ้นสุดแล้ว#
+ Gloria มีผลแล้ว#
+ Gloria สิ้นสุดแล้ว#
+ Lex Aeterna มีผลแล้ว#
+ Lex Aeterna สิ้นสุดแล้ว#
  Attack speed increased.#
  Attack speed reduced.#
  You have mounted a Pecopeco.#
  You have dismounted your Pecopeco.#
  You have rented a Falcon.#
  You have released your Falcon.#
- Play Dead initiated.#
- Play Dead canceled.#
- STR increased.#
- Crazy Uproar canceled.#
- Energy Coat initiated.#
- Energy Coat canceled.#
- Armor damaged.#
- Armor repaired.#
- Weapon damaged.#
- Weapon repaired.#
- Invisibility initiated.#
- Invisibility canceled.#
+ Play Dead มีผลแล้ว#
+ Play Dead สิ้นสุดแล้ว#
+ Crazy Uproar มีผลแล้ว#
+ Crazy Uproar สิ้นสุดแล้ว#
+ Energy Coat มีผลแล้ว#
+ Energy Coat สิ้นสุดแล้ว#
+ Armor พัง#
+ Armor ซ่อมแซมเรียบร้อยแล้ว#
+ Weapon พัง#
+ Weapon ซ่อมแซมเรียบร้อยแล้ว#
+ Invisibility มีผลแล้ว#
+ Invisibility สิ้นสุดแล้ว#
 Sorry. It is delayed due to the process of payment. Please re-connect in a minute.#
 You must unequip ammunition first.#
 Arrow List#
