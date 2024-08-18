@@ -83,8 +83,8 @@ Request for party rejected.#
 Request for party accepted.#
 Party Capacity exceeded.#
 คุณออกจาก Party#
-Send to All#
-Send to Party#
+ปกติ#
+Party#
 Request a deal with %s#
 Ask %s to join your party#
 Pri:#
@@ -190,7 +190,7 @@ Your Client language doesn't match the Server language.#
 Please move your equipment to the inventory. And close the equipment window.#
 This server provides English Text Characters Only.#
 This is not implemented yet.#
-No Whisper List.#
+เกิดข้อผิดพลาด: ไม่พบการสนทนาส่วนตัว#
 : Whispering Blocked.#
 : Whispering Block has failed.#
 : Whispering Block has failed. Block List is full.#
@@ -435,7 +435,7 @@ You level is too high for this job.#
 Not the suitable job for this type of work.#
 Record a message in the Talkie Box#
 Please type a message for the Talkie Box#
-Send to Guild#
+Guild#
 You didn't pay for this account. Would you like to pay for it now?#
 Server is jammed due to overpopulation. Please try again later.#
 Server still recognizes your last log-in. Please try again after about 30 seconds.#
@@ -1602,10 +1602,10 @@ Enable Battlefield icon.#
 Disable Battlefield icon.#
 Field notification was moved.#
 Admission pending notification of the battlefield#
-Someone#
+ใครบางคน#
  [%s] inflicts '%d' damage points on you.#
  [%s] attacked by [%s] with '%d' damage points.#
- [%s] receives '%d' damage points.#
+ [%s] รับ '%d' Damage#
  [%s] attacks [%s] with '%d' damage points.#
 ทิ้ง %s (%d)#
 [%s] quest - defeating [%s] progress (%d/%d).#
@@ -1613,7 +1613,7 @@ Someone#
 [%s] #
  %d Base exp points#
  %d Job exp points#
- acquired.#
+ ได้รับ#
  has lost.#
 From [%s], '%d' coins were stolen.#
 Battle message#
@@ -2359,7 +2359,7 @@ Clan Name#
 Clan Emblem#
 Ally Clan#
 Hostile Clan#
-Send to Clan#
+Clan#
 Clan Leader#
 Number of Members#
 Castles Owned#
@@ -2741,19 +2741,19 @@ SCRIPT ERROR AID#
 ^ff0000Do you want to purchase the item? after confirmation will consume %d point and %d crackers.#
 ปิด#
 Quest#
-Show Quest icon#
-Facility#
-Show Facility icon#
+แสดง Icon Quest#
+สิ่งอำนวยความสะดวก#
+แสดง Icon สิ่งอำนวยความสะดวก#
 Guild/Party#
-Show Guild/Party#
-Record#
+แสดง Guild/Party#
+บันทึก#
 Boss Monster#
 I#
-Do you want to delete it?#
+ยืนยัน?#
 Quest NPC#
-Record content#
-Store#
-Record#
+รายละเอียด#
+บันทึก#
+บันทึก#
 %s [%d ea.] %d ea.#
 %s [%d ea.] %s Zeny#
 %s [%d ea.] %d %s %d -> %s %s#
@@ -2853,10 +2853,10 @@ General#
 %d day#
 Returned#
 Do you want to delete the message?#
-Show information#
-Zoom in#
-Zoom out#
-Maximize#
+แสดง Icon#
+Zoom เข้า#
+Zoom ออก#
+ขยาย#
 แผนที่โลก#
 Total possession item type#
 /minimap#
@@ -3185,9 +3185,9 @@ Effect#
 Mouse จะไม่ออกนอกจอ#
 Fee : #
 Total fee : #
-Select receiver#
-Select receiving group#
-Change size(F10)#
+เลือกผู้รับสาร#
+เลือกผู้รับสาร#
+เปลี่ยนขนาด(F10)#
 Loading mailbox, Please don't delete the^c92114 message^000000~!!#
 NOW LOADING..#
 หัวข้อ#
