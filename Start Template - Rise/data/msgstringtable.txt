@@ -263,7 +263,7 @@ Magical Defense#
 Flee Rate#
 Attack Speed#
 Server is jammed due to over population. Please try again shortly.#
-Option#
+ตั้งค่า#
 Account ID blocked by the Game Master Team.#
 ID หรือรหัสผ่านผิด#
 Choose Hairstyle#
@@ -276,8 +276,8 @@ Skill Snap Off#
 /snap: Turns snap On | Off for fights, /skillsnap: Turns snap On | Off for skills. /itemsnap: Turns snap On | Off for items on the grounds.#
 Item Snap On#
 Item Snap Off#
-Snap#
-You cannot carry more than 30,000 of one kind of item.#
+ล็อคเป้า#
+เกิดข้อผิดพลาด: แบกของชนิดเดียวกันได้สูงสุด 30,000 ชิ้น#
 You cannot delete a Character with a level greater than 30. If you want to delete the character please contact a Game Master.#
 You cannot use an NPC shop while in a trade.#
 Name#
@@ -1481,9 +1481,9 @@ You can't read this Magic Book.#
 Waiting time has passed. Please log in again#
 Watch out! Same account is already logged in. Stop mobile verification and log in again after changing your password#
 Watch out! Same account is waiting for mobile verification. Stop mobile verification and log in again after changing your password#
-Game Options#
+ตั้งค่า#
 Graphic Settings#
-Audio Settings#
+เสียง#
 Press a key to assign. Pressing 'ESC' will remove the assigned key.#
 Unable to specify a single key.#
 Unable to specify the key assigned.#
@@ -1493,8 +1493,8 @@ Skill Bar#
 Interface#
 Macros#
 Shortcut Settings#
-    BGM#
-    SFX#
+    เพลง#
+    อื่น ๆ#
 Skin#
 Chat room entry sound [ON]#
 Chat room entry sound [OFF]#
@@ -1997,10 +1997,10 @@ Base Lv. %d#
 Job Lv. %d#
 Zeny: %s#
 Trilinear#
-Basic Attack#
+โจมตี#
 Skill#
-Items#
-No Ctrl#
+เก็บ Item#
+ไม่ต้องกด Ctrl#
 Battleground#
 (Character/Total Slot)#
 Premium Service#
@@ -2372,7 +2372,7 @@ Enter the name of character#
 Sex Selection Window#
 Editing of the File Detected#
 Items obtained by opening the item is character bounded (cannot move to storage). Do you want to open the box?#
-Game Settings#
+ตั้งค่า#
 Game System#
 Game Commands#
 Game Command ON/OFF#
@@ -3087,9 +3087,9 @@ Status#
 ALL#
 User defined file name#
 Repeated File Check#
-on#
-<Basic Skin>#
-Select Skin#
+ใช้งาน#
+<Skin ปกติ>#
+เลือก Skin#
 Unable to delete lottery ticket#
 /achievement#
 Zeny lottery#
@@ -3130,7 +3130,7 @@ Shortcut Description#
 Effect#
 Skill shortcut (F1 ~ F9)#
 Screenshot#
-Zoom Out#
+Zoom ออก#
 Zoom In#
 Guild#
 Bank#
@@ -3161,28 +3161,28 @@ Costume#
 หัวข้อ#
 /quake : Screen shake effect ON/OFF#
 /aura2 : Completly turn aura effect ON/OFF#
-Basic Settings#
-Advanced Settings#
-Set Basic Settings#
-Set Basic Settings?#
+ทั่วไป#
+ขั้นสูง#
+Reset เป็นค่าเริ่มต้น#
+ยืนยัน?#
 Set to these values?#
 To apply these values, client restart is required, proceed?#
-Fog#
-Simplify Aura#
-Enable Aura#
-Skill Effects#
-Shadow#
-No Shift#
-Select hardware T&L acceleration#
-Select game resolution#
-Enable#
-Enable#
-Effect Display#
-Control#
-Graphic Device#
-Resolution#
-Fullscreen#
-Fixed mouse#
+หมอก#
+ลด Aura#
+Aura#
+Effect#
+เงา#
+ไม่ต้องกด Shift#
+เลือกอุปกรณ์ที่ใช้แสดงผล#
+เลือกขนาด#
+ใช้งาน#
+ใช้งาน#
+การแสดงผล#
+การควบคุม#
+แสดงผลจาก#
+ขนาด#
+เต็มจอ#
+Mouse จะไม่ออกนอกจอ#
 Fee : #
 Total fee : #
 Select receiver#
@@ -3507,7 +3507,7 @@ Request to join the party#
 If you are not a party leader, you can not register party at the Adventurer's Agency.#
 You can not stop the party recruitment.#
 Support#
-Zoom Out#
+Zoom ออก#
 %s : Zoom Out can be turned On Off#
 Zoom Out is turned (On)#
 Zoom Out is turned (Off)#
@@ -3574,8 +3574,8 @@ The settings are stored on the server on normal exit.#
 Capture Monster#
 ข้อความ#
 หัวข้อ#
-Expand Damage#
-Display Map Name#
+Damage K/M#
+แสดงชื่อ Map#
 #
 Vertical Sync#
 Material#
@@ -3866,7 +3866,7 @@ All users have been set to receive status.#
 RODEX has been returned.#
 RODEX return failed.#
 ผู้ส่งไม่ได้เพิ่มเพื่อนกับคุณ ต้องการอ่านจดหมายจริง ๆ หรือไม่?#
-Recieve RODEX from all users#
+รับ RODEX จากคนที่ไม่ใช่เพื่อน#
 The duration of the same effect exceeds the limit and cannot be used.#
 If successful, Refine Level is reset to 0!#
 Cards, Random Options and Enchantments are maintained.#
