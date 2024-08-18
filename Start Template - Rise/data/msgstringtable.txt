@@ -11,10 +11,10 @@ Rejected from Server.#
 เกิดข้อผิดพลาด มีคนใช้ชื่อตัวละครดังกล่าวไปแล้ว#
 Character Creation is denied.#
 Character Deletion is denied.#
-Please Enter Room Title.#
+โปรดระบุชื่อห้องสนทนา#
 Foul Language Detected.#
-Please enter Password.#
-Please enter Password. Passwords must be at least 4 characters long.#
+โปรดระบุรหัสผ่าน#
+รหัสผ่านต้องมีความยาว 4 ตัวอักษรขึ้นไป#
 ยืนยัน?#
 Passwords are at least 4 characters long. Please try again.#
 ยืนยัน?#
@@ -62,7 +62,7 @@ You've allowed whispers from everyone.#
 You've failed to allow all whispers.#
 You have no Block List.#
 [ Character Block List ]#
-Room has been successfully created.#
+สร้างห้องสนทนาเรียบร้อยแล้ว#
 Room Limit Exceeded.#
 Same Room exists.#
 The Room is full.#
@@ -87,8 +87,8 @@ Party Capacity exceeded.#
 Party#
 Request a deal with %s#
 Ask %s to join your party#
-Pri:#
-Pub:#
+ส่วนตัว:#
+ปกติ:#
 Click ''Restart'' to go back to your save point or click ''Exit'' to select another character.#
 เลือกประเภทการแลกเปลี่ยน#
  ต้องการแลกเปลี่ยนกับคุณ#
@@ -123,13 +123,13 @@ Please change your desktop Color Depth to 16-bit when running Ragnarok in window
 โปรดรอ...#
 โปรดรอ...#
 โปรดรอ...#
-Create Chat Room#
-Room Setup#
-Kick Character Out#
-Give Master Authority#
-View Information#
-Chat Room#
-Ppl#
+สร้างห้องสนทนา#
+ตั้งค่าห้องสนทนา#
+ขับไล่ออกจากห้องสนทนา#
+มอบหัวหน้าห้องสนทนา#
+ดูรายละเอียด#
+ห้องสนทนา#
+คน#
 /sit: Sit command. If you are sitting, you will stand instead.#
 /stand: Stand command. If you are standing, you will sit instead.#
 /chat: Creates a Chat Room#
@@ -177,9 +177,9 @@ Tip of the Day#
 Display at startup#
 /tip: Opens ''Tip of the Day''#
 There are %d Players Currently Connected.#
-(%s) has entered.#
-(%s) has left.#
-(%s) was kicked out.#
+(%s) เข้าห้องสนทนา#
+(%s) ออกจากห้องสนทนา#
+(%s) ถูกขับไล่ออกจากห้องสนทนา#
 %d ชิ้น#
 %s: %d ชิ้น#
 %s %s: %d#
@@ -189,7 +189,7 @@ Unknown Area#
 Your Client language doesn't match the Server language.#
 Please move your equipment to the inventory. And close the equipment window.#
 This server provides English Text Characters Only.#
-This is not implemented yet.#
+ยังไม่สามารถใช้งานได้#
 เกิดข้อผิดพลาด: ไม่พบการสนทนาส่วนตัว#
 : Whispering Blocked.#
 : Whispering Block has failed.#
@@ -198,8 +198,8 @@ This is not implemented yet.#
 : Command has failed.#
 : Command has failed. Block List is full.#
 เกิดข้อผิดพลาดในการเปลี่ยนชื่อตัวละคร# 
-Private#
-Public#
+ส่วนตัว#
+ปกติ#
 Insufficient SP#
 Insufficient HP#
 Skill has failed.#
@@ -310,7 +310,7 @@ HP/SP กลับมาฟื้นฟูได้ตามปกติ#
 การโจมตีและ Skill สามารถกระทำได้แล้ว#
 Your Game's Exe File is not the latest version.#
 Items are sold out.#
-Save Chat as Text File#
+บันทึกการสนทนาเป็น File#
 /savechat: Save a Chat Log#
 Register#
 Reject Whispering#
@@ -3417,7 +3417,7 @@ Leader#
 You don't meet the required level to join the party.#
 Failed to register for the Adventurer's Agency.#
 Registered for the Adventurer's Agency.#
-ระบุการค้นหา#
+ใส่คำที่ต้องการค้นหา#
 Tank#
 %.1f%% (+ %s server %.1f%%)#
 /ex (Character name) or /block (Character name) : Block all chats and whispers from a character#
@@ -3430,7 +3430,7 @@ Tank#
 รับการสนทนาส่วนตัวกับทุกคน#
 เกิดข้อผิดพลาด: รับการสนทนาส่วนตัวกับทุกคนอยู่แล้ว#
 เล่นฟรี#
-Do you want to return to the login screen?#
+ยืนยัน?#
 STR and ATK increased.#
 STR, INT, DEX and HIT increased.#
 HP and DEF increased.#
