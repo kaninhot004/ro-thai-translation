@@ -572,7 +572,7 @@ Emoji List#
 /kis2#
 /pif#
 /ok#
-Shortcut List#
+หน้าต่างคีย์ลัด#
 Your account is suspended.#
 Your connection is terminated due to change in the billing policy. Please connect again.#
 Your connection is terminated because your IP doesn't match the authorized IP from the account server.#
@@ -1315,7 +1315,7 @@ Do you really want to purchase these items? You will spend %d Regular Cash Point
 %d hour(s) %d minute(s) has passed.#
 Please stop playing the game, and take a break. Exp and other features will be reduced to 50%%.#
 Please stop playing the game since you'll need to rest. Exp and other features will be fixed to 0%%.#
-Quest List#
+Quest#
 RO Shop#
 Memorial Dungeon, [%s] is booked.#
 Failed to book Memorial Dungeon, [%s].#
@@ -2644,7 +2644,7 @@ Notify when item sells out#
 เกิดข้อผิดพลาด: Zeny ไม่เพียงพอ#
 Verify user name#
 Schedule deletion#
-Achievement Challenges#
+Achievement#
 Achievement score#
 Achievement rank#
 [%5d] points to the next rank#
@@ -3126,19 +3126,19 @@ Damage เวทย์#
 Defense เวทย์#
 อัตราการหลบหลีก#
 ความเร็วการโจมตี#
-Shortcut Description#
-Effect#
-Skill shortcut (F1 ~ F9)#
-Screenshot#
+คีย์ลัด#
+#
+คีย์ลัด Skill (F1 ~ F9)#
+ถ่ายภาพ#
 Zoom ออก#
-Zoom In#
+Zoom เข้า#
 Guild#
 ธนาคาร#
-Mail#
+RODEX#
 Cash Shop#
-Sit#
-Move#
-Rotate#
+นั่ง#
+เคลื่อนที่#
+หมุนกล้อง#
 Party leader role must be appointed to other party member before leaving the party#
 Stop watching the replay?#
  have been placed on the Swap Equipment window.#
@@ -3146,7 +3146,7 @@ Stop watching the replay?#
 In the last row#
 %.1f%% (Basic 100%% + Bonus%.1f%%+ %s Server%.1f%% )#
 Ctrl#
-Set shortcut#
+ตั้งคีย์ลัด#
 Your monthly subscribsion will expire in %s#
 Unable to find replay file#
 Shoes#
@@ -3223,7 +3223,7 @@ Account is not active#
 Total amount : #
 ~ When selling items, total amount of zeny received #
 ~ When buying items, total amount of zeny reduced #
-Open chat room#
+ห้องสนทนา#
 Character with this level cannot join the party#
 '%lld' Job Experience#
 %lld Job Experience obtained#
@@ -3876,7 +3876,7 @@ Old Version#
 Base Lv. %d#
 Job Lv. %d#
 Lv.%d %s#
-Quest List#
+Quest#
 Cash Shop#
 Shortcut Information#
 ค้นหานักพจญภัย#
