@@ -1252,7 +1252,7 @@ This character will not receive any EXP penalty if ko'ed within the next 30 minu
 Regular item drops from monsters will be doubled for the next 30 minutes.#
 Boss Monster Map Information is revealed for the next 10 minutes.#
 Do you really want to purchase this item? %d points will be deducted from your total Kafra Credit Points.#
- You do not have enough Kafra Credit Points.#
+Cash ไม่เพียงพอ#
  ^ff0000Expiration Date: %s^000000#
  The [%s] item will disappear in %d minutes.#
  [%s] item will be deleted from the Inventory in 1 minute.#
@@ -1777,7 +1777,7 @@ You cannot use this item with your current level.#
 Failed to add because you have reached the limit.#
  message log settings#
 Sell#
-Buy#
+ซื้อ#
 Search for Venders#
 Shop Name#
 Qty#
@@ -1840,7 +1840,7 @@ Connection has failed. Please contact your administrator.#
 Failed to authenticate.#
 User is offline.#
 The age limit from commandment tables cannot connect to this server.#
-Buy#
+ซื้อ#
 Empty shopping cart#
 First page#
 Last page#
@@ -1970,26 +1970,26 @@ Play Time: %02d: %02d: %02d#
 No Replay File.#
 Server No Matching#
 Replay Option Setting#
-Enter File Name#
-Set Replay Save Data#
-Set Rec Option#
+ระบุชื่อ File#
+แสดงข้อมูล#
+ตั้งค่าการบันทึก Video#
 %.1f %% Pos->:%d:%d:%d#
 %.1f %% Pos->:cannot move#
-Start#
-Stop#
-Input FileName -> Start#
-Open Option#
-Close Option#
-End#
+บันทึก#
+หยุด#
+บันทึก#
+ตั้งค่า#
+กลับ#
+ปิด#
 Time#
 Party & Friends#
 Chat#
 Shortcuts#
 Automatic filename generation#
 Checking for duplicate files#
-The same file exists already.#
-Record Start#
- is Saved.#
+มี File ดังกล่าวอยู่แล้ว#
+เริ่มบันทึก#
+ ถูกบันทึกเรียบร้อยแล้ว#
 Weight: %3d / %3d#
 รวม: %s C#
 [Shuriken] must be equipped.#
@@ -3075,18 +3075,18 @@ Exp#
 Play Replay File#
 P#
 รวม#
-Basicinfo#
-Equip#
+ข้อมูลเบื้องต้น#
+อุปกรณ์สวมใส่#
 Item#
 Skill#
 Guild#
 Party#
-Chatting#
-Shortcut#
+การสนทนา#
+คีย์ลัด#
 Status#
-ALL#
-User defined file name#
-Repeated File Check#
+ทั้งหมด#
+ตั้งชื่อ File เอง#
+เช็คชื่อ File ซ้ำ#
 ใช้งาน#
 <Skin ปกติ>#
 เลือก Skin#
@@ -3286,24 +3286,24 @@ Homunculus receives \n10% of master's experience.#
 Rate : %d%%#
 The target isn't in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
 There is no target in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
-Sell List#
-Buy List#
-New#
-Popular#
-Limited Sale#
-Rental Equipment#
-Permanent Equipment#
-Scrolls#
-Consumables#
-Other#
-Special#
-Charging#
-Purchase#
+Cash Shop#
+รายการซื้อ#
+มาใหม่#
+ยอดนิยม#
+ขายในช่วงนี้#
+อุปกรณ์สวมใส่แบบเช่า#
+อุปกรณ์สวมใส่#
+คัมภีร์#
+ของกดใช้#
+อื่น ๆ#
+พิเศษ#
+เติมเงิน#
+ซื้อ#
 https://rathena.org/board/clients/donations/#
-Item Search#
-Free points#
-Use Free points#
-Owned points#
+ค้นหา Item#
+Cash ฟรี#
+ใช้ Cash ฟรี#
+Cash#
 Refresh#
 Star Emperor(Girl)#
 Soul Reaper(Girl)#
@@ -3654,7 +3654,7 @@ Item DB Number#
 Number of Sale#
 Sale Start Time#
 End of Sale#
-Account Limited#
+เฉพาะ ID นี้#
 Sales Period: %02d/%02d %02d:%02d#
 Available per account#
 Limit: %d each#
@@ -3678,8 +3678,8 @@ Human#
 Angel#
 Dragon#
 Balance: %s %c#
- ^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used for purchase will not be returned upon withdrawal of subscription. ^000000Are you sure you want to purchase the item? %s Cash will be deducted when purchasing.#
- ^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used for purchase will not be returned upon withdrawal of subscription. ^000000Are you sure you want to purchase the item? If you purchase, normal %s cash and free %s cash will be deducted.#
+ยืนยัน?#
+ยืนยัน?#
 The call was rejected.#
 The purchase limit cannot exceed your possession.#
 Failed to open the stall. Please close the window of the purchase stall.#
@@ -3769,8 +3769,8 @@ The Enchanting Shadow effect has been canceled.#
 Suppression Count On#
 Suppression Count Off#
 The target has reached it's maximum AP.#
-^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used at the time of purchase will not be returned when the subscription is withdrawn. Some (event) items may be deleted at the end of the event, Please confirm the deletion period listed. ^000000Are you sure you want to purchase the item? %d cash will be deducted when purchasing.#
-^ff0000You can withdraw your subscription within 7 days of purchasing this item. However, if 7 days have passed or the item is opened, it will be excluded from the withdrawal of subscription. Also, the free cash used at the time of purchase will not be returned when the subscription is withdrawn. Some (event) items may be deleted at the end of the event, Please confirm the deletion period listed. ^000000Are you sure you want to purchase the item? Regular %d Cash and free %d Cash will be deducted when purchasing.#
+ยืนยัน?#
+ยืนยัน?#
 Requires %d Servant Weapons#
 https://member.gnjoy.com.tw/billing.aspx#
 Descending#
