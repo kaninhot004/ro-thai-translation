@@ -21,16 +21,16 @@ Passwords are at least 4 characters long. Please try again.#
 Foul Language Detected.#
 เกิดข้อผิดพลาด ต้องมี 4 ตัวอักษรขึ้นไป#
 รายการคำสั่ง: /h | /help#
-Effects On#
-Effects Off#
+Effect: ON#
+Effect: OFF#
 Sound Volume#
 BGM Volume#
-Sound Effects On#
-Sound Effects Off#
+เสียงอื่น ๆ: ON#
+เสียงอื่น ๆ: OFF#
 Frame Skip On#
 Frame Skip Off#
-BGM On#
-BGM Off#
+เสียงเพลง: ON#
+เสียงเพลง: OFF#
 /h or /help: Shows this Command Help List#
 /w or /who or /player or /who : wiew current the number of player#
 /music: Turns BGM On or Off#
@@ -315,8 +315,8 @@ Save Chat as Text File#
 Register#
 Reject Whispering#
 Allow Whispering#
-Shows ''Miss'' On#
-Shows ''Miss'' Off#
+แสดงการโจมตีไม่โดน: ON#
+แสดงการโจมตีไม่โดน: OFF#
 Camera Zooming On#
 Camera Zooming Off#
 /camera: Camera Zooming On or Off. /miss: Toggle ''Miss'' display#
@@ -709,30 +709,30 @@ MSI_REFUSE_SELF_LOCK#
 MSI_REFUSE_NOT_PERMITTED_GROUP#
 MSI_REFUSE_WAIT_FOR_SAKRAY_ACTIVE#
 /aura: Simplify Aura effect On | Off#
-Simplified Aura [OFF]#
-Simplified Aura [ON]#
+ลด Aura: OFF#
+ลด Aura: ON#
 Chat block record %d times#
 Chat block list#
 /showname: Change the name font type.#
 /noctrl | /nc: Auto attack without pressing ctrl key. On | Off#
-Use auto attack without Ctrl. [Auto attack ON]#
-Use auto attack with Ctrl. [Auto attack OFF]#
+โจมตีต่อเนื่องโดยที่ไม่ต้องกด Ctrl: ON#
+โจมตีต่อเนื่องโดยที่ไม่ต้องกด Ctrl: OFF#
 Mute this player.#
 Unmute player & Erase mute time.#
 Decrease Player Mute time.#
-Font จะปกติ#
-Font จะบางและจะแสดงชื่อ Party#
+Font จะบางและจะแสดงชื่อ Party: OFF#
+Font จะบางและจะแสดงชื่อ Party: ON#
 /doridori: Shake head#
 Internet cafe is paying now.#
 Prepaid voucher validate until %d days %d hours %d minutes later.\nTime limit voucher validate untill %d hours %d minutes later.#
 /bingbing: Rotates player counter clockwise.#
 /bangbang: Rotates player clockwise.#
 /skillfail: Display red font message when skill fails. On | Off#
-Skill fail messages will be displayed. [Display On]#
-Skill fail messages will not be displayed. [Display OFF]#
+แจ้งเตือนข้อผิดพลาดในการใช้ Skill: ON#
+แจ้งเตือนข้อผิดพลาดในการใช้ Skill: OFF#
 /notalkmsg: Chat will not be displayed in chat window. On | Off#
-Chat content will be displayed in the chat window. [Display ON]#
-Chat content will not be displayed in the chat window. [Display OFF]#
+ไม่แสดงคำพูดผู้เล่นอื่นในช่องสนทนา: OFF#
+ไม่แสดงคำพูดผู้เล่นอื่นในช่องสนทนา: ON#
 /set1: /noctrl + /showname + /skillfail#
 /fog: Fog effect. On | Off#
 You have received a marriage proposal. Do you accept?#
@@ -763,11 +763,11 @@ If full screen mode fails to work, it is suggested you alt+tab [or ctrl+esc] to 
 (%d players) - Pay to Play Server#
 (%d players) - Free Server#
 Trial players can't connect Pay to Play Server.#
-Right click menu skills for F9 are Enabled.[/q1 ON]#
-Right click menu skills for F9 are Disabled.[/q1 OFF]#
+คลิกขวาจะใช้คีย์ลัด F9: ON#
+คลิกขวาจะใช้คีย์ลัด F9: OFF#
 /quickspell: Right-click menu enables you to use skills assigned to the F9 hotkey. On | Off#
-Mouse wheel skills for F7 and F8 are Enabled.[/q2 ON]#
-Mouse wheel skills for F7 and F8 are Disabled.[/q2 OFF]#
+เลื่อน Scroll Mouse ขึ้น/ลง จะใช้คีย์ลัด F7/F8: ON#
+เลื่อน Scroll Mouse ขึ้น/ลง จะใช้คีย์ลัด F7/F8: OFF#
 /quickspell2: By rolling the mouse wheel up and down, you are able to use skills registered on F7 and F8 hotkeys. On | Off#
 /q3: /quickspell (/q1) + /quickspell2 (/q2)#
 /bzz#
@@ -802,9 +802,9 @@ Some of Windows system files have been damaged. Please re-install your Internet 
 'Game Guard update is canceled. If the disconnection continues, please, check your internet or firewall settings.'#
 'Failed to connect to Game Guard update server. Try to connect again later, or try to check the internet or firewall settings.'#
 'Can't complete Game Guard update process. Please, try to execute a vaccine program to remove viruses. Or, please try to modify the settings of your PC managing tool if you are using any.'#
-/notrade: ปฎิเสธการแลกเปลี่ยนอัตโนมัติ#
-ปฎิเสธการแลกเปลี่ยนอัตโนมัติ: ON#
-ปฎิเสธการแลกเปลี่ยนอัตโนมัติ: OFF#
+/notrade: ปฎิเสธการแลกเปลี่ยน#
+ปฎิเสธการแลกเปลี่ยน: ON#
+ปฎิเสธการแลกเปลี่ยน: OFF#
 You cannot buy more than 30,000ea items at once.#
 You do not have enough ingredients.#
 Login information remains at %s.#
@@ -848,8 +848,8 @@ Gravity %s's Solar Monster: %s#
 Gravity %s's Luna Monster: %s#
 Gravity %s's Stellar Monster: %s#
 /window: Display windows will snap/dock together. On | Off#
-Display window docking enabled. [/wi ON]#
-Display window docking disabled. [/wi OFF]#
+ยึดหน้าต่างให้สวยงาม: ON#
+ยึดหน้าต่างให้สวยงาม: OFF#
 /pvpinfo: shows your PVP result and PVP points.#
 You have won %d times and have lost %d times in PVP. Current points %d.#
 A manner point has been successfully aligned.#
@@ -906,8 +906,8 @@ I am#
 Super Novice~#
 Help me out~ Please~ T_T#
 /notalkmsg2: Hides chat messages(including guild chat). On Off#
-Show chat messages. [/nm2 ON]#
-Hide chat messages(including guild chat) [/nm2 OFF]#
+ไม่แสดงคำพูดผู้เล่นอื่นในช่องสนทนา (รวม Guild ด้วย): OFF#
+ไม่แสดงคำพูดผู้เล่นอื่นในช่องสนทนา (รวม Guild ด้วย): ON#
 Upgradeable weapons#
 Refined weapon: %s#
 Refined weapon: %s#
@@ -1042,8 +1042,8 @@ You have equipped throwing daggers.#
 %s has logged in.#
 %s has logged out.#
 /loginout: Shows guildsmen and friends online status. On Off#
-Display online status of friends in Chat Window. [/li ON]#
-Do not display online status of friends in Chat Window. [/li OFF]#
+แจ้งเตือนเมื่อเพื่อนหรือสมาชิกใน Guild เข้าออกเกม: ON#
+แจ้งเตือนเมื่อเพื่อนหรือสมาชิกใน Guild เข้าออกเกม: OFF#
 It is already running.#
 Use of Macro program has been detected.#
 Use of Speed hack has been detected.#
@@ -1106,8 +1106,8 @@ You cannot place more than 5 bids at a time.#
 Please accept all items from your mail before deleting.#
 Please enter a title.#
 /shopping: Enables you to open a shop with a single left-click and close your shop with a single right-click. On Off#
-You can now open a shop with a single left-click and close your shop with a single right-click. [sh ON].#
-You can open a shop by double-clicking. [/sh OFF]#
+คลิกซ้ายเพื่อเปิดร้านค้าแผงลอย คลิกขวาเพื่อปิดร้านค้าแผงลอย: ON#
+คลิกซ้ายเพื่อเปิดร้านค้าแผงลอย คลิกขวาเพื่อปิดร้านค้าแผงลอย: OFF#
 Please enter zeny amount before sending mail.#
 You do not have enough zeny to pay the Auction Fee.#
 View Status#
@@ -2992,9 +2992,9 @@ Equipment will dissapear or refine level will decrease when refine fails#
 You cannot use RODEX while refining. RODEX has been closed.#
 You cannot use RODEX while refining.#
 Please close other windows to continue.#
-Aura effect is ON#
-Aura effect is OFF#
-Aura effect is OFF. Please turn it ON and try again#
+Aura: ON#
+Aura: OFF#
+Aura ถูกปิดการใช้การอยู่ โปรดเปิด Aura เสียก่อน#
 You need %d bullet(s) to use the skill.#
 Do you want to swap the equipment?#
 You can not do it while KO'ed.#
