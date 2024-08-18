@@ -214,7 +214,7 @@ Random Area#
 Select an Area to Warp#
 Skill Level is not high enough#
 There are no memorized locations (Memo Points).#
-You haven't learned Warp skill.#
+เกิดข้อผิดพลาด: ยังไม่ได้เรียน Skill Warp Portal#
 Current location is saved as a Memo Point for Warp Skill.#
 Cancel#
 There is a Delay after using a Skill.#
@@ -3393,7 +3393,7 @@ Taekwon#
  is unblocked.#
  Failed to unblock.#
  Failed to unblock.(Maximum number exceeded)#
-There is no block list.#
+เกิดข้อผิดพลาด: ไม่พบการปิดกั้นผู้เล่นเลย#
 -Block list-#
 Act#
 Rec#
@@ -3425,10 +3425,10 @@ Tank#
 /ex or /block : Block all chats and whispers from a character#
 /exall or /Blockall : Block all chats and whispers from all characters#
 /inall or /Releaseall : Allow all chats and whispers from all characters#
-Blocked all chats and whispers from all characters#
-Failed to block all chats and whispers from all characters#
-Allowed all chats and whispers from all characters#
-Failed to allow all chats and whispers from all characters#
+ปิดกั้นการสนทนาส่วนตัวกับทุกคน#
+เกิดข้อผิดพลาด: ปิดกั้นการสนทนาส่วนตัวกับทุกคนอยู่แล้ว#
+รับการสนทนาส่วนตัวกับทุกคน#
+เกิดข้อผิดพลาด: รับการสนทนาส่วนตัวกับทุกคนอยู่แล้ว#
 เล่นฟรี#
 Do you want to return to the login screen?#
 STR and ATK increased.#
