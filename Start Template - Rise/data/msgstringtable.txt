@@ -322,8 +322,8 @@ Camera Zooming Off#
 /camera: Camera Zooming On or Off. /miss: Toggle ''Miss'' display#
 รายละเอียด Skill#
 Change Skill#
-Sprite Resolution#
-Texture Resolution#
+ความละเอียดภาพ 2D#
+ความละเอียดภาพ 3D#
 Arrange Detail#
 %s Zeny obtained#
 ชื่อ Guild#
@@ -698,9 +698,9 @@ Your character has fainted. Push the ESC key to restart.#
 Spell List#
 /minimize#
 This item has been damaged.#
-/noshift: You may use your ''force heal'' ability without the Shift key. On | Off#
-[no shift] option activated. [ON]#
-[no shift] option deactivated. [OFF]#
+/noshift: ใช้ Skill ที่ต้องกด Shift โดยที่ไม่ต้องกด Shift#
+ใช้ Skill ที่ต้องกด Shift โดยที่ไม่ต้องกด Shift: ON#
+ใช้ Skill ที่ต้องกด Shift โดยที่ไม่ต้องกด Shift: OFF#
 MSI_REFUSE_BAN_BY_DBA#
 MSI_REFUSE_EMAIL_NOT_CONFIRMED#
 MSI_REFUSE_BAN_BY_GM#
@@ -802,9 +802,9 @@ Some of Windows system files have been damaged. Please re-install your Internet 
 'Game Guard update is canceled. If the disconnection continues, please, check your internet or firewall settings.'#
 'Failed to connect to Game Guard update server. Try to connect again later, or try to check the internet or firewall settings.'#
 'Can't complete Game Guard update process. Please, try to execute a vaccine program to remove viruses. Or, please try to modify the settings of your PC managing tool if you are using any.'#
-/notrade: Declines trade offers automatically. On | Off#
-Auto decline trade offers has been Enabled. [/nt ON]#
-Auto decline trade offers has been Disabled. [/nt OFF]#
+/notrade: ปฎิเสธการแลกเปลี่ยนอัตโนมัติ#
+ปฎิเสธการแลกเปลี่ยนอัตโนมัติ: ON#
+ปฎิเสธการแลกเปลี่ยนอัตโนมัติ: OFF#
 You cannot buy more than 30,000ea items at once.#
 You do not have enough ingredients.#
 Login information remains at %s.#
@@ -2008,7 +2008,7 @@ Premium #
 Service#
 Billing Service#
 Billing #
-Command List#
+รายการคำสั่ง#
 LEVEL#
 MAP#
 JOB#
@@ -3165,8 +3165,8 @@ Costume#
 ขั้นสูง#
 Reset เป็นค่าเริ่มต้น#
 ยืนยัน?#
-Set to these values?#
-To apply these values, client restart is required, proceed?#
+ยืนยัน?#
+ต้องเข้าเกมใหม่ ยืนยัน?#
 หมอก#
 ลด Aura#
 Aura#
@@ -3524,9 +3524,9 @@ Translucent building ON#
 Translucent building OFF#
 Building transparency#
 Failed to revert, please close the window.#
-Emblem Frame#
-Emblem displayed with border#
-Emblem displayed without border#
+กรอบสัญลักษณ์ Guild#
+กรอบสัญลักษณ์ Guild: ON#
+กรอบสัญลักษณ์ Guild: OFF#
 No equipped weapon.#
 Insufficient energy sphere.#
 Contains skill (%s) that can't be learned.#
