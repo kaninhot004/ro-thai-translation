@@ -269,13 +269,13 @@ ID หรือรหัสผ่านผิด#
 Choose Hairstyle#
 ATK#
 DEF#
-Attack Snap On#
-Attack Snap Off#
-Skill Snap On#
-Skill Snap Off#
+ล็อคเป้าการโจมตี: ON#
+ล็อคเป้าการโจมตี: OFF#
+ล็อคเป้าการใช้ Skill: ON#
+ล็อคเป้าการใช้ Skill: OFF#
 /snap: Turns snap On | Off for fights, /skillsnap: Turns snap On | Off for skills. /itemsnap: Turns snap On | Off for items on the grounds.#
-Item Snap On#
-Item Snap Off#
+ล็อคเป้าการเก็บ Item: ON#
+ล็อคเป้าการเก็บ Item: OFF#
 ล็อคเป้า#
 เกิดข้อผิดพลาด: แบกของชนิดเดียวกันได้สูงสุด 30,000 ชิ้น#
 You cannot delete a Character with a level greater than 30. If you want to delete the character please contact a Game Master.#
@@ -317,8 +317,8 @@ Reject Whispering#
 Allow Whispering#
 แสดงการโจมตีไม่โดน: ON#
 แสดงการโจมตีไม่โดน: OFF#
-Camera Zooming On#
-Camera Zooming Off#
+ล็อคกล้อง: ON#
+ล็อคกล้อง: OFF#
 /camera: Camera Zooming On or Off. /miss: Toggle ''Miss'' display#
 รายละเอียด Skill#
 Change Skill#
@@ -685,8 +685,8 @@ You may change your pet's name only once. Your pet's name will be changed to ^00
 /font#
 Your guild lacks the funds to pay for this venture.#
 Your guild zeny limit prevents you from performing this action.#
-Effect Simplification On#
-Effect Simplification Off#
+ลด Effect: ON#
+ลด Effect: OFF#
 Required Fee#
 If you wish to drop an item, you must first open your Item Window (ALT+E).#
 Internet Cafe Time Plan has been ended. Would you like to continue the game with your personal play time?#
@@ -1021,8 +1021,8 @@ EXP#
 [EVENT] You have won an event prize. Please claim your prize in game.#
 Hate#
 Hate with a Passion#
-Homunculus has been customized.#
-Homunculus has been activated with the basic AI.#
+Homunculus AI: ON#
+Homunculus AI: OFF#
 Mail List#
 เขียนจดหมาย#
 อ่านจดหมาย#
@@ -1271,8 +1271,8 @@ The mercenary has run away.#
 The [%s] item will disappear in %d seconds.#
 IP Bonus: EXP/JEXP %d%%, Death Penalty %d%%, Item Drop %d%%#
 Symbols in Character Names are forbidden.#
-Mercenary will follow custom AI.#
-Mercenary will follow basic AI.#
+Mercenary AI: ON#
+Mercenary AI: OFF#
  %s's #
 %s has acquired %s.#
 Public Chat#
@@ -1700,8 +1700,8 @@ Map#
 You can't use, equip or disarm items when you're trading.#
 Unspecified value#
 /stateinfo : Shows the description of status icons. On Off#
-Status Information On: Status icon description is enabled.#
-Status Information Off: Status icon description is disabled.#
+แสดงข้อมูลจาก Icon สถานะเมื่อนำ Mouse ไปชี้: ON#
+แสดงข้อมูลจาก Icon สถานะเมื่อนำ Mouse ไปชี้: OFF#
 It is not possible to purchase the same item more than %d pieces at a time#
 It is not possible to purchase the same item more than %d pieces at a time#
 Can purchase upto %d pieces of the same item at a time.#
@@ -2178,8 +2178,8 @@ You cannot have more than 30,000 stacked items.#
 Existing server information#
 ^ff0000Existing server: ^0000ff#
 ^ff0000Existing character: ^0000ff#
-Show monster HP bar when attacking.#
-Hide monster HP bar when attacking.#
+HP ของ Monster เมื่อโจมตี: ON#
+HP ของ Monster เมื่อโจมตี: OFF#
 Merge does not exist as an item#
 Merge items available does not exist.#
 Act#
@@ -2803,8 +2803,8 @@ Access denied, due to exceeding number of players.#
 %.1f%% ( %s Server: %.1f%% + Premium:%.1f%% )#
 Unable to use because there is duplicate item.#
 Unable to use because there is similiar effect exist.#
-Screen shake ON#
-Screen shake OFF#
+จอสั่น: ON#
+จอสั่น: OFF#
 Illegal program detected.#
 ส่งจดหมาย#
 E X P : %.1f%% ( basic 100.0%% VIP Bonus %.1f%% + %s %.1f%%)#
@@ -2860,8 +2860,8 @@ Maximize#
 แผนที่โลก#
 Total possession item type#
 /minimap#
-Show minimap buttons#
-Hide minimap buttons#
+ปุ่ม Minimap: ON#
+ปุ่ม Minimap: OFF#
 แจ้งเตือนสมาชิก Guild เข้าออกเกม#
 ^0000CCIntimacy:^000000 %s#
 Unknown#
@@ -3449,8 +3449,8 @@ DOWN#
 You're already friends#
 Can't find other party#
 You're already a friend with another character.#
-Sprite Marble effect is ON#
-Sprite Marble effect is OFF#
+แสดงผลลูกแก้ววิญญาณ (Doram): ON#
+แสดงผลลูกแก้ววิญญาณ (Doram): OFF#
 This account has limited in-game access due to a secondary password mis-input. \n %02d hour %02d minute until released, To release it go to -> Change personal information -> and enter your secondary password.#
 You've entered wrong password 3 times. Your account will be locked for 24 hours to secure your account.\n To release it go to -> Change personal information -> and enter your secondary password.#
 Officer#
@@ -3509,8 +3509,8 @@ You can not stop the party recruitment.#
 Support#
 Zoom ออก#
 %s : Zoom Out can be turned On Off#
-Zoom Out is turned (On)#
-Zoom Out is turned (Off)#
+Zoom กล้องออก: ON#
+Zoom กล้องออก: OFF#
 /zoom#
 ค้นหานักพจญภัย#
 You can not request to join, if you are a party leader.#
