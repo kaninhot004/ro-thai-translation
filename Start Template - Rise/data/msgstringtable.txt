@@ -96,11 +96,11 @@ Click ''Restart'' to go back to your save point or click ''Exit'' to select anot
 Invalid Command#
 ออกจาก Party#
 ขับไล่ออกจาก Party#
-Send Message#
-1:1 Chat#
-Information#
+ส่งข้อความ#
+สนทนาส่วนตัว#
+รายละเอียด#
 ตั้งค่า Party#
-Friend#
+เพื่อน#
 Party#
 สวมใส่อุปกรณ์#
 ความสามารถ#
@@ -110,7 +110,7 @@ If you are the party master, you can invite someone into your party by right-cli
 Consumables#
 Attack#
 Support#
-Entire#
+ทั้งหมด#
 Weapons#
 Defense#
 Water#
@@ -147,7 +147,7 @@ Congratulations! You are the MVP! Your reward EXP Points are #
 !!#
 You are the MVP, but you can't take the reward because you are over your weight limit.#
  Offline อยู่#
- doesn't want to receive your messages.#
+ ปิดกั้นการสนทนากับคุณ#
  is not in the mood to talk with anyone.#
 Kick/Disconnected User.#
 Kick has failed.#
@@ -194,7 +194,7 @@ This is not implemented yet.#
 : Whispering Blocked.#
 : Whispering Block has failed.#
 : Whispering Block has failed. Block List is full.#
-: Whispering accepted.#
+: สามารถสนทนาส่วนตัวกับคุณได้แล้ว#
 : Command has failed.#
 : Command has failed. Block List is full.#
 เกิดข้อผิดพลาดในการเปลี่ยนชื่อตัวละคร# 
@@ -364,7 +364,7 @@ Last Log-in IP#
 ยืนยัน?#
 %s has left the guild.#
 Withdrawal Reason: %s#
-You have failed to disband the guild.#
+เกิดข้อผิดพลาด: ชื่อ Guild ไม่ถูกต้อง#
 Disband Reason: %s#
 This account has been deleted.#
 Price: #
@@ -400,10 +400,10 @@ Your Guild is already in an Alliance with this Guild.#
 ขอเป็นพันธมิตร Guild#
 ยุบ Guild เรียบร้อยแล้ว#
 You have failed to disband the guild due to your incorrect SSN.#
-You have failed to disband the guild because there are guildsmen still present.#
+เกิดข้อผิดพลาด: ต้องขับไล่สมาชิก Guild ให้หมดก่อน#
 ตั้ง Guild ดังกล่าวเป็นศัตรู#
 Choose Hair Color#
-You need the necessary item to create a Guild.#
+เกิดข้อผิดพลาด: ไม่มี Item ที่ใช้ในการสร้าง Guild#
 Monster Info#
 ชื่อตัวละคร#
 Level#
@@ -816,11 +816,11 @@ You have failed to repair this item. Please check the distance between you and o
 System process enabled [GM mode] [/sc ON]#
 System process disabled [GM mode] [/sc OFF]#
 /systemcheck: Check the system process [GM mode] On | Off#
-(%s) wishes to be friends with you. Would you like to accept?#
+(%s) ขอเป็นเพื่อนกับคุณได้ไหม?#
 Your Friend List is full.#
 (%s)'s Friend List is full.#
-You have become friends with (%s).#
-(%s) does not want to be friends with you.#
+คุณได้เป็นเพื่อนกับ %s เรียบร้อยแล้ว#
+(%s) ปฎิเสธคำขอเป็นเพื่อนกับคุณ#
 This character will be blocked to use until %s.#
 Price will be fixed at 10,000,000 zeny, even if you enter higher price.#
 (Very low)#
@@ -2072,13 +2072,13 @@ Only the leader can invite.#
 Search item:#
 You must enter a character name.#
 You must enter the name of the party.#
-Guild Companion#
-Join a guild or start your own!#
-Create Guild#
-Guild Name#
-Guild System#
+วิธีใช้ Guild#
+เข้าร่วม Guild หรือสร้าง Guild ของคุณเอง!#
+สร้าง Guild#
+ชื่อ Guild#
+ระบบ Guild#
 What is the guild system#
-You must enter the name of your guild.#
+เกิดข้อผิดพลาด: โปรดระบุชื่อ Guild#
 Supported at the party was rejected.#
 เลือกโลก:#
 Possible escape area.#
@@ -2086,8 +2086,8 @@ Replay File List#
 File info#
 File List#
 %s Item deal not possible.#
-Disband the Guild#
-Enter Guild Name#
+ยุบ Guild#
+โปรดระบุชื่อ Guild#
 The character is not online or does not exist.#
 Failed to call Falcon.#
 %d%%(default 100%%+ Premium%d%%+%s Server%d%%)#
@@ -2425,7 +2425,7 @@ Server Exceeded the maximum number of users,Cannot Connect anymore users.#
 Server Connection Failed (%d)#
 Login Timeout Permitted#
 Login Authentication Failed from Authentication Server.#
-Guild Cannot use Space in the name.#
+เกิดข้อผิดพลาด: ชื่อ Guild ไม่สามารถมีช่องว่างได้#
 Hey,Hello There#
 Available Time will End on %d month %d hour %d:%d#
 You've lot of time,Play in Peace.#
@@ -2542,7 +2542,7 @@ Name#
 Time#
 Input/Output#
 Log does not exist.#
-Entire#
+ทั้งหมด#
 Insert Symbol#
 Remaining Time#
 Guild Storage Logs#
@@ -2562,7 +2562,7 @@ Item Purchase History#
 [Grenade Launcher] weapon class must be equipped.#
 [Heat Barrel], [Madness Canceller] and [Platinum Alter] cannot be used while sitting.#
 Cannot use skill in this map.#
-If you are using a guild storage, all items inside it will disappear.#
+ยืนยัน?#
 http://ragnarok.gamesamba.com/paytest.html#
 Please enter a password to login.#
 Pet Evolution#
@@ -3359,11 +3359,11 @@ Stop recruiting#
 Adventurer Agency Settings#
 Note#
 Quest#
-Field#
+พื้นที่#
 Dungeon#
-MD#
+Instance#
 Paradise#
-Other#
+อื่น ๆ#
 ค้นหา#
 Reset#
 Registration for Party#
@@ -3375,7 +3375,7 @@ Join#
 PM#
 Party recruitment suspended#
 Edit#
-Entire#
+ทั้งหมด#
 [% s] has requested to join the party.#
 Login#
 Account#
@@ -3417,7 +3417,7 @@ Leader#
 You don't meet the required level to join the party.#
 Failed to register for the Adventurer's Agency.#
 Registered for the Adventurer's Agency.#
-Enter search details#
+ระบุการค้นหา#
 Tank#
 %.1f%% (+ %s server %.1f%%)#
 /ex (Character name) or /block (Character name) : Block all chats and whispers from a character#
@@ -3502,7 +3502,7 @@ Party number exceeded.#
 %s has accepted party invitation.#
 %s refused party invitation.#
 Since you can not receive party request, %s's party invitation has been rejected.#
-Adventurer's Agency List#
+ค้นหานักพจญภัย#
 Request to join the party#
 If you are not a party leader, you can not register party at the Adventurer's Agency.#
 You can not stop the party recruitment.#
@@ -3817,8 +3817,8 @@ P.ATK, S.MATK and HIT increased.#
 The Abyss Slayer effect has been canceled.#
 There may be restrictions on character creation.#
 The world is saturated. Please use another world.#
-Unblock Chat (Toggle)#
-Block Chat (Toggle)#
+ปิดกั้นการสนทนา: ON#
+ปิดกั้นการสนทนา: OFF#
 You can't upgrade past it's refine level.#
 Equipment will not be destroyed.#
 No additional material has been selected. Do you want to continue the grade enhancement?#
@@ -3827,7 +3827,7 @@ The client file has been tampered with#
 The total amount of items to sell exceeds the amount of Zeny you can have. \nPlease modify the quantity and price.#
 Reputation Status#
 %u / 1000 P#
-Entire#
+ทั้งหมด#
 NOW LOADING..#
 Secondary material selection is initialized.#
 #
