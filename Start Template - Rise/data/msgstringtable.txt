@@ -720,8 +720,8 @@ Use auto attack with Ctrl. [Auto attack OFF]#
 Mute this player.#
 Unmute player & Erase mute time.#
 Decrease Player Mute time.#
-Font จะปกติ [showname แบบที่ 1]#
-Font จะบางและจะแสดงชื่อ Party [showname แบบที่ 2]#
+Font จะปกติ#
+Font จะบางและจะแสดงชื่อ Party#
 /doridori: Shake head#
 Internet cafe is paying now.#
 Prepaid voucher validate until %d days %d hours %d minutes later.\nTime limit voucher validate untill %d hours %d minutes later.#
