@@ -405,7 +405,7 @@ You have failed to disband the guild due to your incorrect SSN.#
 Choose Hair Color#
 เกิดข้อผิดพลาด: ไม่มี Item ที่ใช้ในการสร้าง Guild#
 Monster Info#
-ชื่อตัวละคร#
+ชื่อ#
 Level#
 HP#
 Size#
@@ -540,7 +540,7 @@ You paid with the Time Limit for Internet Cafe. Available time is xx hrs xx mins
 You are free for the test of Internet Cafe version .#
 You are free for the Internet Cafe version.#
 You paid on the Time Limit Website.#
-Emoji List#
+รายการ Emoticon#
 /emo#
 /!#
 /?#
@@ -572,7 +572,7 @@ Emoji List#
 /kis2#
 /pif#
 /ok#
-หน้าต่างคีย์ลัด#
+รายการชุดคำสั่ง#
 Your account is suspended.#
 Your connection is terminated due to change in the billing policy. Please connect again.#
 Your connection is terminated because your IP doesn't match the authorized IP from the account server.#
@@ -582,24 +582,24 @@ You can't use this Skill because you are over your Weight Limit.#
 Nameless#
 Congratulations! %s's rank has gone up to %d.#
 What a pity! %s's rank has gone down to %d.#
-Pet Info#
-Hunger#
-Intimacy#
+รายละเอียด Pet#
+ความหิว#
+ความสนิท#
 Please avoid opening a chatroom while vending.#
 ea#
 You have knocked down %s.#
 You have been knocked down by %s.#
-Pet food [%s] is not available.#
-Feed Pet#
-Performance#
-Return to Egg#
-Unequip Accessory#
+เกิดข้อผิดพลาด: ต้องมี [%s]#
+ให้อาหาร Pet#
+แสดงท่าทาง#
+นำกลับสู่ไข่#
+ถอด Accessory#
 Check Pet Status#
 Accessory#
 Equipped#
 Pet List#
-Unequipped#
-Are you sure that you want to feed your pet?#
+ไม่ได้สวมใส่#
+ยืนยัน?#
 Only the numbers (0~9) are available.#
 You cannot sell unidentified items.#
 Item at 0 Zeny exists. Do you wish to continue?#
@@ -665,15 +665,15 @@ You cannot use this item while sitting.#
 Your use of skills and chat will be blocked for the next %d minutes.#
 Your use of skills and chat have been reinstated.#
 - [Not equipped]#
- Very Hungry#
- Hungry#
- Neutral#
- Satisfied#
- Stuffed#
- Awkward#
- Shy#
- Cordial#
- Loyal#
+  หิวมาก#
+  หิว#
+  เฉย ๆ#
+  อิ่ม#
+  อิ่มมาก#
+  ไม่ชอบคุณ#
+  เขินอาย#
+  ชอบคุณ#
+  สนิทสนม#
 Unknown#
 Your account has play time of %d day %d hour %d minute.#
 Your account is already connected to account server.#
@@ -2574,7 +2574,7 @@ No pet can be summoned.#
 It is not requested petal.#
 Evolution material is low.#
 Lack of required materials for evolution.#
-Pet can only be evolved when intimacy is Loyal.#
+เกิดข้อผิดพลาด: Pet ต้องสนิทสนมกับคุณเสียก่อน#
 Automatic feeding#
 Your pet has been fed. %s (%d) remaining#
 ให้อาหารสัตว์เลี้ยงอัตโนมัติ: OFF#
@@ -2929,7 +2929,7 @@ Do you want to close the shop?#
 Unable to sign in#
 Unable to sign in because the maximum number of sign-in is exceeded#
 Please select a location for your shop#
-Pet name will be changed to ^0000ff%s^000000, do you want to continue?#
+ยืนยัน?#
 Trade Date: #
 Trade Item: #
 Trade Quantity: #
