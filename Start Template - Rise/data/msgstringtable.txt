@@ -54,7 +54,7 @@ You cannot overlap items on a window.#
 You cannot get the item.#
 แลกเปลี่ยนเรียบร้อยแล้ว#
 เกิดข้อผิดพลาด: Zeny ไม่เพียงพอ#
-You are over your Weight Limit.#
+เกิดข้อผิดพลาด: แบกของไม่ไหวแล้ว#
 The deal has failed.#
 You've blocked whispers from everyone.#
 You've failed to block all whispers.#
@@ -220,8 +220,8 @@ Cancel#
 There is a Delay after using a Skill.#
 เกิดข้อผิดพลาด: ช่องเก็บของเต็ม#
 Out of the maximum capacity#
-Cart Items#
-Take off Cart#
+Item ในรถเข็น#
+นำรถเข็นออก#
 Opening a stall#
 Please enter the stall's name#
 My Shop#
@@ -235,7 +235,7 @@ Skill has failed because you do not have enough zeny.#
 Select a Target.#
 /pk on: Turns PK On. /pk off: Turns PK Off.#
 Shop#
-Cart Items [Alt+W]#
+Item ในรถเข็น [Alt+W]#
 ข้อมูลเบื้องต้น#
 The skill cannot be used with this weapon.#
 Buying %s has been failed. Out of Stock. Current Stock %d.#
@@ -608,52 +608,52 @@ N/A#
 N/A#
 เกิดข้อผิดพลาด: ตัวละครดังกล่าว (หรือมีตัวละครซ้ำ ID) อยู่ใน Party อยู่แล้ว#
 (%d ppl) - over the age 18#
- Provoke มีผลแล้ว#
- Provoke สิ้นสุดแล้ว#
- Endure มีผลแล้ว#
- Endure สิ้นสุดแล้ว#
- Improve Concentration มีผลแล้ว#
- Improve Concentration สิ้นสุดแล้ว#
- Hiding มีผลแล้ว#
- Hiding สิ้นสุดแล้ว#
- Cloaking มีผลแล้ว#
- Cloaking สิ้นสุดแล้ว#
- Poison React มีผลแล้ว#
- Poison React สิ้นสุดแล้ว#
- Quagmire มีผลแล้ว#
- Quagmire สิ้นสุดแล้ว#
- Angelus มีผลแล้ว#
- Angelus สิ้นสุดแล้ว#
- Blessing มีผลแล้ว#
- Blessing สิ้นสุดแล้ว#
- Signum Crusis มีผลแล้ว#
- Signum Crusis สิ้นสุดแล้ว#
- Slow Poison มีผลแล้ว#
- Slow Poison สิ้นสุดแล้ว#
- Magnificat มีผลแล้ว#
- Magnificat สิ้นสุดแล้ว#
- Gloria มีผลแล้ว#
- Gloria สิ้นสุดแล้ว#
- Lex Aeterna มีผลแล้ว#
- Lex Aeterna สิ้นสุดแล้ว#
- Attack speed increased.#
- Attack speed reduced.#
- You have mounted a Pecopeco.#
- You have dismounted your Pecopeco.#
- You have rented a Falcon.#
- You have released your Falcon.#
- Play Dead มีผลแล้ว#
- Play Dead สิ้นสุดแล้ว#
- Crazy Uproar มีผลแล้ว#
- Crazy Uproar สิ้นสุดแล้ว#
- Energy Coat มีผลแล้ว#
- Energy Coat สิ้นสุดแล้ว#
- Armor พัง#
- Armor ซ่อมแซมเรียบร้อยแล้ว#
- Weapon พัง#
- Weapon ซ่อมแซมเรียบร้อยแล้ว#
- Invisibility มีผลแล้ว#
- Invisibility สิ้นสุดแล้ว#
+Provoke มีผลแล้ว#
+Provoke สิ้นสุดแล้ว#
+Endure มีผลแล้ว#
+Endure สิ้นสุดแล้ว#
+Improve Concentration มีผลแล้ว#
+Improve Concentration สิ้นสุดแล้ว#
+Hiding มีผลแล้ว#
+Hiding สิ้นสุดแล้ว#
+Cloaking มีผลแล้ว#
+Cloaking สิ้นสุดแล้ว#
+Poison React มีผลแล้ว#
+Poison React สิ้นสุดแล้ว#
+Quagmire มีผลแล้ว#
+Quagmire สิ้นสุดแล้ว#
+Angelus มีผลแล้ว#
+Angelus สิ้นสุดแล้ว#
+Blessing มีผลแล้ว#
+Blessing สิ้นสุดแล้ว#
+Signum Crusis มีผลแล้ว#
+Signum Crusis สิ้นสุดแล้ว#
+Slow Poison มีผลแล้ว#
+Slow Poison สิ้นสุดแล้ว#
+Magnificat มีผลแล้ว#
+Magnificat สิ้นสุดแล้ว#
+Gloria มีผลแล้ว#
+Gloria สิ้นสุดแล้ว#
+Lex Aeterna มีผลแล้ว#
+Lex Aeterna สิ้นสุดแล้ว#
+Attack speed increased.#
+Attack speed reduced.#
+You have mounted a Pecopeco.#
+You have dismounted your Pecopeco.#
+You have rented a Falcon.#
+You have released your Falcon.#
+Play Dead มีผลแล้ว#
+Play Dead สิ้นสุดแล้ว#
+Crazy Uproar มีผลแล้ว#
+Crazy Uproar สิ้นสุดแล้ว#
+Energy Coat มีผลแล้ว#
+Energy Coat สิ้นสุดแล้ว#
+Armor พัง#
+Armor ซ่อมแซมเรียบร้อยแล้ว#
+Weapon พัง#
+Weapon ซ่อมแซมเรียบร้อยแล้ว#
+Invisibility มีผลแล้ว#
+Invisibility สิ้นสุดแล้ว#
 Sorry. It is delayed due to the process of payment. Please re-connect in a minute.#
 You must unequip ammunition first.#
 Arrow List#
@@ -1461,8 +1461,8 @@ Please equip [Repair Kit].#
 Cannot use [%s] due to cooldown delay.#
 Deletion is impossible for over level %d#
 Can't be used while on Mado Gear.#
-Dismount Dragon#
-Dismount Mado Gear#
+ลงจาก Dragon#
+ลงจาก Mado Gear#
 Use#
 Cash#
 Armors#
@@ -3432,7 +3432,7 @@ Tank#
 เล่นฟรี#
 ยืนยัน?#
 STR and ATK increased.#
-STR, INT, DEX and HIT increased.#
+Blessing มีผลแล้ว#
 HP and DEF increased.#
 Gelstar#
 Account Buff#
@@ -3634,7 +3634,7 @@ Would you like to move to "%s" Management Territory?\n%d Zeny will be consumed w
 This feature is not available in WoE territory.#
 This character has not acquired Basic Skills skill.#
 The connected IP cannot be used for Ragnarok:Zero.\nPlease contact the customer center or homepage.#
-Mounting/Dismounting#
+นำอุปกรณ์อาชีพออก#
 Import#
 Get the item information registered in the previous stall.#
 Login is restricted due to server issues.#
