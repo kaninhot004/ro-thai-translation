@@ -353,14 +353,14 @@ Automatically open Whispering List#
 Close since next#
 Last Log-in Time#
 Last Log-in IP#
-Friend Setup#
+ตั้งค่าเพื่อน#
 ยืนยัน?#
 ยืนยัน?#
 เพิ่มเพื่อน#
-Open 1:1 Chat between Friends#
+สนทนาส่วนตัวกับเพื่อน#
 สนทนาส่วนตัว#
-Open 1:1 Chat between Strangers#
-Alarm when recieve a 1:1 Chat#
+สนทนาส่วนตัวกับคนที่ไม่ใช่เพื่อน#
+แจ้งเตือนเมื่อมีการสนทนาส่วนตัว#
 ยืนยัน?#
 %s has left the guild.#
 Withdrawal Reason: %s#
@@ -1051,8 +1051,8 @@ API Hooking has been detected.#
 Message Hooking has been detected.#
 Module has been modified or damaged or its version does not match.#
 (Thailand) You have logged in game with Internet cafe payment.#
-Prev#
-Next#
+ก่อนหน้า#
+ถัดไป#
 Auction#
 Product List#
 Register#
@@ -1489,10 +1489,10 @@ Unable to specify a single key.#
 Unable to specify the key assigned.#
 Duplicated with [[%s]]. Do you still want to change?#
 Initialization is stored in the shortcut key settings. Do you want to initialized?#
-Skill Bar#
-Interface#
-Macros#
-Shortcut Settings#
+แถบ Skill#
+หน้าต่าง#
+ชุดคำสั่ง#
+ตั้งค่าคีย์ลัด#
     เพลง#
     อื่น ๆ#
 Skin#
@@ -1773,7 +1773,7 @@ Please enter levels between 1~150.#
 Nothing found in the selected map.#
 You cannot equip this item with your current level.#
 You cannot use this item with your current level.#
-Enable Battle Mode#
+แปลไทยโดย Kanin Temsrisuk#
 Failed to add because you have reached the limit.#
  message log settings#
 Sell#
@@ -3593,7 +3593,7 @@ Retrieve selected#
 รับทั้งหมด#
 Would you like to retrieve the attachment of the selected email?#
 ยืนยัน?#
-Skill Bar 2#
+แถบ Skill 2#
 สลับแถบ Skill#
 ขฎc#
 ขฎe#
