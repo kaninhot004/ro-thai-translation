@@ -2453,8 +2453,8 @@ Average#
 Low#
 Very Low#
 The bank is not available. Please try again in a few minutes.#
-Bank Balance is not enough.#
-You don't have enough zeny#
+เกิดข้อผิดพลาด: โปรดตรวจสอบ Zeny#
+เกิดข้อผิดพลาด: โปรดตรวจสอบ Zeny#
 Minimum Deposit Amount: 1 zeny#
 Minimum Withdrawal Amount: 1 zeny#
 You cannot hold more than 2,147,483,647 Zeny#
@@ -2486,7 +2486,7 @@ For thousands of years, a mysterious melody has mesmerized the guardian. After a
 When the melody reached its peak, a giant crevice appeared in Bifrost, the bridge between Splendide, the end of the world and the floating continent of Alfheim. As a result, the two worlds were cut off from each other, causing a big problem for the people.#
 Now, the only way to get to Bifrost is through the Labyrinth Forest. Nobody knows how the forest came to exist, and nobody has ever come out of it alive...#
 Swallowed countless adventurers to put a hell of confusion, wandering in the forest labyrinth of nowhere, like the heart of a woman was being extend deeper confusion.#
-You can enter only numbers.#
+เกิดข้อผิดพลาด: โปรดระบุเป็นตัวเลข#
 Exchange or store window is active and cannot register the withdrawal.#
 Go to#
 Compare#
@@ -2767,25 +2767,25 @@ Cloth Color#
 Cloth Pattern#
 In this map You can't memorize and zoom the minimap.#
 Enter zeny below 2,147,483,647.#
-Please enter at least 1 zeny.#
-You don't have any zeny.#
-Zeny Storage#
-In Bank:#
-On Hand:#
-Deposit#
-Withdraw#
+เกิดข้อผิดพลาด: โปรดระบุจำนวน#
+เกิดข้อผิดพลาด: โปรดตรวจสอบ Zeny#
+ธนาคาร#
+เงินฝาก:#
+เงินในตัวละคร:#
+ฝาก#
+ถอน#
 + 1z#
 - 1z#
-Max#
-There is no Input value#
-Insufficient Zeny#
-Input Required#
-Numbers only#
-Exceeded max input#
-Below Minimum Input#
-Insufficient Zeny#
-Insufficient funds#
-Exceeded max zeny#
+สูงสุด#
+เกิดข้อผิดพลาด: โปรดระบุจำนวน#
+โปรดตรวจสอบ Zeny#
+โปรดระบุจำนวน#
+โปรดระบุเป็นตัวเลข#
+Zeny เต็มแล้ว#
+โปรดระบุจำนวน#
+โปรดตรวจสอบ Zeny#
+โปรดตรวจสอบ Zeny#
+เกิดข้อผิดพลาด: Zeny เต็มแล้ว#
 Can't be dropped#
 Can't be put in Storage#
 Can't be put in Cart#
@@ -3133,7 +3133,7 @@ Screenshot#
 Zoom ออก#
 Zoom In#
 Guild#
-Bank#
+ธนาคาร#
 Mail#
 Cash Shop#
 Sit#
