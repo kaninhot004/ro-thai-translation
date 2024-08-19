@@ -1,1 +1,5 @@
-ไว้ใช้เพื่อการศึกษาส่วนตัว
+# แปลไทยตัวเกม Ragnarok Online
+- ทำใช้ส่วนตัวเพื่อการศึกษา (For education and personal use.)
+
+## บริจาคสนับสนุน (Donate)
+- [https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/](https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/)
