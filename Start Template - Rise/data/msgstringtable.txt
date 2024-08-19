@@ -185,7 +185,7 @@ There are %d Players Currently Connected.#
 %s %s: %d#
 Item ที่ขายได้#
 Item ในร้าน#
-Unknown Area#
+พื้นที่ที่ไม่รู้จัก#
 Your Client language doesn't match the Server language.#
 Please move your equipment to the inventory. And close the equipment window.#
 This server provides English Text Characters Only.#
@@ -1182,10 +1182,10 @@ Please restart the game.#
 Mercenary: Archer#
 Mercenary: Swordman#
 Mercenary: Spearman#
-Expiration#
-Loyalty#
-Summons#
-Kill#
+เลิกงาน#
+ความสนิท#
+จ้างกี่ครั้งแล้ว#
+การกำจัด#
 You can feel hatred from your pet for neglecting to feed it.#
 [POINT] You earned %d Taming Mission Ranking Points, giving you a total of %d points.#
 [Taming Mission] Target Monster: %s#
@@ -1260,7 +1260,7 @@ Cash ไม่เพียงพอ#
 Input Number#
 %m/%d %H:%M#
 Boss Monster [%s] will appear within 1 minute.#
-Mercenary Soldier Skill List#
+รายการ Skill Mercenary#
 Do you agree to cast the magic spell that consumes 1 Black Gemstone and 1,000,000 Zeny?#
 [Point] You have gained %d Collector Rank Points; you now have a total of %d Collector Rank Points.#
 [Collector Rank] Target Item: %s#
@@ -1368,7 +1368,7 @@ Battlefield Chat has been deactivated.#
 Mercenary Info - Monster Type#
 แผนที่โลก#
 The Memorial Dungeon is now closed.#
-^ff0000Deleting a Mercenary Soldier^000000 will also delete his growth history. Do you really want to proceed with the deletion?#
+ยืนยัน?#
 The Memorial Dungeon is now open.#
 This account has not been confirmed by connecting to the safe communication key. Please connect to the key first, and then log into the game.#
 The number of accounts connected to this IP has exceeded the limit.#
@@ -2353,16 +2353,16 @@ Macro#
 Webbrowser#
 การนำทาง#
 UAEURL#
-Clan Info#
-Clan Level#
-Clan Name#
-Clan Emblem#
-Ally Clan#
-Hostile Clan#
 Clan#
-Clan Leader#
-Number of Members#
-Castles Owned#
+Clan Level#
+ชื่อ Clan#
+สัญลักษณ์ Clan#
+Clan พันธมิตร#
+Clan ศัตรู#
+Clan#
+หัวหน้า Clan#
+สมาชิก#
+ครองปราสาท#
 Clan Chat#
 Go to Page Charged.#
 https://gfb.gameflier.com/Billing/ingame/index_new.asp?#
