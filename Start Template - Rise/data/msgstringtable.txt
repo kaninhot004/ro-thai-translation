@@ -934,8 +934,8 @@ GameGuard is currently running. Please wait for sometime and restart the game.#
 The Game or GameGuard is already running. Please close the game and restart the game.#
 Failed to intialize GameGuard. Please try again after rebooting the system or closing other programs.#
 Failed to load the scan module of virus and hacking tool. It's caused by lack of memory or PC virus infection.#
-Homunculus Info#
-Homunculus Skill List#
+รายละเอียด Homunculus#
+รายการ Skill Homunculus#
 Please give your Homunculus a name no longer than 23 letters.#
 You can name a Homunculus only once. You have entered the name, ^0000ff%s^000000. Would you like to continue?#
 (Away)#
@@ -953,7 +953,7 @@ Please enter Away Message.#
 /pk: Shows top 10 Slayers in the server.#
 [POINT] You have been rewarded with %d Slayer rank points. Your point total is %d.#
 Evolution Available#
-You have decided to delete this Homunculus ^ff0000^ff0000. When deleted, the homunculus and its history will be deleted and they cannot be restored in the future. Would you like to continue?#
+ยืนยัน?#
 Save Homunculus status as a file.#
 Do not save Homunculus status as a file.#
 Crusader#
@@ -1110,9 +1110,9 @@ Please enter a title.#
 คลิกซ้ายเพื่อเปิดร้านค้าแผงลอย คลิกขวาเพื่อปิดร้านค้าแผงลอย: OFF#
 Please enter zeny amount before sending mail.#
 You do not have enough zeny to pay the Auction Fee.#
-View Status#
-Feed#
-Stand By#
+ดูรายละเอียด#
+ให้อาหาร#
+รอ#
 Super Novice#
 Super Novice#
 Taekwon Boy#
@@ -2975,7 +2975,7 @@ Back#
 Success#
 Return#
 With Mr/Miss#
-The Homunculus's name will be changed to^0000ff^0000ff %s^000000^000000, Are you sure?#
+ยืนยัน?#
 รับการเรียกหาจากคู่สมรส: ON#
 รับการเรียกหาจากคู่สมรส: OFF#
 Display Call messages#
@@ -3277,12 +3277,12 @@ Downgrade#
 Base#
 Modified file is found. Please restart the game.#
 %s can't be used in this map.#
-Auto \nFeeding#
+อาหาร#
 You can't feed Homunculus while the RODEX window is open.#
-Homunculus has been fed. [%s] - %d remaining#
+ให้อาหาร Homunculus เรียบร้อยแล้ว [%s] คงเหลือ %d ชิ้น#
 ให้อาหาร Homunculus อัตโนมัติ: ON#
 ให้อาหาร Homunculus อัตโนมัติ: OFF#
-Homunculus receives \n10% of master's experience.#
+EXP 10% จะมอบ Homunculus#
 Rate : %d%%#
 The target isn't in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
 There is no target in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
