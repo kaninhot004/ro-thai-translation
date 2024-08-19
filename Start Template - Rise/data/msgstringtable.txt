@@ -370,7 +370,7 @@ This account has been deleted.#
 Price: #
 %s ถูกขับไล่ออกจาก Guild#
 ข้อหา: %s#
-You can't put this item on.#
+เกิดข้อผิดพลาด: ไม่สามารถสวมใส่ได้#
 You can't modify Party Setup.#
 สร้าง Guild เรียบร้อยแล้ว#
 คุณมี Guild อยู่แล้ว#
@@ -596,7 +596,7 @@ You have been knocked down by %s.#
 ถอด Accessory#
 รายละเอียด Pet#
 Accessory#
-Equipped#
+สวมใส่แล้ว#
 Pet List#
 ไม่ได้สวมใส่#
 ยืนยัน?#
@@ -2567,15 +2567,15 @@ http://ragnarok.gamesamba.com/paytest.html#
 Please enter a password to login.#
 Pet Evolution#
 Evolution - %s#
-Evolution requires the following ingredients:#
-Do you want to evolve your pet?#
+ต้องการ Item:#
+ยืนยัน?#
 Unknown Error#
 No pet can be summoned.#
 It is not requested petal.#
-Evolution material is low.#
+เกิดข้อผิดพลาด: Item ไม่เพียงพอ#
 Lack of required materials for evolution.#
 เกิดข้อผิดพลาด: Pet ต้องสนิทสนมกับคุณเสียก่อน#
-Automatic feeding#
+ให้อาหารอัตโนมัติ#
 ให้อาหาร Pet เรียบร้อยแล้ว %s คงเหลือ %d ชิ้น#
 ให้อาหารสัตว์เลี้ยงอัตโนมัติ: OFF#
 ให้อาหารสัตว์เลี้ยงอัตโนมัติ: ON#
@@ -2605,7 +2605,7 @@ Sending mail count exceeded.#
 You cannot open the mail.#
 You currently belong to a clan.#
 Internet cafe Gold mileage information#
-Unequip pet accessory first to begin pet evolution#
+เกิดข้อผิดพลาด: โปรดถอด Pet Accessory เสียก่อน#
 in %d minutes#
 in %d hours#
 in %d days#
@@ -3551,7 +3551,7 @@ Send#
 Failed to feed the pet. Pet in a state that can't be fed.#
 Failed to feed the homunculus. Homunculus in a state that can't be fed.#
 money#
-%s %d ea#
+%s %d ชิ้น#
 Exchange failed.#
 Exchange successfuly completed.#
 Not enough items to exchange.#
