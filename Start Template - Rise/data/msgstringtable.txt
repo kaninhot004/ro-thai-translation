@@ -2649,35 +2649,35 @@ Achievement score#
 Achievement rank#
 [%5d] points to the next rank#
 Progress#
-Recent completed achievements#
+ผ่านล่าสุด#
 Cracker  Item#
 Cracker  : %d / %d #
 Cracker  is low.#
 %s #
-Summary #
-General #
-Character #
-Action #
-Other #
-Adventure #
+สรุป #
+ทั่วไป #
+ตัวละคร #
+การกระทำ #
+อื่น ๆ #
+การพจญภัย #
 Rune Midgarts #
 Schwartzvald #
 Arunafeltz #
 New World #
-Localizing #
+Field #
 Dungeon #
-Battle #
-Duel #
-Training #
+การต่อสู้ #
+ประลอง #
+ฝึกฝน #
 Quest #
-Episode #
-General #
-Memorial #
+บท #
+ทั่วไป #
+Instance #
 Midgard #
 New World #
-Other #
-Feat #
-Achieved challenges#
+อื่น ๆ #
+ความชำนาญ #
+ผ่านแล้ว#
 You cannot add anymore.#
 < %s > achieved.#
 only otp user login allow#
@@ -3103,9 +3103,9 @@ Refund amount: %d Zeny\r\nRefund reason: Server failed to draw lottery#
 นำออกจากหน้าต่าง Party เล็ก#
 Lottery drawing is over, please verify if you've won the prize.#
 Deletable on: %02d/%02d#
-Until next level#
-Complete#
-Incomplete#
+จนถึง Level ถัดไป#
+ผ่านแล้ว#
+ยังไม่ผ่าน#
 (Complete!)#
 (Incomplete)#
 เปลี่ยนชุดอุปกรณ์สวมใส่#
@@ -3236,8 +3236,8 @@ SNS will available after login.#
 Address doesn't exist.#
 Mini party windows can't be overlapped.#
 My Shop#
-TIPBOX#
-Tipbox#
+เทคนิคการเล่น#
+เทคนิคการเล่น#
 Tweet success.#
 Refine#
 Please return then select refine material again.#
@@ -3251,7 +3251,7 @@ OTP Password is 8 digits.#
 Start Template - Rise#
 Ragnarok#
 Currently service under maintenance.#
-Please enter a search term#
+ใส่คำที่ต้องการค้นหา#
 MOTP#
 Certification Number#
 GNJOY MOTP downloaded to your phone, Please enter your verification number.#
@@ -3825,7 +3825,7 @@ No additional material has been selected. Do you want to continue the grade enha
 The client file has been tampered with#
 ข้อความ#
 The total amount of items to sell exceeds the amount of Zeny you can have. \nPlease modify the quantity and price.#
-Reputation Status#
+สถานะชื่อเสียง#
 %u / 1000 P#
 ทั้งหมด#
 NOW LOADING..#
@@ -3937,7 +3937,7 @@ Displays navigation route (arrows) to the target point on the field floor#
 A function to simply display the Quest UI on the game screen#
 When you right-click each quest title, you can call the Quest Information UI or delete it from the quest list#
 There is a function.#
-Open on Startup#
+แสดงเมื่อเข้าเกม#
 Your billing session has expired. Please restart the client#
 An error has occurred. please try again#
 Resize(%s)#
