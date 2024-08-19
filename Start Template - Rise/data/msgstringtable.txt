@@ -244,8 +244,8 @@ Please equip the proper ammunition first.#
 You can't attack or use skills because you've exceeded the Weight Limit.#
 You can't use skills because you've exceeded the Weight Limit.#
 Ammunition has been equipped.#
-Red Gemstone required.#
-Blue Gemstone required.#
+[Red Gemstone] ไม่เพียงพอ#
+[Blue Gemstone] ไม่เพียงพอ#
 Strength#
 Agility#
 Vitality#
@@ -1396,8 +1396,8 @@ Your password has expired. Please log in again#
 3rdJob#
 This skill can't be used on that target.#
 You can't use skill because you have exceeded the number Ancilla possession limit#
-[Holy Water] is required.#
-[Ancilla] is required.#
+[Holy Water] ไม่เพียงพอ#
+[Ancilla] ไม่เพียงพอ#
 Cannot be duplicated within a certain distance.#
 This skill requires other skills to be used.#
 Chat is not allowed in this map#
@@ -1423,20 +1423,20 @@ Currently in Windows XP Compatibility Mode. The program now removes Compatibilit
 PS/2 keyloggers exist.#
 USB Keylogging attempt was detected.#
 HHD monitoring tool has been detected.#
-[Paint Brush] is required.#
-[Surface Paint] is required.#
+[Paint Brush] ไม่เพียงพอ#
+[Surface Paint] ไม่เพียงพอ#
 Use the skills that are not at the specified location.#
 Insufficient SP.#
 Character %d is character selection window cannot connect to the game that exceeds the total. Please remove unwanted characters.#
-[Neck Protection Candy] is required.#
-[Regrettable Tears] is required.#
-[Neck Protection Candy] is required.#
+[Neck Protection Candy] ไม่เพียงพอ#
+[Regrettable Tears] ไม่เพียงพอ#
+[Neck Protection Candy] ไม่เพียงพอ#
 Can only be used for linked to Weapon Blocking.#
 A weapon coated with Guillotine Cross's Poison is required.#
 Item can only be used when Mado Gear is mounted.#
-[Vulcan Bullet] is required.#
-[Mado Gear Fuel] is required.#
-[Liquid Condensed Bullet] is required.#
+[Vulcan Bullet] ไม่เพียงพอ#
+[Mado Gear Fuel] ไม่เพียงพอ#
+[Liquid Condensed Bullet] ไม่เพียงพอ#
 Please load a [Cannon Ball].#
 Please equip [Accelerator].#
 Please equip [Hovering Booster].#
@@ -1451,13 +1451,13 @@ Please equip [Hovering Booster].#
 Can only be used in Hovering state.#
 Please equip [Suicidal Device].#
 Please equip [Shape Shifter].#
-Guillotine Cross Poison is required.#
-Please equip [Cooling Device].#
-Please equip [Magnetic Field Generator].#
-Please equip [Barrier Builder].#
-Please equip [Camouflage Generator].#
-Please equip [Repair Kit].#
-[Monkey Wrench] is required.#
+[Guillotine Cross Poison] ไม่เพียงพอ#
+[Cooling Device] ต้องสวมใส่อยู่#
+[Magnetic Field Generator] ต้องสวมใส่อยู่#
+[Barrier Builder] ต้องสวมใส่อยู่#
+[Camouflage Generator] ต้องสวมใส่อยู่#
+[Repair Kit] ต้องสวมใส่อยู่#
+[Monkey Wrench] ไม่เพียงพอ#
 Cannot use [%s] due to cooldown delay.#
 Deletion is impossible for over level %d#
 Can't be used while on Mado Gear.#
@@ -1472,12 +1472,12 @@ Card#
 Etc#
 Client response time has passed so connection is terminated#
 Incorrect version of hack shield file. Please reinstall the client#
-[Magic Book] is required.#
+[Magic Book] ไม่เพียงพอ#
 Feel sleepy since Magic Book is too difficult to understand.#
 Not enough saved point.#
 You can't read this Magic Book.#
-[Face Paint] is required.#
-[Makeover Brush] is required.#
+[Face Paint] ไม่เพียงพอ#
+[Makeover Brush] ไม่เพียงพอ#
 Waiting time has passed. Please log in again#
 Watch out! Same account is already logged in. Stop mobile verification and log in again after changing your password#
 Watch out! Same account is waiting for mobile verification. Stop mobile verification and log in again after changing your password#
@@ -1518,23 +1518,23 @@ Chat room entry sound [OFF]#
 /whisp#
 Not Assigned#
 Only available when cart is mounted.#
-[Thorn Plant Seed] is required.#
-[Blood Sucker Plant Seed] is required.#
+[Thorn Plant Seed] ไม่เพียงพอ#
+[Blood Sucker Plant Seed] ไม่เพียงพอ#
 Cannot be used anymore.#
-[Bomb Mushroom Spore] is required.#
-[Fire Bottle] is required.#
-[Oil Bottle] is required.#
-[Explosive Powder] is required.#
-[Smokescreen Powder] is required.#
-[Tear Gas] is required.#
-[Acid Bottle] is required.#
-[Plant Bottle] is required.#
-[Mandragora Flowerpot] is required.#
+[Bomb Mushroom Spore] ไม่เพียงพอ#
+[Fire Bottle] ไม่เพียงพอ#
+[Oil Bottle] ไม่เพียงพอ#
+[Explosive Powder] ไม่เพียงพอ#
+[Smokescreen Powder] ไม่เพียงพอ#
+[Tear Gas] ไม่เพียงพอ#
+[Acid Bottle] ไม่เพียงพอ#
+[Plant Bottle] ไม่เพียงพอ#
+[Mandragora Flowerpot] ไม่เพียงพอ#
 มอบหัวหน้า Party#
 ยืนยัน?#
 เกิดข้อผิดพลาด: ตัวละครดังกล่าว Offline อยู่#
 Level ห่างกันเกินไป#
-[%s] required '%d' amount.#
+[%s] ไม่เพียงพอ ต้องมีอย่างน้อย '%d' ชิ้น#
 Is now refining the value lowered.#
 Please equip [%s].#
 Battle field entrance setting#
@@ -1560,7 +1560,7 @@ Was unregistered and error.#
 The skill need [%s].#
 The skill need a particular skill.#
 Requires %d Spirit Sphere.#
-Spirit Sphere is required.#
+Spirit Sphere ไม่เพียงพอ#
 Cannot create rune stone more than the maximum amount.#
 Not able to receive battle field list. Please check and try again#
 Level is not high enough to enter#
