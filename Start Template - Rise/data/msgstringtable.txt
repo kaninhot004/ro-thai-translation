@@ -200,8 +200,8 @@ This server provides English Text Characters Only.#
 เกิดข้อผิดพลาดในการเปลี่ยนชื่อตัวละคร# 
 ส่วนตัว#
 ปกติ#
-Insufficient SP#
-Insufficient HP#
+เกิดข้อผิดพลาด: SP ไม่เพียงพอ#
+เกิดข้อผิดพลาด: HP ไม่เพียงพอ#
 เกิดข้อผิดพลาด: ไม่ผ่านเงื่อนไข#
 Steal has failed.#
 การแลกเปลี่ยน#
@@ -237,7 +237,7 @@ Select a Target.#
 Shop#
 Item ในรถเข็น [Alt+W]#
 ข้อมูลเบื้องต้น#
-The skill cannot be used with this weapon.#
+เกิดข้อผิดพลาด: ประเภทอาวุธไม่ถูกต้อง#
 Buying %s has been failed. Out of Stock. Current Stock %d.#
 You've been disconnected due to a time gap between you and the server.#
 Please equip the proper ammunition first.#
@@ -461,8 +461,8 @@ Very Strong #
 Very Very Strong #
 Very Very Very Strong #
 ข้อหา#
-Attack Speed is increased.#
-Attack Speed is reduced.#
+ASPD เพิ่มขึ้นแล้ว#
+ASPD ลดลงแล้ว#
 Weapon Damage is improved.#
 Weapon Damage is reduced.#
 Casting Delay is reduced.#
@@ -608,33 +608,33 @@ N/A#
 N/A#
 เกิดข้อผิดพลาด: ตัวละครดังกล่าว (หรือมีตัวละครซ้ำ ID) อยู่ใน Party อยู่แล้ว#
 (%d ppl) - over the age 18#
-Provoke มีผลแล้ว#
+Provoke ส่งผลแล้ว#
 Provoke สิ้นสุดแล้ว#
-Endure มีผลแล้ว#
+Endure ส่งผลแล้ว#
 Endure สิ้นสุดแล้ว#
-Improve Concentration มีผลแล้ว#
+Improve Concentration ส่งผลแล้ว#
 Improve Concentration สิ้นสุดแล้ว#
-Hiding มีผลแล้ว#
+Hiding ส่งผลแล้ว#
 Hiding สิ้นสุดแล้ว#
-Cloaking มีผลแล้ว#
+Cloaking ส่งผลแล้ว#
 Cloaking สิ้นสุดแล้ว#
-Poison React มีผลแล้ว#
+Poison React ส่งผลแล้ว#
 Poison React สิ้นสุดแล้ว#
-Quagmire มีผลแล้ว#
+Quagmire ส่งผลแล้ว#
 Quagmire สิ้นสุดแล้ว#
-Angelus มีผลแล้ว#
+Angelus ส่งผลแล้ว#
 Angelus สิ้นสุดแล้ว#
-Blessing มีผลแล้ว#
+Blessing ส่งผลแล้ว#
 Blessing สิ้นสุดแล้ว#
-Signum Crusis มีผลแล้ว#
+Signum Crusis ส่งผลแล้ว#
 Signum Crusis สิ้นสุดแล้ว#
-Slow Poison มีผลแล้ว#
+Slow Poison ส่งผลแล้ว#
 Slow Poison สิ้นสุดแล้ว#
-Magnificat มีผลแล้ว#
+Magnificat ส่งผลแล้ว#
 Magnificat สิ้นสุดแล้ว#
-Gloria มีผลแล้ว#
+Gloria ส่งผลแล้ว#
 Gloria สิ้นสุดแล้ว#
-Lex Aeterna มีผลแล้ว#
+Lex Aeterna ส่งผลแล้ว#
 Lex Aeterna สิ้นสุดแล้ว#
 Attack speed increased.#
 Attack speed reduced.#
@@ -642,17 +642,17 @@ You have mounted a Pecopeco.#
 You have dismounted your Pecopeco.#
 You have rented a Falcon.#
 You have released your Falcon.#
-Play Dead มีผลแล้ว#
+Play Dead ส่งผลแล้ว#
 Play Dead สิ้นสุดแล้ว#
-Crazy Uproar มีผลแล้ว#
+Crazy Uproar ส่งผลแล้ว#
 Crazy Uproar สิ้นสุดแล้ว#
-Energy Coat มีผลแล้ว#
+Energy Coat ส่งผลแล้ว#
 Energy Coat สิ้นสุดแล้ว#
 Armor พัง#
 Armor ซ่อมแซมเรียบร้อยแล้ว#
 Weapon พัง#
 Weapon ซ่อมแซมเรียบร้อยแล้ว#
-Invisibility มีผลแล้ว#
+Invisibility ส่งผลแล้ว#
 Invisibility สิ้นสุดแล้ว#
 Sorry. It is delayed due to the process of payment. Please re-connect in a minute.#
 You must unequip ammunition first.#
@@ -1458,7 +1458,7 @@ Please equip [Shape Shifter].#
 [Camouflage Generator] ต้องสวมใส่อยู่#
 [Repair Kit] ต้องสวมใส่อยู่#
 [Monkey Wrench] ไม่เพียงพอ#
-Cannot use [%s] due to cooldown delay.#
+เกิดข้อผิดพลาด: ยังมี Delay หลังร่ายอยู่#
 Deletion is impossible for over level %d#
 Can't be used while on Mado Gear.#
 ลงจาก Dragon#
@@ -3432,7 +3432,7 @@ Tank#
 เล่นฟรี#
 ยืนยัน?#
 STR and ATK increased.#
-Blessing มีผลแล้ว#
+Blessing ส่งผลแล้ว#
 HP and DEF increased.#
 Gelstar#
 Account Buff#
@@ -3641,7 +3641,7 @@ Login is restricted due to server issues.#
 ข้อความ#
 You can play only with +18 or higher.#
 We don't recommend playing over 3 hours.#
-You don't have enough AP.#
+เกิดข้อผิดพลาด: AP ไม่เพียงพอ#
 It cannot be combined due to it's high refine level.#
 The refine level is higher than required for the combination.#
 A card is inserted or it's enchanted.#
@@ -3724,48 +3724,48 @@ Ascending#
 - [%s] %d ~%d production#
 Success %d%%#
 Item tags can only tag items you own.#
-ATK and P.ATK has been increased.#
-The Powerful Faith effect has been canceled.#
-HP and Res has been increased.#
-The Firm Faith effect has been canceled.#
-Attack Speed and Perfect Hit chance has been increased.#
-The Sincere Faith has been canceled.#
-POW, CRT and CON has been increased.#
-The Benedictum effect has been canceled.#
-SPL, WIS and CRT has been increased.#
-Religio effect has been canceled.#
-P.ATK and S.MATK has been increased.#
-The Competentia effect has been canceled.#
-Critical damage chance has been increased.#
-The Presens Acies effect has been canceled.#
-The effect of ignoring Res been granted.#
-The Argutus Telum effect has been canceled.#
-The effect of ignoring M.Res been granted.#
-The Argutus Vita effect has been canceled.#
+The Powerful Faith ส่งผลแล้ว#
+The Powerful Faith สิ้นสุดแล้ว#
+The Firm Faith ส่งผลแล้ว#
+The Firm Faith สิ้นสุดแล้ว#
+The Sincere Faith ส่งผลแล้ว#
+The Sincere Faith สิ้นสุดแล้ว#
+The Benedictum ส่งผลแล้ว#
+The Benedictum สิ้นสุดแล้ว#
+Religio ส่งผลแล้ว#
+Religio สิ้นสุดแล้ว#
+The Competentia ส่งผลแล้ว#
+The Competentia สิ้นสุดแล้ว#
+The Presens Acies ส่งผลแล้ว#
+The Presens Acies สิ้นสุดแล้ว#
+The Argutus Telum ส่งผลแล้ว#
+The Argutus Telum สิ้นสุดแล้ว#
+The Argutus Vita ส่งผลแล้ว#
+The Argutus Vita สิ้นสุดแล้ว#
 Num: %d/%d Weight: %d/%d#
-The Servant Weapon effect has been canceled.#
-The Charging Pierce effect has been canceled.#
-The Vigor effect has been canceled.#
-Attack Power has been increased and Defense decreased.#
-The Attack Stance effect has been canceled.#
-Defense has been increased and Attack Power decreased.#
-The Guard Stance effect has been canceled.#
-Guardian Barrier has been granted.#
-The Guardian Barrier effect has been canceled.#
-The damage taken by the Devotion effect will be decreased.#
-The Rebound Shield effect has been canceled.#
-Holy elemental magic damage and Shadow/Undead elemental resistance has been increased.#
-The Holy Shield effect has been canceled.#
-Instant resurrection effect was granted.#
-Ultimate Sacrifice effect has been canceled.#
-The effects of certain skills has changed.#
-The Climax effect has been canceled.#
-The effects of certain skills have returned to normal.#
-The Shadow Exceed effect has been canceled.#
-The effect of ignoring Res has been granted.#
-The Potent Venom effect has been canceled.#
-The Shadow Wound status can be inflicted on your enemy with a chance on each physical attacks#
-The Enchanting Shadow effect has been canceled.#
+The Servant Weapon สิ้นสุดแล้ว#
+The Charging Pierce สิ้นสุดแล้ว#
+The Vigor สิ้นสุดแล้ว#
+The Attack Stance ส่งผลแล้ว#
+The Attack Stance สิ้นสุดแล้ว#
+The Guard Stance ส่งผลแล้ว#
+The Guard Stance สิ้นสุดแล้ว#
+The Guardian Barrier ส่งผลแล้ว#
+The Guardian Barrier สิ้นสุดแล้ว#
+The Rebound Shield ส่งผลแล้ว#
+The Rebound Shield สิ้นสุดแล้ว#
+The Holy Shield ส่งผลแล้ว#
+The Holy Shield สิ้นสุดแล้ว#
+Ultimate Sacrifice ส่งผลแล้ว#
+Ultimate Sacrifice สิ้นสุดแล้ว#
+The Climax ส่งผลแล้ว#
+The Climax สิ้นสุดแล้ว#
+The Shadow Exceed ส่งผลแล้ว#
+The Shadow Exceed สิ้นสุดแล้ว#
+The Potent Venom ส่งผลแล้ว#
+The Potent Venom สิ้นสุดแล้ว#
+The Enchanting Shadow ส่งผลแล้ว#
+The Enchanting Shadow สิ้นสุดแล้ว#
 Suppression Count On#
 Suppression Count Off#
 The target has reached it's maximum AP.#
