@@ -594,7 +594,7 @@ You have been knocked down by %s.#
 แสดงท่าทาง#
 นำกลับสู่ไข่#
 ถอด Accessory#
-Check Pet Status#
+รายละเอียด Pet#
 Accessory#
 Equipped#
 Pet List#
@@ -1993,7 +1993,7 @@ Checking for duplicate files#
 Weight: %3d / %3d#
 รวม: %s C#
 [Shuriken] must be equipped.#
-Base Lv. %d#
+Lv. %d#
 Job Lv. %d#
 Zeny: %s#
 Trilinear#
@@ -2576,7 +2576,7 @@ Evolution material is low.#
 Lack of required materials for evolution.#
 เกิดข้อผิดพลาด: Pet ต้องสนิทสนมกับคุณเสียก่อน#
 Automatic feeding#
-Your pet has been fed. %s (%d) remaining#
+ให้อาหาร Pet เรียบร้อยแล้ว %s คงเหลือ %d ชิ้น#
 ให้อาหารสัตว์เลี้ยงอัตโนมัติ: OFF#
 ให้อาหารสัตว์เลี้ยงอัตโนมัติ: ON#
 Update#
@@ -3873,7 +3873,7 @@ Cards, Random Options and Enchantments are maintained.#
 In case of failure, the Refine Level is maintained.#
 Initialization#
 Old Version#
-Base Lv. %d#
+Lv. %d#
 Job Lv. %d#
 Lv.%d %s#
 Quest#
