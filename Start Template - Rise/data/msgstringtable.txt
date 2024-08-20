@@ -404,14 +404,14 @@ You have failed to disband the guild due to your incorrect SSN.#
 ตั้ง Guild ดังกล่าวเป็นศัตรู#
 Choose Hair Color#
 เกิดข้อผิดพลาด: ไม่มี Item ที่ใช้ในการสร้าง Guild#
-Monster Info#
+รายละเอียด Monster#
 ชื่อ#
 Level#
 HP#
 Size#
 Race#
 MDEF#
-Element#
+ธาตุ#
 Neutral#
 Water#
 Earth#
@@ -806,7 +806,7 @@ Some of Windows system files have been damaged. Please re-install your Internet 
 ปฎิเสธการแลกเปลี่ยน: ON#
 ปฎิเสธการแลกเปลี่ยน: OFF#
 You cannot buy more than 30,000ea items at once.#
-You do not have enough ingredients.#
+เกิดข้อผิดพลาด: โปรดตรวจสอบวัตถุดิบ#
 Login information remains at %s.#
 Account has been locked for a hacking investigation. Please contact the GM Team for more information.#
 This account has been temporarily prohibited from login due to a bug-related investigation.#
@@ -1394,7 +1394,7 @@ Free Cash: %d Cash#
 An user of this server cannot connect to free server#
 Your password has expired. Please log in again#
 3rdJob#
-This skill can't be used on that target.#
+เกิดข้อผิดพลาด: ไม่สามารถใช้ Skill ดังกล่าวกับเป้าหมายได้#
 You can't use skill because you have exceeded the number Ancilla possession limit#
 [Holy Water] ไม่เพียงพอ#
 [Ancilla] ไม่เพียงพอ#
@@ -1412,7 +1412,7 @@ Verification failed#
 This skill can't be used alone#
 This skill can be used to certain direction only#
 Cannot summon spheres anymore.#
-There is no summoned sphere or you do not have enough sphere.#
+เกิดข้อผิดพลาด: Sphere ไม่เพียงพอ#
 There is no imitation skills available.#
 You can't reuse this skill#
 Skill can't be used in this state#
@@ -1431,8 +1431,8 @@ Character %d is character selection window cannot connect to the game that excee
 [Neck Protection Candy] ไม่เพียงพอ#
 [Regrettable Tears] ไม่เพียงพอ#
 [Neck Protection Candy] ไม่เพียงพอ#
-Can only be used for linked to Weapon Blocking.#
-A weapon coated with Guillotine Cross's Poison is required.#
+เกิดข้อผิดพลาด: [Weapon Blocking] ยังไม่ส่งผล#
+เกิดข้อผิดพลาด: [Poisoning Weapon] ยังไม่ส่งผล#
 เกิดข้อผิดพลาด: ไม่พบ Mado Gear#
 [Vulcan Bullet] ไม่เพียงพอ#
 [Mado Gear Fuel] ไม่เพียงพอ#
