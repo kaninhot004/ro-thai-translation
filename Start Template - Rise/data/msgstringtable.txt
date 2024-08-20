@@ -1460,7 +1460,7 @@ A weapon coated with Guillotine Cross's Poison is required.#
 [Monkey Wrench] ไม่เพียงพอ#
 เกิดข้อผิดพลาด: ยังมี Delay หลังร่ายอยู่#
 Deletion is impossible for over level %d#
-Can't be used while on Mado Gear.#
+เกิดข้อผิดพลาด: โปรดลงจาก Mado Gear เสียก่อน#
 ลงจาก Dragon#
 ลงจาก Mado Gear#
 Use#
@@ -1536,7 +1536,7 @@ Cannot be used anymore.#
 Level ห่างกันเกินไป#
 [%s] ไม่เพียงพอ ต้องมีอย่างน้อย '%d' ชิ้น#
 Is now refining the value lowered.#
-Please equip [%s].#
+[%s] ต้องสวมใส่อยู่#
 Battle field entrance setting#
 Battlefield - [%s] you sign up?#
 #
@@ -1570,9 +1570,9 @@ Convertible item#
 Insert items to convert#
 Inconvertible combination#
 Inventory weight is too much#
-Please secure some room in the inventory#
+เกิดข้อผิดพลาด: โปรดตรวจสอบวัตถุดิบ#
 Material doesn't exist#
-Successful#
+สำเร็จ#
 failed#
 All materials are gone duo failure#
 Not very long to change the name of the specified tab.#
@@ -3784,10 +3784,10 @@ Shadow Equipment is protected from destruction and disarming.#
 The Full Shadow Protection has been canceled.#
 Damage against Plant and Formless race monsters has been increased.#
 The Hell Tree Powder effect has disappeared.#
-The Attack Device has been activated.#
-The Attack Device has been disabled.#
-DEF and RES increased.#
-The Defense Device has been disabled.#
+[Manufacture Machine A] ส่งผลแล้ว#
+[Manufacture Machine A] สิ้นสุดแล้ว#
+[Manufacture Machine D] ส่งผลแล้ว#
+[Manufacture Machine D] สิ้นสุดแล้ว#
 ค้นหา#
 You can now use Ensemble skills alone.#
 The Sonata of Kvasir effect has been canceled.#
