@@ -240,10 +240,10 @@ Item ในรถเข็น [Alt+W]#
 เกิดข้อผิดพลาด: ประเภทอาวุธไม่ถูกต้อง#
 เกิดข้อผิดพลาด: การซื้อ %s ถูกยกเลิกเนื่องจากผู้ขาย Zeny เต็มหรือ Item ที่วางขายหมดแล้ว จำนวนที่วางขายขณะนี้ %d#
 You've been disconnected due to a time gap between you and the server.#
-Please equip the proper ammunition first.#
+เกิดข้อผิดพลาด: ประเภทกระสุนไม่ถูกต้อง#
 You can't attack or use skills because you've exceeded the Weight Limit.#
 You can't use skills because you've exceeded the Weight Limit.#
-Ammunition has been equipped.#
+สวมใส่กระสุนเรียบร้อยแล้ว#
 [Red Gemstone] ไม่เพียงพอ#
 [Blue Gemstone] ไม่เพียงพอ#
 Strength#
