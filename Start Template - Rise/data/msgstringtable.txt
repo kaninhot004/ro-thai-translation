@@ -1809,7 +1809,7 @@ minute(s)#
 second(s)#
 Please enter the name of the item.#
 The item you have entered does not exist.#
-The map is not available.#
+Map ยังไม่พร้อมใช้งาน#
 The selected name or prefix/suffix does not exist.#
 You can purchase up to 10 items.#
 Some items could not be purchased.#
