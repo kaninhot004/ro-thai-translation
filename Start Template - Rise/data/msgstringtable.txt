@@ -422,7 +422,7 @@ Holy#
 Shadow#
 Ghost#
 Undead#
-You can't create items yet.#
+เกิดข้อผิดพลาดในการกระทำดังกล่าว#
 Manufacturing List#
  Create#
 's required materials#
@@ -461,10 +461,10 @@ Very Strong #
 Very Very Strong #
 Very Very Very Strong #
 ข้อหา#
-ASPD เพิ่มขึ้นแล้ว#
-ASPD ลดลงแล้ว#
-Weapon Damage is improved.#
-Weapon Damage is reduced.#
+Two-Handed Quicken ส่งผลแล้ว#
+Two-Handed Quicken สิ้นสุดแล้ว#
+Power Thrust ส่งผลแล้ว#
+Power Thrust สิ้นสุดแล้ว#
 Casting Delay is reduced.#
 Casting Delay has returned to normal.#
 Weapon is temporarily enchanted with Poison element.#
@@ -474,12 +474,12 @@ Armor is temporarily enchanted with the Holy element.#
 Armor has changed back to normal.#
 Barrier formed.#
 Barrier canceled.#
-Weapon Perfection initiated.#
-Weapon Perfection canceled.#
+Weapon Perfection ส่งผลแล้ว#
+Weapon Perfection สิ้นสุดแล้ว#
 Power-Thrust initiated.#
 Power-Thrust canceled.#
-Maximize-Power initiated.#
-Maximize-Power canceled.#
+Maximize-Power ส่งผลแล้ว#
+Maximize-Power สิ้นสุดแล้ว#
 [New Server]#
 (%d players)#
 (On the maintenance)#
@@ -496,8 +496,8 @@ Compounding has failed.#
 ตั้ง Guild ดังกล่าวเป็นศัตรูเรียบร้อยแล้ว#
 เกิดข้อผิดพลาด: ศัตรู Guild เต็มแล้ว#
 เกิดข้อผิดพลาด: ตั้ง Guild ดังกล่าวเป็นศัตรูอยู่แล้ว#
-Upgrade success!!#
-Upgrade failed!!#
+เสริมแกร่งสำเร็จ!!#
+เสริมแกร่งไม่สำเร็จ!!#
 Unavailable Area to Teleport#
 Unable to memorize this place as Warp Point#
 Please wait 10 seconds before trying to log out.#
@@ -636,8 +636,8 @@ Gloria ส่งผลแล้ว#
 Gloria สิ้นสุดแล้ว#
 Lex Aeterna ส่งผลแล้ว#
 Lex Aeterna สิ้นสุดแล้ว#
-Attack speed increased.#
-Attack speed reduced.#
+Adrenaline Rush ส่งผลแล้ว#
+Adrenaline Rush สิ้นสุดแล้ว#
 You have mounted a Pecopeco.#
 You have dismounted your Pecopeco.#
 You have rented a Falcon.#
@@ -908,10 +908,10 @@ Help me out~ Please~ T_T#
 /notalkmsg2: Hides chat messages(including guild chat). On Off#
 ไม่แสดงคำพูดผู้เล่นอื่นในช่องสนทนา (รวม Guild ด้วย): OFF#
 ไม่แสดงคำพูดผู้เล่นอื่นในช่องสนทนา (รวม Guild ด้วย): ON#
-Upgradeable weapons#
-Refined weapon: %s#
-Refined weapon: %s#
-You cannot upgrade %s until you level up your Upgrade Weapon skill.#
+อาวุธที่เสริมแกร่งได้#
+เสริมแกร่งอาวุธ: %s#
+เสริมแกร่งอาวุธ: %s#
+เกิดข้อผิดพลาด: ไม่สามารถเสริมแกร่ง %s ได้จนกว่า Level [Weapon Refine] จะสูงขึ้นกว่านี้#
 %s is required to upgrade this weapon.#
 Full Divestment cannot pierce the target. The target is fully shielded.#
 You cannot adopt a married person.#
@@ -1332,7 +1332,7 @@ You do not have enough Kafra Credit Points. Please enter whether you have free c
 WOE Information#
 Memorial Dungeon %s's reservation has been canceled.#
 Failed to create Memorial Dungeon %s. Please try again.#
-This skill cannot be used within this area.#
+เกิดข้อผิดพลาด: ไม่สามารถใช้ได้ในจุดนี้#
 This item cannot be used within this area.#
 Memorial Dungeon#
 %s in Standby#
@@ -1433,24 +1433,24 @@ Character %d is character selection window cannot connect to the game that excee
 [Neck Protection Candy] ไม่เพียงพอ#
 Can only be used for linked to Weapon Blocking.#
 A weapon coated with Guillotine Cross's Poison is required.#
-Item can only be used when Mado Gear is mounted.#
+เกิดข้อผิดพลาด: ไม่พบ Mado Gear#
 [Vulcan Bullet] ไม่เพียงพอ#
 [Mado Gear Fuel] ไม่เพียงพอ#
 [Liquid Condensed Bullet] ไม่เพียงพอ#
-Please load a [Cannon Ball].#
-Please equip [Accelerator].#
-Please equip [Hovering Booster].#
-[Toxin] Poison effect is applied to the weapon.#
-[Paralysis] Poison effect is applied to the weapon.#
-[Fatigue] Poison effect is applied to the weapon.#
-[Laughing] Poison effect is applied to the weapon.#
-[Disheart] Poison effect is applied to the weapon.#
-[Pyrexia] Poison effect is applied to the weapon.#
-[Oblivion] Poison effect is applied to the weapon.#
-[Leech] Poison effect is applied to the weapon.#
-Can only be used in Hovering state.#
-Please equip [Suicidal Device].#
-Please equip [Shape Shifter].#
+[Cannon Ball] ต้องสวมใส่อยู่#
+[Accelerator] ต้องสวมใส่อยู่#
+[Hovering Booster] ต้องสวมใส่อยู่#
+[Toxin] ถูกเคลือบใส่อาวุธ#
+[Paralysis] ถูกเคลือบใส่อาวุธ#
+[Fatigue] ถูกเคลือบใส่อาวุธ#
+[Laughing] ถูกเคลือบใส่อาวุธ#
+[Disheart] ถูกเคลือบใส่อาวุธ#
+[Pyrexia] ถูกเคลือบใส่อาวุธ#
+[Oblivion] ถูกเคลือบใส่อาวุธ#
+[Leech] ถูกเคลือบใส่อาวุธ#
+เกิดข้อผิดพลาด: ต้องอยู่ในสถานะ Hovering#
+[Suicidal Device] ต้องสวมใส่อยู่#
+[Shape Shifter] ต้องสวมใส่อยู่#
 [Guillotine Cross Poison] ไม่เพียงพอ#
 [Cooling Device] ต้องสวมใส่อยู่#
 [Magnetic Field Generator] ต้องสวมใส่อยู่#
@@ -1517,7 +1517,7 @@ Chat room entry sound [OFF]#
 /panic#
 /whisp#
 Not Assigned#
-Only available when cart is mounted.#
+เกิดข้อผิดพลาด: ไม่พบรถเข็น#
 [Thorn Plant Seed] ไม่เพียงพอ#
 [Blood Sucker Plant Seed] ไม่เพียงพอ#
 Cannot be used anymore.#
@@ -2969,8 +2969,8 @@ Use Blacksmith's Blessing#
 Insufficient Zeny#
 Not enough Blacksmith's Blessing#
 This equipment can not be refined#
-Upgrade success!#
-Upgrade failed!#
+เสริมแกร่งสำเร็จ!#
+เสริมแกร่งไม่สำเร็จ!#
 Back#
 Success#
 Return#
