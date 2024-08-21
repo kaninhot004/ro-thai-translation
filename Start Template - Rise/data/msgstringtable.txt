@@ -433,8 +433,8 @@ Successfully created %s.#
 You don't have the the required level.#
 You level is too high for this job.#
 Not the suitable job for this type of work.#
-Record a message in the Talkie Box#
-Please type a message for the Talkie Box#
+บันทึกข้อความใส่ Talkie Box#
+โปรดระบุข้อความ#
 Guild#
 You didn't pay for this account. Would you like to pay for it now?#
 Server is jammed due to overpopulation. Please try again later.#
@@ -3803,8 +3803,8 @@ S.MATK and Movement Speed increased.#
 The Serenade of Jawaii effect has been canceled.#
 P.ATK and Movement Speed increased.#
 The March of Prontera effect has been canceled.#
-The rage of the wind flows into the caster's body.#
-The Calamity Gale effect has been canceled.#
+[Calamity Gale] ส่งผลแล้ว#
+[Calamity Gale] สิ้นสุดแล้ว#
 Your weakness and appearance are revealed by the wind.#
 The Wind Sign effect has been canceled.#
 E X P : %.1f%% ( basic 100.0%% %s %.1f%%)#
