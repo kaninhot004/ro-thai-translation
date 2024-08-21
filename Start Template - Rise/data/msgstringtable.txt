@@ -242,7 +242,7 @@ Item ในรถเข็น [Alt+W]#
 You've been disconnected due to a time gap between you and the server.#
 เกิดข้อผิดพลาด: ประเภทกระสุนไม่ถูกต้อง#
 You can't attack or use skills because you've exceeded the Weight Limit.#
-You can't use skills because you've exceeded the Weight Limit.#
+เกิดข้อผิดพลาด: แบกของไม่ไหวแล้ว#
 สวมใส่กระสุนเรียบร้อยแล้ว#
 [Red Gemstone] ไม่เพียงพอ#
 [Blue Gemstone] ไม่เพียงพอ#
@@ -578,7 +578,7 @@ Your connection is terminated due to change in the billing policy. Please connec
 Your connection is terminated because your IP doesn't match the authorized IP from the account server.#
 Your connection is terminated to prevent charging from your account's play time.#
 You have been forced to disconnect by the Game Master Team.#
-You can't use this Skill because you are over your Weight Limit.#
+เกิดข้อผิดพลาด: แบกของไม่ไหวแล้ว#
 Nameless#
 Congratulations! %s's rank has gone up to %d.#
 What a pity! %s's rank has gone down to %d.#
@@ -1566,14 +1566,14 @@ Not able to receive battle field list. Please check and try again#
 Level is not high enough to enter#
 You must consume all '%d' points in your 1st Tab.#
 You must consume all '%d' remaining points in your 2nd Tab. 1st Tab is already done.#
-Convertible item#
-Insert items to convert#
-Inconvertible combination#
+Item ที่แปลงได้#
+Item ที่จะแปลง#
+เกิดข้อผิดพลาด: โปรดตรวจสอบส่วนผสม#
 Inventory weight is too much#
 เกิดข้อผิดพลาด: โปรดตรวจสอบวัตถุดิบ#
 Material doesn't exist#
 สำเร็จ#
-failed#
+ไม่สำเร็จ#
 All materials are gone duo failure#
 Not very long to change the name of the specified tab.#
 Cannot add more.#
@@ -1582,7 +1582,7 @@ Bot checks#
 Items cannot be used in materials cannot be emotional.#
 It is impossible to connect using this IP in Ragnarok Online. Please contact the customer support center or home.#
 You have entered a wrong password for more than six times, please check your personal information again.#
-Consumption items are used in the synthesis. Are you sure?#
+ยืนยัน?#
 Please input the captcha code found at your left side.#
 Describes the battlefield --#
 Waiting for admission --#
