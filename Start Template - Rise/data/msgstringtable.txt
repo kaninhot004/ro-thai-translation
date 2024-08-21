@@ -835,18 +835,18 @@ You have been blocked from using chat and skills for %d as an automatic penalty.
 %d minutes remain until release from auto penalty.#
 You have been released from the auto penalty. Please refrain from spamming in-game.#
 %s and %s have divorced from each other.#
-%s has been designated as Gravity %s's Solar Space.#
-%s has been designated as Gravity %s's Luna Space.#
-%s has been designated as Gravity %s's Stellar Space.#
-Gravity %s's Solar Space: %s#
-Gravity %s's Luna Space: %s#
-Gravity %s's Stellar Space: %s#
-%s has been designated as Gravity %s's Solar Monster.#
-%s has been designated as Gravity %s's Luna Monster.#
-%s has been designated as Gravity %s's Stellar Monster.#
-Gravity %s's Solar Monster: %s#
-Gravity %s's Luna Monster: %s#
-Gravity %s's Stellar Monster: %s#
+%s กางเขตอาคม Solar Space กับ %s#
+%s กางเขตอาคม Luna Space กับ %s#
+%s กางเขตอาคม Stellar Space กับ %s#
+[เขตอาคม %s] Solar Space: %s#
+[เขตอาคม %s] Luna Space: %s#
+[เขตอาคม %s] Stellar Space: %s#
+%s กางเขตอาคม %s เป็น Solar Monster#
+%s กางเขตอาคม %s เป็น Luna Monster#
+%s กางเขตอาคม %s เป็น Stellar Monster#
+[เขตอาคม %s] Solar Monster: %s#
+[เขตอาคม %s] Luna Monster: %s#
+[เขตอาคม %s] Stellar Monster: %s#
 /window: Display windows will snap/dock together. On | Off#
 ยึดหน้าต่างให้สวยงาม: ON#
 ยึดหน้าต่างให้สวยงาม: OFF#
@@ -1026,7 +1026,7 @@ Homunculus AI: OFF#
 Mail List#
 เขียนจดหมาย#
 อ่านจดหมาย#
-You cannot change a map's designation once it is designated. Are you sure that you want to designate this map?#
+ยืนยัน?#
 Item has been added in the Item Window.#
 You have failed to add the item in the Item Window.#
 You have successfully mailed a message.#
@@ -1224,7 +1224,7 @@ There is no party member to summon in the current map.#
 You cannot find any trace of a Boss Monster in this area.#
 Boss Monster, %s will appear in %02d hour(s) and %02d minute(s).#
 The location of Boss Monster, [%s], will be displayed on your Mini-Map.#
-Do you want to open ^990099%s^000000? Once opened, the contents cannot be moved to other locations aside from the Kafra Storage. The item effect isn't doubled, even if the same items are used more than once.#
+ยืนยัน?#
 The Purchase has failed because the NPC does not exist.#
 The Purchase has failed because the Kafra Shop System is not working correctly.#
 You cannot purchase items while you are in a trade.#
@@ -2551,7 +2551,7 @@ Guild Storage is open only for 2 minutes, and will close automatically.#
 Incorrect GameSamba ID. Please Try Again.#
 %s [%d Option] : %d Quantity#
 Requires a Coin.#
-%d Coins are required.#
+เกิดข้อผิดพลาด: ต้องการ %d Coins#
 [Gatling Gun] ต้องสวมใส่อยู่#
 [Shotgun] ต้องสวมใส่อยู่#
 [Rifle] ต้องสวมใส่อยู่#
@@ -2559,7 +2559,7 @@ Requires a Coin.#
 [Silver Bullet] ต้องสวมใส่อยู่#
 ประวัติการขาย Item#
 ประวัติการซื้อ Item#
-[Grenade Launcher] weapon class must be equipped.#
+[Grenade Launcher] ต้องสวมใส่อยู่#
 [Heat Barrel], [Madness Canceller] and [Platinum Alter] cannot be used while sitting.#
 Cannot use skill in this map.#
 ยืนยัน?#
