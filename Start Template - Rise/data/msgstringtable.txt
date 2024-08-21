@@ -1559,7 +1559,7 @@ Unregistered because admission requirements are not matching.#
 Was unregistered and error.#
 The skill need [%s].#
 The skill need a particular skill.#
-Requires %d Spirit Sphere.#
+เกิดข้อผิดพลาด: ต้องการ %d Spirit Sphere#
 Spirit Sphere ไม่เพียงพอ#
 Cannot create rune stone more than the maximum amount.#
 Not able to receive battle field list. Please check and try again#
@@ -3789,20 +3789,20 @@ The Hell Tree Powder effect has disappeared.#
 [Manufacture Machine D] ส่งผลแล้ว#
 [Manufacture Machine D] สิ้นสุดแล้ว#
 ค้นหา#
-You can now use Ensemble skills alone.#
-The Sonata of Kvasir effect has been canceled.#
-The effect of Mystic Symphony has been granted.#
-The effect of Mystic Symphony has been canceled.#
+[Sonata of Kvasir] ส่งผลแล้ว#
+[Sonata of Kvasir] สิ้นสุดแล้ว#
+[Mystic Symphony] ส่งผลแล้ว#
+[Mystic Symphony] สิ้นสุดแล้ว#
 M.RES decreased.#
 The Geffenia Nocturne effect has been canceled.#
 RES decreased.#
 The Rhapsody of Mineworker effect has been canceled.#
-RES increased.#
-The Musical Interlude effect has been canceled.#
-S.MATK and Movement Speed increased.#
-The Serenade of Jawaii effect has been canceled.#
-P.ATK and Movement Speed increased.#
-The March of Prontera effect has been canceled.#
+[Musical Interlude] ส่งผลแล้ว#
+[Musical Interlude] สิ้นสุดแล้ว#
+[Serenade of Jawaii] ส่งผลแล้ว#
+[Serenade of Jawaii] สิ้นสุดแล้ว#
+[March of Prontera] ส่งผลแล้ว#
+[March of Prontera] สิ้นสุดแล้ว#
 [Calamity Gale] ส่งผลแล้ว#
 [Calamity Gale] สิ้นสุดแล้ว#
 Your weakness and appearance are revealed by the wind.#
