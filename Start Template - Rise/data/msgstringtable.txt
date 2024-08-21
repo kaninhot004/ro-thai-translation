@@ -207,16 +207,16 @@ Steal has failed.#
 การแลกเปลี่ยน#
 เกิดข้อผิดพลาด: [Envenom] ไม่สำเร็จ#
 You cannot use this ID on this server.#
-ความเร็วเพิ่มขึ้น#
-ความเร็วลดลง#
+[Increase Agility] ส่งผลแล้ว#
+[Increase Agility] สิ้นสุดแล้ว#
 /memo: To memorize a place as Warp Point (If you are an Acolyte Class character)#
 Random Area#
-Select an Area to Warp#
+เลือกจุดหมาย#
 Skill Level is not high enough#
 There are no memorized locations (Memo Points).#
 เกิดข้อผิดพลาด: ยังไม่ได้เรียน Skill Warp Portal#
 Current location is saved as a Memo Point for Warp Skill.#
-Cancel#
+ยกเลิก#
 There is a Delay after using a Skill.#
 เกิดข้อผิดพลาด: ช่องเก็บของเต็ม#
 Out of the maximum capacity#
@@ -461,25 +461,25 @@ Very Strong #
 Very Very Strong #
 Very Very Very Strong #
 ข้อหา#
-Two-Handed Quicken ส่งผลแล้ว#
-Two-Handed Quicken สิ้นสุดแล้ว#
-Power Thrust ส่งผลแล้ว#
-Power Thrust สิ้นสุดแล้ว#
-Casting Delay is reduced.#
-Casting Delay has returned to normal.#
+[Two-Handed Quicken] ส่งผลแล้ว#
+[Two-Handed Quicken] สิ้นสุดแล้ว#
+[Power Thrust] ส่งผลแล้ว#
+[Power Thrust] สิ้นสุดแล้ว#
+[Suffragium] ส่งผลแล้ว#
+[Suffragium] สิ้นสุดแล้ว#
 [Enchant Poison] ส่งผลแล้ว#
-Weapon is temporarily enchanted with Holy element.#
+[Aspersio] ส่งผลแล้ว#
 [Enchant Poison] สิ้นสุดแล้ว#
-Armor is temporarily enchanted with the Holy element.#
-Armor has changed back to normal.#
-Barrier formed.#
-Barrier canceled.#
-Weapon Perfection ส่งผลแล้ว#
-Weapon Perfection สิ้นสุดแล้ว#
+[Aspersio] สิ้นสุดแล้ว#
+[B.S Sacramenti] สิ้นสุดแล้ว#
+[Kyrie Eleison] ส่งผลแล้ว#
+[Kyrie Eleison] สิ้นสุดแล้ว#
+[Weapon Perfection] ส่งผลแล้ว#
+[Weapon Perfection] สิ้นสุดแล้ว#
 Power-Thrust initiated.#
 Power-Thrust canceled.#
-Maximize-Power ส่งผลแล้ว#
-Maximize-Power สิ้นสุดแล้ว#
+[Maximize-Power] ส่งผลแล้ว#
+[Maximize-Power] สิ้นสุดแล้ว#
 [New Server]#
 (%d players)#
 (On the maintenance)#
@@ -608,52 +608,52 @@ N/A#
 N/A#
 เกิดข้อผิดพลาด: ตัวละครดังกล่าว (หรือมีตัวละครซ้ำ ID) อยู่ใน Party อยู่แล้ว#
 (%d ppl) - over the age 18#
-Provoke ส่งผลแล้ว#
-Provoke สิ้นสุดแล้ว#
-Endure ส่งผลแล้ว#
-Endure สิ้นสุดแล้ว#
-Improve Concentration ส่งผลแล้ว#
-Improve Concentration สิ้นสุดแล้ว#
-Hiding ส่งผลแล้ว#
-Hiding สิ้นสุดแล้ว#
-Cloaking ส่งผลแล้ว#
-Cloaking สิ้นสุดแล้ว#
-Poison React ส่งผลแล้ว#
-Poison React สิ้นสุดแล้ว#
-Quagmire ส่งผลแล้ว#
-Quagmire สิ้นสุดแล้ว#
-Angelus ส่งผลแล้ว#
-Angelus สิ้นสุดแล้ว#
-Blessing ส่งผลแล้ว#
-Blessing สิ้นสุดแล้ว#
-Signum Crusis ส่งผลแล้ว#
-Signum Crusis สิ้นสุดแล้ว#
-Slow Poison ส่งผลแล้ว#
-Slow Poison สิ้นสุดแล้ว#
-Magnificat ส่งผลแล้ว#
-Magnificat สิ้นสุดแล้ว#
-Gloria ส่งผลแล้ว#
-Gloria สิ้นสุดแล้ว#
-Lex Aeterna ส่งผลแล้ว#
-Lex Aeterna สิ้นสุดแล้ว#
-Adrenaline Rush ส่งผลแล้ว#
-Adrenaline Rush สิ้นสุดแล้ว#
+[Provoke] ส่งผลแล้ว#
+[Provoke] สิ้นสุดแล้ว#
+[Endure] ส่งผลแล้ว#
+[Endure] สิ้นสุดแล้ว#
+[Improve Concentration] ส่งผลแล้ว#
+[Improve Concentration] สิ้นสุดแล้ว#
+[Hiding] ส่งผลแล้ว#
+[Hiding] สิ้นสุดแล้ว#
+[Cloaking] ส่งผลแล้ว#
+[Cloaking] สิ้นสุดแล้ว#
+[Poison React] ส่งผลแล้ว#
+[Poison React] สิ้นสุดแล้ว#
+[Quagmire] ส่งผลแล้ว#
+[Quagmire] สิ้นสุดแล้ว#
+[Angelus] ส่งผลแล้ว#
+[Angelus] สิ้นสุดแล้ว#
+[Blessing] ส่งผลแล้ว#
+[Blessing] สิ้นสุดแล้ว#
+[Signum Crusis] ส่งผลแล้ว#
+[Signum Crusis] สิ้นสุดแล้ว#
+[Slow Poison] ส่งผลแล้ว#
+[Slow Poison] สิ้นสุดแล้ว#
+[Magnificat] ส่งผลแล้ว#
+[Magnificat] สิ้นสุดแล้ว#
+[Gloria] ส่งผลแล้ว#
+[Gloria] สิ้นสุดแล้ว#
+[Lex Aeterna] ส่งผลแล้ว#
+[Lex Aeterna] สิ้นสุดแล้ว#
+[Adrenaline Rush] ส่งผลแล้ว#
+[Adrenaline Rush] สิ้นสุดแล้ว#
 You have mounted a Pecopeco.#
 You have dismounted your Pecopeco.#
 You have rented a Falcon.#
 You have released your Falcon.#
-Play Dead ส่งผลแล้ว#
-Play Dead สิ้นสุดแล้ว#
-Crazy Uproar ส่งผลแล้ว#
-Crazy Uproar สิ้นสุดแล้ว#
-Energy Coat ส่งผลแล้ว#
-Energy Coat สิ้นสุดแล้ว#
+[Play Dead] ส่งผลแล้ว#
+[Play Dead] สิ้นสุดแล้ว#
+[Crazy Uproar] ส่งผลแล้ว#
+[Crazy Uproar] สิ้นสุดแล้ว#
+[Energy Coat] ส่งผลแล้ว#
+[Energy Coat] สิ้นสุดแล้ว#
 Armor พัง#
 Armor ซ่อมแซมเรียบร้อยแล้ว#
 Weapon พัง#
 Weapon ซ่อมแซมเรียบร้อยแล้ว#
-Invisibility ส่งผลแล้ว#
-Invisibility สิ้นสุดแล้ว#
+[Invisibility] ส่งผลแล้ว#
+[Invisibility] สิ้นสุดแล้ว#
 Sorry. It is delayed due to the process of payment. Please re-connect in a minute.#
 You must unequip ammunition first.#
 Arrow List#
@@ -1274,7 +1274,7 @@ Symbols in Character Names are forbidden.#
 Mercenary AI: ON#
 Mercenary AI: OFF#
  %s's #
-%s has acquired %s.#
+%s ได้รับ %s#
 Public Chat#
 Whisper#
 Party Chat#
@@ -3431,9 +3431,9 @@ Tank#
 เกิดข้อผิดพลาด: รับการสนทนาส่วนตัวกับทุกคนอยู่แล้ว#
 เล่นฟรี#
 ยืนยัน?#
-Crazy Upror ส่งผลแล้ว#
-Blessing ส่งผลแล้ว#
-HP and DEF increased.#
+[Crazy Upror] ส่งผลแล้ว#
+[Blessing] ส่งผลแล้ว#
+[Angelus] ส่งผลแล้ว#
 Gelstar#
 Account Buff#
 Fixed service#
@@ -3461,8 +3461,8 @@ Party recruitment has been canceled.#
 Guild experience can be accumulated up to %d%%.#
 Guild level is at maximum, you can no longer contribute to guild exp.#
 To keep your account secure, please login to MOTP homepage.\nPlease try to log in to the home page.#
-Physical attack and magical attack have been improved.#
-Physical attack and magical attack have been reduced.#
+[Impositio Manus] ส่งผลแล้ว#
+[Impositio Manus] สิ้นสุดแล้ว#
 Server %s attendance reward#
 Event period: month %02d day %02d -  month %2d day %2d 24:00#
 day %d#
@@ -3724,48 +3724,48 @@ Ascending#
 - [%s] %d ~%d production#
 Success %d%%#
 Item tags can only tag items you own.#
-The Powerful Faith ส่งผลแล้ว#
-The Powerful Faith สิ้นสุดแล้ว#
-The Firm Faith ส่งผลแล้ว#
-The Firm Faith สิ้นสุดแล้ว#
-The Sincere Faith ส่งผลแล้ว#
-The Sincere Faith สิ้นสุดแล้ว#
-The Benedictum ส่งผลแล้ว#
-The Benedictum สิ้นสุดแล้ว#
-Religio ส่งผลแล้ว#
-Religio สิ้นสุดแล้ว#
-The Competentia ส่งผลแล้ว#
-The Competentia สิ้นสุดแล้ว#
-The Presens Acies ส่งผลแล้ว#
-The Presens Acies สิ้นสุดแล้ว#
-The Argutus Telum ส่งผลแล้ว#
-The Argutus Telum สิ้นสุดแล้ว#
-The Argutus Vita ส่งผลแล้ว#
-The Argutus Vita สิ้นสุดแล้ว#
+[The Powerful Faith] ส่งผลแล้ว#
+[The Powerful Faith] สิ้นสุดแล้ว#
+[The Firm Faith] ส่งผลแล้ว#
+[The Firm Faith] สิ้นสุดแล้ว#
+[The Sincere Faith] ส่งผลแล้ว#
+[The Sincere Faith] สิ้นสุดแล้ว#
+[The Benedictum] ส่งผลแล้ว#
+[The Benedictum] สิ้นสุดแล้ว#
+[Religio] ส่งผลแล้ว#
+[Religio] สิ้นสุดแล้ว#
+[The Competentia] ส่งผลแล้ว#
+[The Competentia] สิ้นสุดแล้ว#
+[The Presens Acies] ส่งผลแล้ว#
+[The Presens Acies] สิ้นสุดแล้ว#
+[The Argutus Telum] ส่งผลแล้ว#
+[The Argutus Telum] สิ้นสุดแล้ว#
+[The Argutus Vita] ส่งผลแล้ว#
+[The Argutus Vita] สิ้นสุดแล้ว#
 Num: %d/%d Weight: %d/%d#
-The Servant Weapon สิ้นสุดแล้ว#
-The Charging Pierce สิ้นสุดแล้ว#
-The Vigor สิ้นสุดแล้ว#
-The Attack Stance ส่งผลแล้ว#
-The Attack Stance สิ้นสุดแล้ว#
-The Guard Stance ส่งผลแล้ว#
-The Guard Stance สิ้นสุดแล้ว#
-The Guardian Barrier ส่งผลแล้ว#
-The Guardian Barrier สิ้นสุดแล้ว#
-The Rebound Shield ส่งผลแล้ว#
-The Rebound Shield สิ้นสุดแล้ว#
-The Holy Shield ส่งผลแล้ว#
-The Holy Shield สิ้นสุดแล้ว#
-Ultimate Sacrifice ส่งผลแล้ว#
-Ultimate Sacrifice สิ้นสุดแล้ว#
-The Climax ส่งผลแล้ว#
-The Climax สิ้นสุดแล้ว#
-The Shadow Exceed ส่งผลแล้ว#
-The Shadow Exceed สิ้นสุดแล้ว#
-The Potent Venom ส่งผลแล้ว#
-The Potent Venom สิ้นสุดแล้ว#
-The Enchanting Shadow ส่งผลแล้ว#
-The Enchanting Shadow สิ้นสุดแล้ว#
+[The Servant Weapon] สิ้นสุดแล้ว#
+[The Charging Pierce] สิ้นสุดแล้ว#
+[The Vigor] สิ้นสุดแล้ว#
+[The Attack Stance] ส่งผลแล้ว#
+[The Attack Stance] สิ้นสุดแล้ว#
+[The Guard Stance] ส่งผลแล้ว#
+[The Guard Stance] สิ้นสุดแล้ว#
+[The Guardian Barrier] ส่งผลแล้ว#
+[The Guardian Barrier] สิ้นสุดแล้ว#
+[The Rebound Shield] ส่งผลแล้ว#
+[The Rebound Shield] สิ้นสุดแล้ว#
+[The Holy Shield] ส่งผลแล้ว#
+[The Holy Shield] สิ้นสุดแล้ว#
+[Ultimate Sacrifice] ส่งผลแล้ว#
+[Ultimate Sacrifice] สิ้นสุดแล้ว#
+[The Climax] ส่งผลแล้ว#
+[The Climax] สิ้นสุดแล้ว#
+[The Shadow Exceed] ส่งผลแล้ว#
+[The Shadow Exceed] สิ้นสุดแล้ว#
+[The Potent Venom] ส่งผลแล้ว#
+[The Potent Venom] สิ้นสุดแล้ว#
+[The Enchanting Shadow] ส่งผลแล้ว#
+[The Enchanting Shadow] สิ้นสุดแล้ว#
 Suppression Count On#
 Suppression Count Off#
 The target has reached it's maximum AP.#
