@@ -362,8 +362,8 @@ Last Log-in IP#
 สนทนาส่วนตัวกับคนที่ไม่ใช่เพื่อน#
 แจ้งเตือนเมื่อมีการสนทนาส่วนตัว#
 ยืนยัน?#
-%s has left the guild.#
-Withdrawal Reason: %s#
+%s ออกจาก Guild#
+เหตุผล: %s#
 เกิดข้อผิดพลาด: ชื่อ Guild ไม่ถูกต้อง#
 Disband Reason: %s#
 This account has been deleted.#
@@ -500,7 +500,7 @@ Compounding has failed.#
 เสริมแกร่งไม่สำเร็จ!!#
 Unavailable Area to Teleport#
 Unable to memorize this place as Warp Point#
-Please wait 10 seconds before trying to log out.#
+เกิดข้อผิดพลาด: โปรดรอสักครู่#
 ตำแหน่ง#
 อาชีพ#
 Note#
@@ -695,7 +695,7 @@ Internet Cafe Time Plan has been ended. Would you like to continue the game with
 Your lack of zeny or your zeny limit have prevented you from performing this action.#
 Your character has fainted. Push the ESC key to restart.#
  - %d ได้รับ#
-Spell List#
+รายการ Skill#
 /minimize#
 This item has been damaged.#
 /noshift: ใช้ Skill ที่ต้องกด Shift โดยที่ไม่ต้องกด Shift#
@@ -1413,7 +1413,7 @@ This skill can't be used alone#
 This skill can be used to certain direction only#
 Cannot summon spheres anymore.#
 เกิดข้อผิดพลาด: Sphere ไม่เพียงพอ#
-There is no imitation skills available.#
+เกิดข้อผิดพลาด: ไม่พบ Skill ที่จดจำแล้วนำมาใช้ได้#
 You can't reuse this skill#
 Skill can't be used in this state#
 You have exceeded the maximum amount of possession of another item.#
@@ -1546,7 +1546,7 @@ Do you want to cancel the admission application?#
 Admission request has been cancelled.#
 Go to the battlefield quickly.#
 Battlefield - [%s]#
-Do you really want to go back to your savepoint?#
+ยืนยัน?#
 Search Message for Party Members#
 Message option is off the search party members.#
 10 seconds delay of party support is in effect#
@@ -3776,12 +3776,12 @@ https://member.gnjoy.com.tw/billing.aspx#
 Descending#
 #
 ค้นหา#
-The Research Report Status will be displayed.#
-The Research Report Status has been cleared.#
+[Research Report] ส่งผลแล้ว#
+[Research Report] สิ้นสุดแล้ว#
 Successful manufacturing.#
 Manufacturing failed.#
-Shadow Equipment is protected from destruction and disarming.#
-The Full Shadow Protection has been canceled.#
+[Full Shadow Protection] ส่งผลแล้ว#
+[Full Shadow Protection] สิ้นสุดแล้ว#
 Damage against Plant and Formless race monsters has been increased.#
 The Hell Tree Powder effect has disappeared.#
 [Manufacture Machine A] ส่งผลแล้ว#
@@ -3812,9 +3812,9 @@ DROP  : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DEATH : %.1f%% ( basic 100.0%% %s %.1f%%)#
 S.MATK increased.#
 The Spell Enchanting effect has been canceled.#
-The From the Abyss effect has been canceled.#
-P.ATK, S.MATK and HIT increased.#
-The Abyss Slayer effect has been canceled.#
+[From the Abyss] สิ้นสุดแล้ว#
+[Abyss Slayer] ส่งผลแล้ว#
+[Abyss Slayer] สิ้นสุดแล้ว#
 There may be restrictions on character creation.#
 The world is saturated. Please use another world.#
 ปิดกั้นการสนทนา: ON#
