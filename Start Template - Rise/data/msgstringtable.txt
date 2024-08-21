@@ -3810,8 +3810,8 @@ The Wind Sign effect has been canceled.#
 E X P : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DROP  : %.1f%% ( basic 100.0%% %s %.1f%%)#
 DEATH : %.1f%% ( basic 100.0%% %s %.1f%%)#
-S.MATK increased.#
-The Spell Enchanting effect has been canceled.#
+[Spell Enchanting] ส่งผลแล้ว#
+[Spell Enchanting] สิ้นสุดแล้ว#
 [From the Abyss] สิ้นสุดแล้ว#
 [Abyss Slayer] ส่งผลแล้ว#
 [Abyss Slayer] สิ้นสุดแล้ว#
