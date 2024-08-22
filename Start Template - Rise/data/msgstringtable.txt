@@ -2968,7 +2968,7 @@ When adopted, character will not able to transcend, maximum stats will be limite
 กัน ลด/หาย ในการเสริมแกร่ง#
 Zeny ไม่เพียงพอ#
 Blacksmith's Blessing หมด#
-Item ดังกล่าวเสริมแกร่งไม่ได้#
+เสริมแกร่งไม่ได้แล้ว#
 เสริมแกร่งสำเร็จ!#
 เสริมแกร่งไม่สำเร็จ!#
 กลับ#
@@ -2988,7 +2988,7 @@ Failed to feed pet, please close RODEX window#
 Equip#
 Item จะหายไปหากไม่สำเร็จ#
 เสริมแกร่งจะลดหากไม่สำเร็จ#
-Equipment will dissapear or refine level will decrease when refine fails#
+Item จะหาย/ลด หากไม่สำเร็จ#
 You cannot use RODEX while refining. RODEX has been closed.#
 You cannot use RODEX while refining.#
 Please close other windows to continue.#
@@ -3241,9 +3241,9 @@ Mini party windows can't be overlapped.#
 Tweet success.#
 เสริมแกร่ง#
 โปรดเลือกวัตถุดิบใหม่#
-Closed due insufficient refine material, please check again.#
-Closed due insufficient zeny, please check again.#
-Closed due insufficient Blacksmith's Blessing, please check again.#
+โปรดเลือกวัตถุดิบใหม่#
+โปรดเลือกวัตถุดิบใหม่#
+โปรดเลือกวัตถุดิบใหม่#
 Item หายไปแล้ว#
 All stats have been reduced.#
 All stats reducement have been disabled.#
