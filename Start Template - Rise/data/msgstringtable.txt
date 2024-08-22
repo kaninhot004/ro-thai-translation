@@ -1253,8 +1253,8 @@ Regular item drops from monsters will be doubled for the next 30 minutes.#
 Boss Monster Map Information is revealed for the next 10 minutes.#
 Do you really want to purchase this item? %d points will be deducted from your total Kafra Credit Points.#
 Cash ไม่เพียงพอ#
- ^ff0000Expiration Date: %s^000000#
- The [%s] item will disappear in %d minutes.#
+ ^ff0000ใช้ได้ถึง: %s^000000#
+[%s] มีเวลาใช้งาน %d นาที#
  [%s] item will be deleted from the Inventory in 1 minute.#
  [%s] item has been deleted from the Inventory.#
 Input Number#
@@ -1268,7 +1268,7 @@ The mercenary contract has expired.#
 The mercenary has died.#
 You have released the mercenary.#
 The mercenary has run away.#
-The [%s] item will disappear in %d seconds.#
+[%s] มีเวลาใช้งาน %d วินาที#
 IP Bonus: EXP/JEXP %d%%, Death Penalty %d%%, Item Drop %d%%#
 Symbols in Character Names are forbidden.#
 Mercenary AI: ON#
@@ -1860,7 +1860,7 @@ Cash Points : %s C#
 You cannot summon a monster in this area.#
 Exceeded total free cash#
 Content has been saved in [SaveData_ExMacro%d]#
-%d seconds left until you can use#
+เกิดข้อผิดพลาด: โปรดรอ %d วินาที#
 Must be equipped with [Spear].#
 Available only on the dragon.#
 Unable to proceed due to exceeding capacity.#
@@ -2786,15 +2786,15 @@ Zeny เต็มแล้ว#
 โปรดตรวจสอบ Zeny#
 โปรดตรวจสอบ Zeny#
 เกิดข้อผิดพลาด: Zeny เต็มแล้ว#
-Can't be dropped#
-Can't be put in Storage#
-Can't be put in Cart#
-Can't be attached in Mail#
-Can't be traded with player#
-Can't be auctioned#
-Can't be put in Guild Storage#
-Can't be sold to NPC#
-Item move restrictions#
+ห้ามโยน#
+ห้ามเก็บเข้าคลังเก็บของ#
+ห้ามเก็บเข้ารถเข็น#
+ห้ามแนบกับ RODEX#
+ห้ามแลกเปลี่ยน#
+ห้ามประมูล#
+ห้ามเก็บเข้าคลังเก็บของ Guild#
+ห้ามขาย NPC#
+กฎการเคลื่อนย้าย Item#
 สร้างตัวละคร#
 Please unequip ammunition first.#
 Unable to enter, due to exceeding number of players.#
