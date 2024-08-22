@@ -1535,7 +1535,7 @@ Cannot be used anymore.#
 เกิดข้อผิดพลาด: ตัวละครดังกล่าว Offline อยู่#
 Level ห่างกันเกินไป#
 [%s] ไม่เพียงพอ ต้องมีอย่างน้อย '%d' ชิ้น#
-Is now refining the value lowered.#
+จำนวนการเสริมแกร่งถูกลด#
 [%s] ต้องสวมใส่อยู่#
 Battle field entrance setting#
 Battlefield - [%s] you sign up?#
@@ -2964,15 +2964,15 @@ No image#
 Currently in WoE hours, unable to delegate Guild leader#
 You have to wait for one day before delegating a new Guild leader#
 When adopted, character will not able to transcend, maximum stats will be limited, MaxHP and MaxSP will be reduced.\nAre you sure you want to continue?#
-Refine#
-Use Blacksmith's Blessing#
-Insufficient Zeny#
-Not enough Blacksmith's Blessing#
-This equipment can not be refined#
+เสริมแกร่ง#
+กัน ลด/หาย ในการเสริมแกร่ง#
+Zeny ไม่เพียงพอ#
+Blacksmith's Blessing หมด#
+Item ดังกล่าวเสริมแกร่งไม่ได้#
 เสริมแกร่งสำเร็จ!#
 เสริมแกร่งไม่สำเร็จ!#
-Back#
-Success#
+กลับ#
+โอกาสสำเร็จ#
 Return#
 With Mr/Miss#
 ยืนยัน?#
@@ -2986,8 +2986,8 @@ Opening shop is not allowed when there is other character#
 Failed to feed pet, please close RODEX window#
 เปลี่ยนชุดอุปกรณ์สวมใส่#
 Equip#
-Equipment will dissapear when refine fails#
-Equipment's refine level will be decreased when refine fails#
+Item จะหายไปหากไม่สำเร็จ#
+เสริมแกร่งจะลดหากไม่สำเร็จ#
 Equipment will dissapear or refine level will decrease when refine fails#
 You cannot use RODEX while refining. RODEX has been closed.#
 You cannot use RODEX while refining.#
@@ -3239,12 +3239,12 @@ Mini party windows can't be overlapped.#
 เทคนิคการเล่น#
 เทคนิคการเล่น#
 Tweet success.#
-Refine#
-Please return then select refine material again.#
+เสริมแกร่ง#
+โปรดเลือกวัตถุดิบใหม่#
 Closed due insufficient refine material, please check again.#
 Closed due insufficient zeny, please check again.#
 Closed due insufficient Blacksmith's Blessing, please check again.#
-This item has been destroyed.#
+Item หายไปแล้ว#
 All stats have been reduced.#
 All stats reducement have been disabled.#
 OTP Password is 8 digits.#
@@ -3283,7 +3283,7 @@ You can't feed Homunculus while the RODEX window is open.#
 ให้อาหาร Homunculus อัตโนมัติ: ON#
 ให้อาหาร Homunculus อัตโนมัติ: OFF#
 EXP 10% จะมอบ Homunculus#
-Rate : %d%%#
+โอกาสสำเร็จ: %d%%#
 The target isn't in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
 There is no target in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
 Cash Shop#
@@ -3554,8 +3554,8 @@ money#
 %s %d ชิ้น#
 Exchange failed.#
 Exchange successfuly completed.#
-Not enough items to exchange.#
-The item has been sold and out of stock.#
+เกิดข้อผิดพลาด: โปรดตรวจสอบวัตถุดิบ#
+เกิดข้อผิดพลาด: Item ถูกแลกเปลี่ยนหมดแล้ว#
 KO'ed#
 PvP#
 ขยายช่องเก็บของ#
@@ -3686,8 +3686,8 @@ Failed to open the stall. Please close the window of the purchase stall.#
 The list of stall items for sale has been saved.#
 The list of purchase stall items has been saved.#
 VTC authentication failed.#
-Equipment cannot be worn while bartering.#
-Items you want to exchange#
+เกิดข้อผิดพลาด: ไม่สามารถสวมใส่อุปกรณ์ได้ในขณะนี้#
+Items ที่จะแลกเปลี่ยน#
  Please raise 1st, 2nd and 3rd Job Skills.#
 You can have up to %d of the same item.#
 Up to %d items can be exchanged at once.#
