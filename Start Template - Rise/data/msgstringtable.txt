@@ -438,7 +438,7 @@ Not the suitable job for this type of work.#
 Guild#
 You didn't pay for this account. Would you like to pay for it now?#
 Server is jammed due to overpopulation. Please try again later.#
-Server ยังไม่ตัดคุณออกจากการเข้าเกมครั้งล่าสุด โปรดลองใหม่อีกครั้ง#
+Server ยังไม่ตัดคุณออก จากการเข้าเกมครั้งล่าสุด โปรดลองใหม่อีกครั้ง#
 Release Falcon#
 Dismount#
 Small#
@@ -1603,10 +1603,10 @@ Disable Battlefield icon.#
 Field notification was moved.#
 Admission pending notification of the battlefield#
 ใครบางคน#
- [%s] inflicts '%d' damage points on you.#
- [%s] attacked by [%s] with '%d' damage points.#
+ [%s] ทำ '%d' Damage ใส่คุณ#
+ [%s] ถูกตีโดย [%s] ด้วย '%d' Damage#
  [%s] รับ '%d' Damage#
- [%s] attacks [%s] with '%d' damage points.#
+ [%s] ตี [%s] ด้วย '%d' Damage#
 ทิ้ง %s (%d)#
 [%s] quest - defeating [%s] progress (%d/%d).#
 [%s] quest was deleted.#
@@ -1623,7 +1623,7 @@ Party member's experience message#
 Quest information#
 Battlefield message#
 #
-Casts [%s] skill.#
+ร่าย [%s]#
 Lock หน้าต่าง Party เล็ก: ON#
 Lock หน้าต่าง Party เล็ก: OFF#
 %s has opened [%s] and recieved [%s].#
