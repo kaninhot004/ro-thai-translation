@@ -141,9 +141,9 @@ Please change your desktop Color Depth to 16-bit when running Ragnarok in window
 [Alt] + [End]: Turns HP/SP Bar On or Off#
 [Alt] + [Home]: Turns Ground Cursor On or Off#
 [Insert]: Makes you sit or stand. (Hotkey to toggle between /sit and /stand)#
-Congratulations! You are the MVP! Your reward item is #
+MvP DROP: #
 !!#
-Congratulations! You are the MVP! Your reward EXP Points are #
+MvP EXP: #
 !!#
 You are the MVP, but you can't take the reward because you are over your weight limit.#
  Offline อยู่#
@@ -2029,7 +2029,7 @@ Length exceeds the maximum size of the character name you want to change.#
 Name contains invalid characters. Character name change failed.#
 The name change is prohibited. Character name change failed.#
 Complete#
-For %d minutes your Exp will increase by %d%%.#
+เป็นเวลา %d นาที EXP มากขึ้น %d%%#
 %02d seconds left until summon.#
 Your party leader summons you to %s (%s). Warp costs %d Zeny.#
 Summon target#
@@ -2469,8 +2469,8 @@ Insufficient bullet#
 AuthTicket is Not Valid#
 ErrorCategory : %d, ErrorCode : %d (%d,%d,%d,%d)#
 %d%% ( Basic 100%% + Premium %d%% + Internet cafe %d%% + %s Server %d%% )#
-เป็นเวลา %d นาที Drop ง่ายขึ้น %d%%#
-เป็นเวลา %d นาที %.2d, Drop ง่ายขึ้น %d%%#
+เป็นเวลา %d นาที DROP ง่ายขึ้น %d%%#
+เป็นเวลา %d นาที %.2d, DROP ง่ายขึ้น %d%%#
 ยืนยัน?#
 100000000#
 #
