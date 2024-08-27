@@ -1334,14 +1334,14 @@ Memorial Dungeon %s's reservation has been canceled.#
 Failed to create Memorial Dungeon %s. Please try again.#
 เกิดข้อผิดพลาด: ไม่สามารถใช้ได้ในจุดนี้#
 This item cannot be used within this area.#
-Memorial Dungeon#
-%s in Standby#
-%s Available#
-%s in Progress#
+Instance Dungeon#
+%s กำลังเตรียมการ#
+%s เล่นได้แล้ว#
+%s กำลังเล่นอยู่#
 No one entered the Memorial Dungeon within its duration; the dungeon has disappeared.#
 Please apply for dungeon entry again to play in this dungeon.#
 Your Standby Priority: ^ff0000%d^000000#
-The requested dungeon will be removed if you do not enter within ^ff0000%s^000000.#
+หมดอายุ ^ff0000%s^000000#
 Dungeon Mission Time Limit:#
 The Memorial Dungeon reservation has been canceled.#
 The Memorial Dungeon duration expired; it has been destroyed.#
@@ -3268,7 +3268,7 @@ The Server Storage can only store inventory items.#
 You can't store Cute Pet Egg in Server Storage.#
 You can't store Forged/Brewed item in Server Storage.#
 %s can't be stored.#
-Destroy instance#
+ทำลาย Instance#
 [%s] successfully upgrades an equipment, [+%d %s] obtained.#
 [%s] fails to upgrade [+%d %s].#
 You can leave a party after delegation.#
