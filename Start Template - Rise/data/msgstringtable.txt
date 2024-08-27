@@ -1342,11 +1342,11 @@ No one entered the Memorial Dungeon within its duration; the dungeon has disappe
 Please apply for dungeon entry again to play in this dungeon.#
 Your Standby Priority: ^ff0000%d^000000#
 หมดอายุ ^ff0000%s^000000#
-Dungeon Mission Time Limit:#
-The Memorial Dungeon reservation has been canceled.#
-The Memorial Dungeon duration expired; it has been destroyed.#
-The Memorial Dungeon's entry time limit expired; it has been destroyed.#
-The Memorial Dungeon has been removed.#
+หมดอายุ:#
+ยกเลิกการรอเข้า Instance Dungeon เรียบร้อยแล้ว#
+Instance Dungeon หมดอายุแล้ว#
+Instance Dungeon หมดอายุแล้ว#
+Instance Dungeon ถูกทำลายแล้ว#
 A system error has occurred in the Memorial Dungeon. Please relog in to the game to continue playing.#
 This slot is not usable.#
 Your Base Level is over 15.#
