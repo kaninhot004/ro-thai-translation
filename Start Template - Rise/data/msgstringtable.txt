@@ -521,7 +521,7 @@ Number of Members#
 Ranking#
 ตรวจสอบ Item#
 ฝัง#
-Please enter the reason of Withdrawal.#
+โปรดระบุสาเหตุ#
 ข้อหา#
 Please close Shop.#
 Skill #
@@ -1921,7 +1921,7 @@ When died#
 When invited to a party#
 Pickup Item#
 Over 85%% Weight#
-Any work in progress (NPC dialog, manufacturing ...) quit and try again.#
+เกิดข้อผิดพลาด: โปรดจบการสนทนากับ NPC เสียก่อน#
 Monster Job hunting experience that you can get through the doubling of %d is %.2f minutes.#
 SaveData_ExMacro %d#
 Settings for [%s] are stored in.#
