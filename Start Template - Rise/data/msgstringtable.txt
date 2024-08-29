@@ -1221,9 +1221,9 @@ User Information is not correct.#
 Another user is using this character name, so please select another one.#
 The party member was not summoned because you are not the party leader.#
 There is no party member to summon in the current map.#
-You cannot find any trace of a Boss Monster in this area.#
-Boss Monster, %s will appear in %02d hour(s) and %02d minute(s).#
-The location of Boss Monster, [%s], will be displayed on your Mini-Map.#
+เกิดข้อผิดพลาด: ไม่พบ Boss#
+[%s] จะปรากฎอีกครั้งภายใน %02d ชั่วโมง %02d นาที#
+ตำแหน่ง [%s] ปรากฎบน Minimap เรียบร้อยแล้ว#
 ยืนยัน?#
 The Purchase has failed because the NPC does not exist.#
 The Purchase has failed because the Kafra Shop System is not working correctly.#
@@ -1250,7 +1250,7 @@ Critical Attack has returned to normal.#
 You will receive 1.5 times more EXP from hunting monsters for the next 30 minutes.#
 This character will not receive any EXP penalty if ko'ed within the next 30 minutes.#
 Regular item drops from monsters will be doubled for the next 30 minutes.#
-Boss Monster Map Information is revealed for the next 10 minutes.#
+เป็นเวลา 10 นาที ตำแหน่ง Boss จะปรากฎใน Minimap#
 Do you really want to purchase this item? %d points will be deducted from your total Kafra Credit Points.#
 Cash ไม่เพียงพอ#
  ^ff0000ใช้ได้ถึง: %s^000000#
@@ -1259,7 +1259,7 @@ Cash ไม่เพียงพอ#
  [%s] item has been deleted from the Inventory.#
 Input Number#
 %m/%d %H:%M#
-Boss Monster [%s] will appear within 1 minute.#
+[%s] จะปรากฎอีกครั้งภายใน 1 นาที#
 รายการ Skill Mercenary#
 Do you agree to cast the magic spell that consumes 1 Black Gemstone and 1,000,000 Zeny?#
 [Point] You have gained %d Collector Rank Points; you now have a total of %d Collector Rank Points.#
