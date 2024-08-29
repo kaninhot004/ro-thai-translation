@@ -1,7 +1,7 @@
 Do you agree?#
 เกิดข้อผิดพลาดกับระบบ#
-Disconnected from Server.#
-Disconnected from Server!#
+ถูกตัดออกจาก Server#
+ถูกตัดออกจาก Server#
 Server Closed.#
 มีคนอื่นเข้าเกมด้วย ID นี้#
 Unregistered ID. Please make sure you have a registered account and you have correctly typed in the user ID.#
