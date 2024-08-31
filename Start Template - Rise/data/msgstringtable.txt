@@ -1718,11 +1718,11 @@ Party recruitment related command#
 Guild alliance application is not possible..#
 Guild hostility application is not possible.#
 Adding friends is not possible in this map.#
-Buying Store Window#
+ร้านค้ารับซื้อของฉัน#
 ราคา: #
-Money: #
-Purchase Zeny Limit#
-Please register the item first that has to be purchased.#
+Zeny: #
+ต้องมี Zeny#
+โปรดกำหนด Item ที่จะรับซื้อเสียก่อน#
 Please enter the price for item %s.#
 Please enter the price for item %s. It must be less than 9999 million Zeny.#
 Please enter the quantity for %s.#
@@ -1731,15 +1731,15 @@ You have duplicate items in your purchase list.#
 Enter the limited price.#
 You have entered a greater amount of zeny than you have. Please check your zeny.#
 %s : %s  Zeny => %s ea.#
-Available items:#
-Purchase list:#
-Price limit: %s Zeny#
-Buying %s for %s Zeny. Amount: %d.#
+Item ที่รับซื้อได้:#
+Item ที่รับซื้อ:#
+จำกัด Zeny: %s Zeny#
+รับซื้อ %s ราคา %s Zeny จำนวน: %d#
 Wanted items#
 Available items:#
 The max. number of items you can sell is %d.#
 Buyer has insufficient zeny, lower the amount of items you're selling.#
-Failed to open purchase shop.#
+เกิดข้อผิดพลาด: ไม่สามารถตั้งร้านค้ารับซื้อได้#
 You exceed the total amount of items.#
 You have purchased all items within the limited price.#
 You purchased all items.#
@@ -2696,7 +2696,7 @@ E X P : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
 DROP  : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
 DEATH : %.1f%% ( basic 100.0%% Internet cafe %.1f%% + %s %.1f%% )#
 The number of items that can be attached is exceeded.#
-Notify when item purchased#
+แจ้งเตือนเมื่อซื้อ Item#
 Unable to attach the items.#
 Because you cannot win a slam room and turn the roulette of the next higher step.#
 ตอบกลับ#
@@ -3220,9 +3220,9 @@ Account is not active#
 %lld Base Experience obtained#
 '%lld' Base Experience#
 0z ~ 10,000z: ^1567fe0%^000000 | 10,001z ~ 100,000z: ^1567fe2%^000000 | 100,001z ~ 1,000,000z: ^1567fe4%^000000 | 1,000,001z ~ 10,000,000z: ^1567fe6%^000000 | 10,000,001z ~ 100,000,000z: ^1567fe8%^000000 | 100,000,001z+: ^1567fe10%^000000#
-Total amount : #
+ขายได้ราคา: #
 ~ เมื่อขาย Item จะได้รับ Zeny ทั้งหมด #
-~ When buying items, total amount of zeny reduced #
+~ เมื่อซื้อ Item จะจ่าย Zeny ให้ผู้ซื้อ #
 ห้องสนทนา#
 Character with this level cannot join the party#
 '%lld' Job Experience#
@@ -3681,7 +3681,7 @@ Balance: %s %c#
 ยืนยัน?#
 ยืนยัน?#
 The call was rejected.#
-The purchase limit cannot exceed your possession.#
+เกิดข้อผิดพลาด: Zeny ไม่เพียงพอหรือแบกของไม่ไหวแล้ว#
 Failed to open the stall. Please close the window of the purchase stall.#
 The list of stall items for sale has been saved.#
 The list of purchase stall items has been saved.#
