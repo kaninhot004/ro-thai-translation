@@ -455,7 +455,7 @@ You are prohibited to log in until %s.#
 's Earth #
 127.0.0.1#
 6900#
-https://rathena.org/board/#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 Kick %s#
 Very Strong #
 Very Very Strong #
@@ -526,7 +526,7 @@ Ranking#
 Please close Shop.#
 Skill #
 Item Name#
-https://pay.ragnarok.co.kr (Billing Web)#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 IP capacity of this Internet Cafe is full. Would you like to pay the personal base?#
 You are out of available paid playing time. Game will be shut down automatically.#
 Name is too long. Please enter a name up to 23 english characters.#
@@ -1306,7 +1306,7 @@ Insufficient Skill Level for joining a Party#
 [%s]'s Free Cash: %d Cash#
 Use Free Cash: #
 Cash#
-http://payment.ro.hangame.com/index.asp#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 You need to accept the Privacy Policy from Gravity in order to use the service.#
 You need to accept the User Agreement in order to use the service.#
 Incorrect or nonexistent ID.#
@@ -2165,7 +2165,7 @@ No restrictions#
 ย้ายมาตรงนี้#
 เริ่มการเปลี่ยนชื่อตัวละคร#
 Create Character#
-http://ro.game.gnjoy.com/#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 (%s) Server#
 Item Merge#
 Two or more of the same type. Please select an item.#
@@ -2180,8 +2180,8 @@ Existing server information#
 ^ff0000Existing character: ^0000ff#
 HP ของ Monster เมื่อโจมตี: ON#
 HP ของ Monster เมื่อโจมตี: OFF#
-Merge does not exist as an item#
-Merge items available does not exist.#
+เกิดข้อผิดพลาด: ไม่พบ Item ที่แยกกันอยู่#
+เกิดข้อผิดพลาด: ไม่พบ Item ที่แยกกันอยู่#
 Act#
 Pen#
 Rec#
@@ -2344,7 +2344,7 @@ Online since %d hours and %d minutes#
 Skill Points : #
 There is no response from the authentification server. Please try again#
 Please change your password#
-http://www.ragnarok.co.kr#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 Guest access is prohibited#
 Your System is been Shutdown, %1.2d-%1.2d-%1.2d %1.2d:%1.2d:%1.2d is the end time.#
 Selected System Shutdown is activated in your account,Time Left: %1.2d hours %1.2d minutes.#
@@ -2365,7 +2365,7 @@ Clan#
 ครองปราสาท#
 Clan Chat#
 Go to Page Charged.#
-https://gfb.gameflier.com/Billing/ingame/index_new.asp?#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 Create Character#
 Name does not match#
 Enter the name of character#
@@ -2478,8 +2478,8 @@ ErrorCategory : %d, ErrorCode : %d (%d,%d,%d,%d)#
 #
 #
 แจ้งเตือนราคา 10m+ Zeny#
-https://www.warpportal.com/account/login.aspx?ReturnUrl=%2faccount%2fpayment.aspx#
-https://kepler.warpportal.com/ro1/purchase/?step=1&steamid=%lld&accountname=#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 A giant crevice appeared in Bifrost, the bridge between Splendide, the end of the world and the floating continent of Alfheim, and you do not know the source of the labyrinth forest.#
 This is a marker indicating the end of the trip, a new world is opening indicators! Guardian, such as the lyrics to the temptation was gradually losing the soul.#
 For thousands of years, a mysterious melody has mesmerized the guardian. After a millennia of slumber, the guardian became confused about what he had been protecting all these years, and began to suspect that he might be the one who has been sealed and hidden away.#
@@ -2526,8 +2526,8 @@ Item stock is low. You can only buy %d items.#
 %s Items are on sale#
 %s time-out or sale of the items sold has been shut down due to the limited sales #
 /limitedsale#
-http://www.ragnarokeurope.com/news/home-r70.html#
-http://www.ragnarokeurope.com/index.php?rubrique=70&Steam#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 Item purchase successful#
 You do not have enough items.#
 Character with that name is not possible to invite.#
@@ -2563,7 +2563,7 @@ Requires a Coin.#
 [Heat Barrel], [Madness Canceller] and [Platinum Alter] cannot be used while sitting.#
 Cannot use skill in this map.#
 ยืนยัน?#
-http://ragnarok.gamesamba.com/paytest.html#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 Please enter a password to login.#
 Pet Evolution#
 Evolution - %s#
@@ -3034,7 +3034,7 @@ A work is in progress, please try again.#
 Unable to register item#
 /100#
 /2000#
-https://member.gnjoy.com.tw/mRO_SecPwd.aspx#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 The selected emblem isn't available, try placing it in 'emblem' folder then try again#
 New Ragnarok Online#
 Please obtain permission first from other user that appears in screenshot or chat room#
@@ -3299,7 +3299,7 @@ Cash Shop#
 พิเศษ#
 เติมเงิน#
 ซื้อ#
-https://rathena.org/board/clients/donations/#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 ค้นหา Item#
 Cash ฟรี#
 ใช้ Cash ฟรี#
@@ -3311,7 +3311,7 @@ Star Emperor(Boy)#
 Soul Reaper(Boy)#
 HP/SP จะไม่ฟื้นฟูเนื่องจากแบกของมากเกิน %d%%#
 The number of items that can be purchased in 8.#
-https://rathena.org/board/crowdfunding/#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 UNKNOWN ERROR:%d#
 NOT USER#
 THIS ACCOUNT ID IS BLOCKED#
@@ -3443,7 +3443,7 @@ Name with bad words can not be searched.#
 The party master cannot accept the request.#
 No party can be found.#
 Dealer#
-http://rathena.org#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 UP#
 DOWN#
 You're already friends#
@@ -3579,7 +3579,7 @@ Damage K/M#
 #
 Vertical Sync#
 Material#
-http://rodata.zhaouc.com/renwu.html#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 หัวข้อ#
 Frame Limit#
 If it exceeds %d it can no longer be installed.#
@@ -3772,7 +3772,7 @@ The target has reached it's maximum AP.#
 ยืนยัน?#
 ยืนยัน?#
 Requires %d Servant Weapons#
-https://member.gnjoy.com.tw/billing.aspx#
+https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/#
 Descending#
 #
 ค้นหา#
