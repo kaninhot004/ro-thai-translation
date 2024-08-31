@@ -1724,7 +1724,7 @@ Zeny: #
 ต้องมี Zeny#
 โปรดกำหนด Item ที่จะรับซื้อเสียก่อน#
 Please enter the price for item %s.#
-Please enter the price for item %s. It must be less than 9999 million Zeny.#
+โปรดแก้ไขราคา %s ราคาต้องน้อยกว่า 9999m#
 Please enter the quantity for %s.#
 The total quantity of %s in possession is more than 9999. Please enter value less than 9999.#
 You have duplicate items in your purchase list.#
@@ -3220,7 +3220,7 @@ Account is not active#
 %lld Base Experience obtained#
 '%lld' Base Experience#
 0z ~ 10,000z: ^1567fe0%^000000 | 10,001z ~ 100,000z: ^1567fe2%^000000 | 100,001z ~ 1,000,000z: ^1567fe4%^000000 | 1,000,001z ~ 10,000,000z: ^1567fe6%^000000 | 10,000,001z ~ 100,000,000z: ^1567fe8%^000000 | 100,000,001z+: ^1567fe10%^000000#
-ขายได้ราคา: #
+รวม: #
 ~ เมื่อขาย Item จะได้รับ Zeny ทั้งหมด #
 ~ เมื่อซื้อ Item จะจ่าย Zeny ให้ผู้ซื้อ #
 ห้องสนทนา#
