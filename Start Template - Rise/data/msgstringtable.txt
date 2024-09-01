@@ -3455,7 +3455,7 @@ This account has limited in-game access due to a secondary password mis-input. \
 You've entered wrong password 3 times. Your account will be locked for 24 hours to secure your account.\n To release it go to -> Change personal information -> and enter your secondary password.#
 Officer#
 Day %d attendance reward.#
-There was an error when loading the data account settings. (Please restart to retry.)#
+#
 This skill can only be used when in party.#
 Party recruitment has been canceled.#
 Guild experience can be accumulated up to %d%%.#
