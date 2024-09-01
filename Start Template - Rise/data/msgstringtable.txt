@@ -176,7 +176,7 @@ Tip of the Day#
 ^3850a0Did you know...?^709fed#
 Display at startup#
 /tip: Opens ''Tip of the Day''#
-There are %d Players Currently Connected.#
+พบผู้เล่น %d คน#
 (%s) เข้าห้องสนทนา#
 (%s) ออกจากห้องสนทนา#
 (%s) ถูกขับไล่ออกจากห้องสนทนา#
