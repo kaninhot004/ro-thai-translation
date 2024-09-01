@@ -597,7 +597,7 @@ You have been knocked down by %s.#
 รายละเอียด Pet#
 Accessory#
 สวมใส่แล้ว#
-Pet List#
+รายการ Pet#
 ไม่ได้สวมใส่#
 ยืนยัน?#
 Only the numbers (0~9) are available.#
@@ -1770,7 +1770,7 @@ You have to select at least 1 or more jobs.#
 You have selected %d Jobs. You can only select up to 6 different jobs.#
 Only numeric characters are allowed.#
 Please enter levels between 1~150.#
-Nothing found in the selected map.#
+#
 You cannot equip this item with your current level.#
 You cannot use this item with your current level.#
 แปลไทยโดย Kanin Temsrisuk#
