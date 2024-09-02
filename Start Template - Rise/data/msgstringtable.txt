@@ -1814,7 +1814,7 @@ The selected name or prefix/suffix does not exist.#
 You can purchase up to 10 items.#
 Some items could not be purchased.#
 Enter your birthday (e.g: 20101126)#
-�١�Ѵ�͡�ҡ Server#
+�١�Ѵ�͡�ҡ Server#
 A database error has occurred.#
 Please leave your guild first in order to remove your character.#
 Please leave your party first in order to remove your character.#
