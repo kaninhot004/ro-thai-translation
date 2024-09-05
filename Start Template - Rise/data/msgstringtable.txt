@@ -3850,8 +3850,8 @@ There are not enough materials for the Combination.#
 Equipped Cards and Enchantments will be lost.#
 Equipped Cards may be lost.#
 Enchantments may be lost.#
-ï¿½ï¿½Í¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: ON#
-ï¿½ï¿½Í¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: OFF#
+«èÍ¹¼ÙéàÅè¹Í×è¹: ON#
+«èÍ¹¼ÙéàÅè¹Í×è¹: OFF#
 Check Details#
 Please check the details.#
 There are no items that can be combined.#
