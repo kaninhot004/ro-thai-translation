@@ -1735,8 +1735,8 @@ Item ที่รับซื้อได้:#
 Item ที่รับซื้อ:#
 จำกัด Zeny: %s Zeny#
 รับซื้อ %s ราคา %s Zeny จำนวน: %d#
-Wanted items#
-Available items:#
+Item ที่รับซื้อ#
+Item ที่ขายได้:#
 The max. number of items you can sell is %d.#
 Buyer has insufficient zeny, lower the amount of items you're selling.#
 เกิดข้อผิดพลาด: ไม่สามารถตั้งร้านค้ารับซื้อได้#
