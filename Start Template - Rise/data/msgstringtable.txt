@@ -157,11 +157,11 @@ Kick has failed.#
 How to Whisper: Enter a Character's Name on the left side of chat window and type your message on the right side. The Tab key helps you move between these boxes.#
 /!,/?,/ho,/lv,/lv2,/swt,/ic,/an,/ag,/$,/??,/thx,/wah,/sry,/heh,/swt2,/hmm,/no1,/??,/omg,/oh,/X,/hp,/go,/sob,/gg,/kis,/kis2,/pif,/ok: Emotion icons corresponding to Alt + (1~9) Ctrl + (-=\\)#
 How to Speak to Party: Add '%' in front of every message.(Example: \%Hello\)#
-You haven't learned enough Basic Skills to Trade.#
-You haven't learned enough Basic Skills to use Emotion icons.#
-You haven't learned enough Basic Skills to Sit.#
-You haven't learned enough Basic Skills to create a chat room.#
-You haven't learned enough Basic Skills to Party.#
+Lv. [Basic Skills] น้อยเกินไป#
+Lv. [Basic Skills] น้อยเกินไป#
+Lv. [Basic Skills] น้อยเกินไป#
+Lv. [Basic Skills] น้อยเกินไป#
+Lv. [Basic Skills] น้อยเกินไป#
 You haven't learned enough skills to Shout.#
 You haven't learned enough skills for Pking.#
 Item ที่จะซื้อ#
