@@ -69,7 +69,7 @@ The Room is full.#
 You have been kicked out of this room.#
 การแลกเปลี่ยนถูกยกเลิก#
 You are too far away from the person to trade.#
-The Character is not currently online or does not exist.#
+เกิดข้อผิดพลาด: ตัวละครไม่ได้ Online อยู่#
 The person is in another deal.#
 You cannot trade because this character will exceed his weight limit.#
 การแลกเปลี่ยนถูกยกเลิก#
@@ -148,7 +148,7 @@ MvP EXP: #
 You are the MVP, but you can't take the reward because you are over your weight limit.#
  Offline อยู่#
  ปิดกั้นการสนทนากับคุณ#
- is not in the mood to talk with anyone.#
+ ไม่สะดวกคุยกับใครในตอนนี้#
 Kick/Disconnected User.#
 Kick has failed.#
 รับ %s (%d)#
@@ -1257,7 +1257,7 @@ Cash ไม่เพียงพอ#
 [%s] มีเวลาใช้งาน %d นาที#
  [%s] item will be deleted from the Inventory in 1 minute.#
  [%s] item has been deleted from the Inventory.#
-Input Number#
+ระบุตัวเลข#
 %m/%d %H:%M#
 [%s] จะปรากฎอีกครั้งภายใน 1 นาที#
 รายการ Skill Mercenary#
@@ -1626,7 +1626,7 @@ Battlefield message#
 ร่าย [%s]#
 Lock หน้าต่าง Party เล็ก: ON#
 Lock หน้าต่าง Party เล็ก: OFF#
-%s has opened [%s] and recieved [%s].#
+%s เปิด [%s] ได้รับ [%s]#
 Swordman#
 Mage#
 Archer#
