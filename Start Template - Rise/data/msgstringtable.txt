@@ -3570,7 +3570,7 @@ It is not possible to purchase as it will exceeds the possession limit.#
 You can only buy one item at a time.#
 Star Emperor#
 Soul Reaper#
-The settings are stored on the server on normal exit.#
+การตั้งค่าจะถูกบันทึกลง Server เมื่อออกจากเกมตามปกติ#
 Capture Monster#
 ข้อความ#
 หัวข้อ#
