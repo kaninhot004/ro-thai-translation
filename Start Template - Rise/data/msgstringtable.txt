@@ -1255,8 +1255,8 @@ Do you really want to purchase this item? %d points will be deducted from your t
 Cash ไม่เพียงพอ#
  ^ff0000ใช้ได้ถึง: %s^000000#
 [%s] มีเวลาใช้งาน %d นาที#
- [%s] item will be deleted from the Inventory in 1 minute.#
- [%s] item has been deleted from the Inventory.#
+[%s] จะหมดอายุภายใน 1 นาที#
+[%s] หมดอายุ#
 ระบุตัวเลข#
 %m/%d %H:%M#
 [%s] จะปรากฎอีกครั้งภายใน 1 นาที#
@@ -1744,7 +1744,7 @@ You exceed the total amount of items.#
 You have purchased all items within the limited price.#
 You purchased all items.#
 Failed to deal because you have insufficient zeny.#
-You have sold %s. Amount: %d. Total Zeny: %dz#
+คุณได้ขาย [%s] จำนวน: %d ได้รับ Zeny: %dz#
 %s item could not be sold because you do not have the wanted amount of items.#
 You have not registered to sell the item.Please Register to sell item.#
 You don't have any summoned spirits.#
@@ -1951,7 +1951,7 @@ Please enter the value of the minimum level to be recruited.#
 Jonda agency receipt of the item to the NPC is not possible. Gaining possession of the free space of the window.#
 This skill is only available during WoE.#
 This skill is available only to the player.#
-Can't equip this item because you don't meet the requirements.#
+เกิดข้อผิดพลาด: ไม่สามารถสวมใส่อุปกรณ์ได้ในขณะนี้#
 เกิดข้อผิดพลาด: ไม่สามารถใช้ได้ในจุดที่ยืนอยู่#
 Elapsed time: %d:%d:%d / %d:%d:%d#
 Speed: X 1/4#
