@@ -4,27 +4,44 @@ echo Welcome to the Additions Generator!
 echo This will help you to copy over the files you want and need based on the choice you make.
 echo It will loop itself until you close the program or choose Exit.
 echo =================================================================
+echo Note: This should only be used after you run the ClientGenerator.bat!
+echo =================================================================
 pause
 chcp 1252
 set "sourceDataPath=..\Additions\data"
-set "sourceSystemPath=..\Additions\System"
+set "sourceSystemPath=..\Additions\SystemEN"
 set "destinationDataPath=.\Client\data"
-set "destinationSystemPath=.\Client\System"
-
+set "destinationSystemPath=.\Client\SystemEN"
+cls
+echo =================================================================
+echo First, type the Client Date you are using, that way I will only copy the files,
+echo your client supports!
+echo =================================================================
+echo Example: 20220406 for 2022-04-06
+echo =================================================================
+set /p date="Client Date (YYYYMMDD): "
+if not defined date (
+	echo You have not defined your client date!
+	exit
+)
 :AdditionsMenu
 cls
+echo =================================================================
+echo Client Date: %date%
 echo =================================================================
 echo [1] Data Folder
 echo [2] data\luafiles514
 echo [3] System Folder
 echo [4] Legacy Maps
-echo [5] Exit
+echo [5] Legacy Minimaps
+echo [6] Exit
 echo =================================================================
 set /p type="Now choose: "
 if %type% equ 1 goto DataMenu
 if %type% equ 2 goto DataLua
 if %type% equ 3 goto SysLua
 if %type% equ 4 goto DataMaps
+if %type% equ 5 goto MiniMaps
 exit
 
 :DataMenu
@@ -52,26 +69,27 @@ exit
 	echo [17] viewpointtable.txt %datac[17]%
 	echo =================================================================
 	set /p data="Now choose: "
-	if %data% equ 0 goto AdditionsMenu
-	if %data% equ 1 (
-	xcopy "%sourceDataPath%\bookitemnametable.txt" "%destinationDataPath%\bookitemnametable.txt"* /H /C /Y
-	xcopy "%sourceDataPath%\buyingstoreitemlist.txt" "%destinationDataPath%\buyingstoreitemlist.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\carditemnametable.txt" "%destinationDataPath%\carditemnametable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\cardpostfixnametable.txt" "%destinationDataPath%\cardpostfixnametable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\etcinfo.txt" "%destinationDataPath%\etcinfo.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\exceptionminimapnametable.txt" "%destinationDataPath%\exceptionminimapnametable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\fogParameterTable.txt" "%destinationDataPath%\fogParameterTable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\indoorrswtable.txt" "%destinationDataPath%\indoorrswtable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\itemmoveinfov5.txt" "%destinationDataPath%\itemmoveinfov5.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\leveluseskillspamount.txt" "%destinationDataPath%\leveluseskillspamount.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\manner.txt" "%destinationDataPath%\manner.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\mapobjlighttable.txt" "%destinationDataPath%\mapobjlighttable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\mappostable.txt" "%destinationDataPath%\mappostable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\metalprocessitemtable.txt" "%destinationDataPath%\metalprocessitemtable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\mp3nametable.txt" "%destinationDataPath%\mp3nametable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\num2cardillustnametable.txt" "%destinationDataPath%\num2cardillustnametable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\resnametable.txt" "%destinationDataPath%\resnametable.txt"* /H /C /I /Y
-	xcopy "%sourceDataPath%\viewpointtable.txt" "%destinationDataPath%\viewpointtable.txt"* /H /C /I /Y
+	if %data% equ 0 (
+		goto AdditionsMenu
+	) else if %data% equ 1 (
+		xcopy "%sourceDataPath%\bookitemnametable.txt" "%destinationDataPath%\bookitemnametable.txt"* /H /C /Y
+		xcopy "%sourceDataPath%\buyingstoreitemlist.txt" "%destinationDataPath%\buyingstoreitemlist.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\carditemnametable.txt" "%destinationDataPath%\carditemnametable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\cardpostfixnametable.txt" "%destinationDataPath%\cardpostfixnametable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\etcinfo.txt" "%destinationDataPath%\etcinfo.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\exceptionminimapnametable.txt" "%destinationDataPath%\exceptionminimapnametable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\fogParameterTable.txt" "%destinationDataPath%\fogParameterTable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\indoorrswtable.txt" "%destinationDataPath%\indoorrswtable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\itemmoveinfov5.txt" "%destinationDataPath%\itemmoveinfov5.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\leveluseskillspamount.txt" "%destinationDataPath%\leveluseskillspamount.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\manner.txt" "%destinationDataPath%\manner.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\mapobjlighttable.txt" "%destinationDataPath%\mapobjlighttable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\mappostable.txt" "%destinationDataPath%\mappostable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\metalprocessitemtable.txt" "%destinationDataPath%\metalprocessitemtable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\mp3nametable.txt" "%destinationDataPath%\mp3nametable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\num2cardillustnametable.txt" "%destinationDataPath%\num2cardillustnametable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\resnametable.txt" "%destinationDataPath%\resnametable.txt"* /H /C /I /Y
+		xcopy "%sourceDataPath%\viewpointtable.txt" "%destinationDataPath%\viewpointtable.txt"* /H /C /I /Y
 	) else if %data% equ 2 (
 		xcopy "%sourceDataPath%\bookitemnametable.txt" "%destinationDataPath%\bookitemnametable.txt"* /H /C /I /Y
 	) else if %data% equ 3 (
@@ -110,10 +128,10 @@ exit
 
     if %data% equ 1 (
         for /L %%i in (1,1,17) do (
-            set datac[%%i]= [ Copied ]
+            set datac[%%i]=[ Copied ]
         )
     ) else (
-		set datac[%data%]= [ Copied ]
+		set datac[%data%]=[ Copied ]
 	)
 	goto DataMenu
 	pause
@@ -140,17 +158,24 @@ exit
 	echo [14] Weapons %lua_c[14]%
 	echo [15] World Map %lua_c[15]%
 	echo [16] effecttool\forcerendereffect.lub %lua_c[16]%
-	echo [17] Hateffectinfo [2024-04-17 and newer only] %lua_c[17]%
+	echo [17] Hateffectinfo (2024-04-17 and newer) %lua_c[17]%
 	echo [18] skilleffectinfo %lua_c[18]%
 	echo [19] skillinfoz %lua_c[19]%
 	echo [20] stateicon %lua_c[20]%
 	echo [21] stylingshop %lua_c[21]%
-	echo [22] ItemDBNameTbl %lua_c[22]%
+	echo [22] ItemDBNameTbl (2021-10-28 and newer) %lua_c[22]%
 	echo =================================================================
 	set /p lua="Now choose: "
-	if %lua% equ 0 goto AdditionsMenu
-	if %lua% equ 1 (
+	if %lua% equ 0 (
+		goto AdditionsMenu
+	) else if %lua% equ 1 (
 		xcopy "%sourceDataPath%\luafiles514\" "%destinationDataPath%\luafiles514\" /E /H /C /I /Y
+		if %date% lss 20240417 (
+			if exist "%destinationDataPath%\luafiles514\lua files\hateffectinfo\" rmdir /S /Q "%destinationDataPath%\luafiles514\lua files\hateffectinfo\"
+		)
+		if %date% lss 20211028 (
+			if exist "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" del /S /Q "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"
+		)
 	) else if %lua% equ 2 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accessoryid.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accessoryid.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\accname.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\accname.lub"* /H /C /I /Y
@@ -190,7 +215,13 @@ exit
 	) else if %lua% equ 16 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\effecttool\forcerendereffect.lub" "%destinationDataPath%\luafiles514\lua files\effecttool\forcerendereffect.lub"* /H /C /I /Y
 	) else if %lua% equ 17 (
-		xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\hateffectinfo.lub" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\hateffectinfo.lub"* /H /C /I /Y
+		if %date% geq 20240417 (
+			xcopy "%sourceDataPath%\luafiles514\lua files\hateffectinfo\hateffectinfo.lub" "%destinationDataPath%\luafiles514\lua files\hateffectinfo\hateffectinfo.lub"* /H /C /I /Y
+		) else (
+			echo These files for hateffects are only supported by 2024-04-17 clients or newer!
+			pause
+			goto DataLua
+		)
 	) else if %lua% equ 18 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\skilleffectinfo\actorstate.lub" "%destinationDataPath%\luafiles514\lua files\skilleffectinfo\actorstate.lub"* /H /C /I /Y
 		xcopy "%sourceDataPath%\luafiles514\lua files\skilleffectinfo\effectid.lub" "%destinationDataPath%\luafiles514\lua files\skilleffectinfo\effectid.lub"* /H /C /I /Y
@@ -207,14 +238,26 @@ exit
 	) else if %lua% equ 21 (
 		xcopy "%sourceDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub" "%destinationDataPath%\luafiles514\lua files\stylingshop\stylingshopinfo.lub"* /H /C /I /Y
 	) else if %lua% equ 22 (
-		xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
+		if %date% geq 20211028 (
+			xcopy "%sourceDataPath%\luafiles514\lua files\ItemDBNameTbl.lub" "%destinationDataPath%\luafiles514\lua files\ItemDBNameTbl.lub"* /H /C /I /Y
+		) else (
+			echo This file is only supported by 2021-10-28 clients or newer!
+			pause
+			goto DataLua
+		)
 	)
 if %lua% equ 1 (
     for /L %%i in (1,1,22) do (
-        set lua_c[%%i]= [ Copied ]
+        set lua_c[%%i]=[ Copied ]
+		if %%i equ 17 (
+			if %date% lss 20240417 set lua_c[%%i]=
+		)
+		if %%i equ 22 (
+			if %date% lss 20211028 set lua_c[%%i]=
+		)
     )
 ) else (
-    set lua_c[%lua%]= [ Copied ]
+    set lua_c[%lua%]=[ Copied ]
 )
 
 	goto DataLua
@@ -226,42 +269,85 @@ if %lua% equ 1 (
 	echo System Folder
 	echo =================================================================
 	echo [0] Back to previous Menu
-	echo [1] All in One Package  %sys_c[1]%
-	echo [2] ChangeMaterial_EN.lub %sys_c[2]%
-	echo [3] CheckAttendance_EN.lub %sys_c[3]%
-	echo [4] monster_size_effect_EN.lub %sys_c[4]%
-	echo [5] PetEvolutionCln_true_E.lub %sys_c[5]%
-	echo [6] PrivateAirplane_T_EN.lub %sys_c[6]%
-	echo [7] Sign_Data_CLS.lub %sys_c[7]%
-	::echo [8] Rune Folder %sys_c[8]%
+	echo [1] All in One Package %sys_c[1]%
+	echo [2] ChangeMaterial.lub (2022-12-07 and newer) %sys_c[2]%
+	echo [3] CheckAttendance.lub %sys_c[3]%
+	echo [4] monster_size_effect.lub %sys_c[4]%
+	echo [5] PetEvolution.lub %sys_c[5]%
+	echo [6] PrivateAirplane.lub %sys_c[6]%
+	echo [7] Signboard_C.lub %sys_c[7]%
+	echo [8] OngoingQuests/RecommendedQuests_C.lub %sys_c[8]%
+	echo [9] Rune Folder (2023-08-02 and newer) %sys_c[9]%
 	echo =================================================================
 	set /p sys="Now choose: "
-	if %sys% equ 0 goto AdditionsMenu
-	if %sys% equ 1 (
-		xcopy "%sourceSystemPath%\" "%destinationSystemPath%\"* /H /C /I /Y 
+	if %sys% equ 0 (
+		goto AdditionsMenu
+	) else if %sys% equ 1 (
+		if %date% geq 20221207 (
+			xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
+		)
+		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\Signboard_C.lub" "%destinationSystemPath%\Signboard_C.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
+		if %date% leq 20170614 (
+			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+		) else (
+			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+		)
+		if %date% geq 20230802 (
+			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\"* /E /H /C /I /Y
+		)
 	) else if %sys% equ 2 (
-		xcopy "%sourceSystemPath%\ChangeMaterial_EN.lub" "%destinationSystemPath%\ChangeMaterial_EN.lub"* /H /C /I /Y
+		if %date% geq 20221207 (
+			xcopy "%sourceSystemPath%\ChangeMaterial.lub" "%destinationSystemPath%\ChangeMaterial.lub"* /H /C /I /Y
+		) else (
+			echo This file is only supported by 2022-12-07 clients or newer!
+			pause
+			goto SysLua
+		)
 	) else if %sys% equ 3 (
-		xcopy "%sourceSystemPath%\CheckAttendance_EN.lub" "%destinationSystemPath%\CheckAttendance_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\CheckAttendance.lub" "%destinationSystemPath%\CheckAttendance.lub"* /H /C /I /Y
 	) else if %sys% equ 4 (
-		xcopy "%sourceSystemPath%\monster_size_effect_EN.lub" "%destinationSystemPath%\monster_size_effect_EN.lub"* /H /C /I /Y
+		if %date% leq 20170614 (
+			xcopy "%sourceSystemPath%\monster_size_effect 20170614.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
+		) else (
+			xcopy "%sourceSystemPath%\monster_size_effect.lub" "%destinationSystemPath%\monster_size_effect.lub"* /H /C /I /Y
+		)
 	) else if %sys% equ 5 (
-		xcopy "%sourceSystemPath%\PetEvolutionCln_true_E.lub" "%destinationSystemPath%\PetEvolutionCln_true_E.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PetEvolution.lub" "%destinationSystemPath%\PetEvolution.lub"* /H /C /I /Y
 	) else if %sys% equ 6 (
-		xcopy "%sourceSystemPath%\PrivateAirplane_T_EN.lub" "%destinationSystemPath%\PrivateAirplane_T_EN.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\PrivateAirplane.lub" "%destinationSystemPath%\PrivateAirplane.lub"* /H /C /I /Y
 	) else if %sys% equ 7 (
-		xcopy "%sourceSystemPath%\Sign_Data_CLS.lub" "%destinationSystemPath%\Sign_Data_CLS.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\Signboard_C.lub" "%destinationSystemPath%\Signboard_C.lub"* /H /C /I /Y
+	) else if %sys% equ 8 (
+		xcopy "%sourceSystemPath%\OngoingQuests_C.lub" "%destinationSystemPath%\OngoingQuests_C.lub"* /H /C /I /Y
+		xcopy "%sourceSystemPath%\RecommendedQuests_C.lub" "%destinationSystemPath%\RecommendedQuests_C.lub"* /H /C /I /Y
+		xcopy "%sourceDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub" "%destinationDataPath%\luafiles514\lua files\datainfo\questinfo_f.lub"* /H /C /I /Y
+	) else if %sys% equ 9 (
+		if %date% geq 20230802 (
+			xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
+		) else (
+			echo These files is only supported by 2023-08-02 clients or newer!
+			pause
+			goto SysLua
+		)
 	)
-	::if %sys% equ 8 (
-	::	xcopy "%sourceSystemPath%\Rune\" "%destinationSystemPath%\Rune\" /E /H /C /I /Y
-	::	set sys_c[8]=Copied
-	::)
     if %sys% equ 1 (
-        for /L %%i in (1,1,7) do (
-            set sys_c[%%i]= [ Copied ]
+        for /L %%i in (1,1,9) do (
+            set sys_c[%%i]=[ Copied ]
+			if %%i equ 2 (
+				if %date% lss 20221207 set sys_c[%%i]=
+			)
+			if %%i equ 9 (
+				if %date% lss 20230802 set sys_c[%%i]=
+			)
         )
     ) else (
-		set sys_c[%sys%]= [ Copied ]
+		set sys_c[%sys%]=[ Copied ]
 	)
 	goto SysLua
 	pause
@@ -305,6 +391,8 @@ if %lua% equ 1 (
 	echo [30] sch_lab %omaps[30]%
 	echo [31] airplane %omaps[31]%
 	echo [32] payon %omaps[32]%
+	echo [33] ra_temple %omaps[33]%
+	echo [34] spl_fild01 %omaps[34]%
 	echo =================================================================
 	set /p map="Choose which maps you want to copy: "
 	if %map% equ 0 (
@@ -418,6 +506,10 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\payon.gnd" "%destinationDataPath%\payon.gnd"* /H /C /I /Y
 		xcopy "%sourceDataPath%\payon.rsw" "%destinationDataPath%\payon.rsw"* /H /C /I /Y
 		xcopy "%sourceDataPath%\texture\유저인터페이스\map\payon.bmp" "%destinationDataPath%\texture\유저인터페이스\map\payon.bmp"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.gat" "%destinationDataPath%\ra_temple.gat"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.gnd" "%destinationDataPath%\ra_temple.gnd"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.rsw" "%destinationDataPath%\ra_temple.rsw"* /H /C /I /Y
+		xcopy "%sourceDataPath%\spl_fild01.rsw" "%destinationDataPath%\spl_fild01.rsw"* /H /C /I /Y
 	) else if %map% equ 2 (
 		xcopy "%sourceDataPath%\einbroch.gat" "%destinationDataPath%\einbroch.gat"* /H /C /I /Y
 		xcopy "%sourceDataPath%\einbroch.gnd" "%destinationDataPath%\einbroch.gnd"* /H /C /I /Y
@@ -558,13 +650,85 @@ if %lua% equ 1 (
 		xcopy "%sourceDataPath%\payon.gnd" "%destinationDataPath%\payon.gnd"* /H /C /I /Y
 		xcopy "%sourceDataPath%\payon.rsw" "%destinationDataPath%\payon.rsw"* /H /C /I /Y
 		xcopy "%sourceDataPath%\texture\유저인터페이스\map\payon.bmp" "%destinationDataPath%\texture\유저인터페이스\map\payon.bmp"* /H /C /I /Y
+	) else if %map% equ 33 (
+		xcopy "%sourceDataPath%\ra_temple.gat" "%destinationDataPath%\ra_temple.gat"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.gnd" "%destinationDataPath%\ra_temple.gnd"* /H /C /I /Y
+		xcopy "%sourceDataPath%\ra_temple.rsw" "%destinationDataPath%\ra_temple.rsw"* /H /C /I /Y
+	) else if %map% equ 34 (
+		xcopy "%sourceDataPath%\spl_fild01.rsw" "%destinationDataPath%\spl_fild01.rsw"* /H /C /I /Y
 	)
     if %map% equ 1 (
-        for /L %%i in (1,1,32) do (
-            set omaps[%%i]= [ Copied ]
+        for /L %%i in (1,1,34) do (
+            set omaps[%%i]=[ Copied ]
         )
     ) else (
-		set omaps[%map%]= [ Copied ]
+		set omaps[%map%]=[ Copied ]
 	)
 	goto DataMaps
+	pause
+	
+:MiniMaps
+	cls
+	echo =================================================================
+	echo Legacy Minimaps
+	echo =================================================================
+	echo [0] Back to previous Menu
+	echo [1] All in One Package %mmaps[1]%
+	echo [2] ama_dun01 %mmaps[2]%
+	echo [3] ayo_dun01 %mmaps[3]%
+	echo [4] ice_dun04 %mmaps[4]%
+	echo [5] map2_int %mmaps[5]%
+	echo [6] new_zone02 %mmaps[6]%
+	echo [7] new_zone04 %mmaps[7]%
+	echo [8] ra_temsky %mmaps[8]%
+	echo [9] tha_t07 %mmaps[9]%
+	echo [10] tha_t08 %mmaps[10]%
+	echo [11] thana_boss %mmaps[11]%
+	echo [12] tur_dun05 %mmaps[12]%
+	echo [13] tur_dun06 %mmaps[13]%
+	echo [14] yggdrasil01 %mmaps[14]%
+	echo [15] yuno_in02 %mmaps[15]%
+	echo =================================================================
+	set /p bmap="Choose which minimaps you want to copy: "
+	if %bmap% equ 0 (
+		goto AdditionsMenu
+	) else if %bmap% equ 1 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\" "%destinationDataPath%\texture\유저인터페이스\map\"* /H /C /I /Y
+	) else if %bmap% equ 2 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ama_dun01.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ama_dun01.bmp"* /H /C /I /Y
+	) else if %bmap% equ 3 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ayo_dun01.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ayo_dun01.bmp"* /H /C /I /Y
+	) else if %bmap% equ 4 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ice_dun04.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ice_dun04.bmp"* /H /C /I /Y
+	) else if %bmap% equ 5 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\map2_int.bmp" "%destinationDataPath%\texture\유저인터페이스\map\map2_int.bmp"* /H /C /I /Y
+	) else if %bmap% equ 6 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\new_zone02.bmp" "%destinationDataPath%\texture\유저인터페이스\map\new_zone02.bmp"* /H /C /I /Y
+	) else if %bmap% equ 7 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\new_zone04.bmp" "%destinationDataPath%\texture\유저인터페이스\map\new_zone04.bmp"* /H /C /I /Y
+	) else if %bmap% equ 8 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\ra_temsky.bmp" "%destinationDataPath%\texture\유저인터페이스\map\ra_temsky.bmp"* /H /C /I /Y
+	) else if %bmap% equ 9 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tha_t07.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tha_t07.bmp"* /H /C /I /Y
+	) else if %bmap% equ 10 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tha_t08.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tha_t08.bmp"* /H /C /I /Y
+	) else if %bmap% equ 11 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\thana_boss.bmp" "%destinationDataPath%\texture\유저인터페이스\map\thana_boss.bmp"* /H /C /I /Y
+	) else if %bmap% equ 12 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tur_dun05.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tur_dun05.bmp"* /H /C /I /Y
+	) else if %bmap% equ 13 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\tur_dun06.bmp" "%destinationDataPath%\texture\유저인터페이스\map\tur_dun06.bmp"* /H /C /I /Y
+	) else if %bmap% equ 14 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\yggdrasil01.bmp" "%destinationDataPath%\texture\유저인터페이스\map\yggdrasil01.bmp"* /H /C /I /Y
+	) else if %bmap% equ 15 (
+		xcopy "%sourceDataPath%\texture\유저인터페이스\map\yuno_in02.bmp" "%destinationDataPath%\texture\유저인터페이스\map\yuno_in02.bmp"* /H /C /I /Y
+	)
+    if %bmap% equ 1 (
+        for /L %%i in (1,1,15) do (
+            set mmaps[%%i]=[ Copied ]
+        )
+    ) else (
+		set mmaps[%bmap%]=[ Copied ]
+	)
+	goto MiniMaps
 	pause

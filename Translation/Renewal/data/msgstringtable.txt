@@ -360,7 +360,7 @@ Register as a Friend#
 Open 1:1 Chat between Friends#
 Open 1:1 Chat#
 Open 1:1 Chat between Strangers#
-Alarm when recieve a 1:1 Chat#
+Alarm when receive a 1:1 Chat#
 Are you sure that you want to expel him/her?#
 %s has left the guild.#
 Withdrawal Reason: %s#
@@ -1395,7 +1395,7 @@ An user of this server cannot connect to free server#
 Your password has expired. Please log in again#
 3rdJob#
 This skill can't be used on that target.#
-You can't use skill because you have exceeded the number Ancilla possession limit#
+You can't use skill because you have exceeded the Ancilla possession limit#
 [Holy Water] is required.#
 [Ancilla] is required.#
 Cannot be duplicated within a certain distance.#
@@ -1489,7 +1489,7 @@ Unable to specify a single key.#
 Unable to specify the key assigned.#
 Duplicated with [[%s]]. Do you still want to change?#
 Initialization is stored in the shortcut key settings. Do you want to initialized?#
-Skill Bar#
+Hotkey Bar#
 Interface#
 Macros#
 Shortcut Settings#
@@ -1626,7 +1626,7 @@ Battlefield message#
 Casts [%s] skill.#
 Activate lock function#
 Deactivate lock function#
-%s has opened [%s] and recieved [%s].#
+%s has opened [%s] and received [%s].#
 Swordman#
 Mage#
 Archer#
@@ -1694,7 +1694,7 @@ Recruiting Party#
 Only alphanumeric characters are allowed.#
 Notice#
 Item purchase failed due to incorrect shop information.#
-Item cannot be discarded from the window.#
+Item cannot be dropped from the hotkey bar.#
 hour(s)#
 Map#
 You can't use, equip or disarm items when you're trading.#
@@ -1746,11 +1746,11 @@ You purchased all items.#
 Failed to deal because you have insufficient zeny.#
 You have sold %s. Amount: %d. Total Zeny: %dz#
 %s item could not be sold because you do not have the wanted amount of items.#
-You have not registered to sell the item.Please Register to sell item.#
 You don't have any summoned spirits.#
-This is a restricted server.#
+This is a server alliance battle restriction.#
 OTP password is 6 digits long.#
 OTP information is unavailable. Please contact your administrator.#
+OTP authentication failed.#
 Party ad has been added.#
 Recruit party members#
 Roles#
@@ -1770,7 +1770,7 @@ You have to select at least 1 or more jobs.#
 You have selected %d Jobs. You can only select up to 6 different jobs.#
 Only numeric characters are allowed.#
 Please enter levels between 1~150.#
-Nothing found in the selected map.#
+Costume equipments are not visible on this map.#
 You cannot equip this item with your current level.#
 You cannot use this item with your current level.#
 Enable Battle Mode#
@@ -2057,7 +2057,7 @@ Leave Party#
 Party Invitation#
 Party Name:#
 Player Name:#
- has recieved an invitation to join your party.#
+ has received an invitation to join your party.#
  rejected your party invitation.#
  accepted your party invitation.#
 Recruitment is already a party.#
@@ -2566,7 +2566,7 @@ If you are using a guild storage, all items inside it will disappear.#
 http://ragnarok.gamesamba.com/paytest.html#
 Please enter a password to login.#
 Pet Evolution#
-Evolution - %s#
+Evo - %s#
 Evolution requires the following ingredients:#
 Do you want to evolve your pet?#
 Unknown Error#
@@ -2575,10 +2575,10 @@ It is not requested petal.#
 Evolution material is low.#
 Lack of required materials for evolution.#
 Pet can only be evolved when intimacy is Loyal.#
-Automatic feeding#
+Automatic Feeding#
 Your pet has been fed. %s (%d) remaining#
-Automatic feeding is ON#
-Automatic feeding is OFF#
+Automatic Feeding is ON#
+Automatic Feeding is OFF#
 Update#
 %d minutes ago#
 %d hours ago#
@@ -2644,9 +2644,9 @@ Notify when item sells out#
 Please check the fees.#
 Verify user name#
 Schedule deletion#
-Achievement Challenges#
-Achievement score#
-Achievement rank#
+Achievements#
+Achievement Score#
+Achievement Rank#
 [%5d] points to the next rank#
 Progress#
 Recent completed achievements#
@@ -2883,7 +2883,7 @@ Failed to store icon.#
 Failed to store replied answer.#
 Hello, illegal software is being monitored.#
 Please enter the text below within the specified time.#
-If you enter the text wrong three times, you will get banned.#
+If you enter the text wrong six times, you will get banned.#
 Remaining chance : %d#
 Character#
 Range#
@@ -2925,7 +2925,7 @@ Assign Guild Leader#
 Are sure want to assign %s as guild leader? After assigned your position will become %s#
 Cancel#
 Do you want to close the shop?#
-%02d day %02d hour %02d min %02d sec#
+%02d day(s) %02d hour(s) %02d minute(s) %02d second(s)#
 Unable to sign in#
 Unable to sign in because the maximum number of sign-in is exceeded#
 Please select a location for your shop#
@@ -3126,9 +3126,9 @@ Magical Damage#
 Magical Defense#
 Flee Rate#
 Attack Speed#
-Shortcut Description#
+Hotkey Guide#
 Effect#
-Skill shortcut (F1 ~ F9)#
+Hotkeys (F1 ~ F9)#
 Screenshot#
 Zoom Out#
 Zoom In#
@@ -3280,13 +3280,13 @@ Modified file is found. Please restart the game.#
 Auto \nFeeding#
 You can't feed Homunculus while the RODEX window is open.#
 Homunculus has been fed. [%s] - %d remaining#
-Homunculus automatic feeding is ON#
-Homunculus automatic feeding is OFF#
+Homunculus Automatic Feeding is ON#
+Homunculus Automatic Feeding is OFF#
 Homunculus receives \n10% of master's experience.#
 Rate : %d%%#
 The target isn't in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
 There is no target in attack range vicinity. Please use 'Alt + Right Click' to command Homunculus attacks a target.#
-Sell List#
+Cash Shop#
 Buy List#
 New#
 Popular#
@@ -3354,7 +3354,7 @@ You can not use items.#
 Can not move to the same map.#
 It is impossible to move when your character KO'ed#
 Character Creation#
-Registration in Adventurer Agency#
+Register in the Adventurer's Agency#
 Stop recruiting#
 Adventurer Agency Settings#
 Note#
@@ -3373,10 +3373,10 @@ Register#
 Contains words that cannot be used.#
 Join#
 PM#
-Party recruitment suspended#
+Cancel Recruitment#
 Edit#
-Entire#
-[% s] has requested to join the party.#
+All#
+[%s] has requested to join the party.#
 Login#
 Account#
 Exit#
@@ -3416,7 +3416,7 @@ Sign Up#
 Leader#
 You don't meet the required level to join the party.#
 Failed to register for the Adventurer's Agency.#
-Registered for the Adventurer's Agency.#
+You're party has been registered in the Adventurer's Agency.#
 Enter search details#
 Tank#
 %.1f%% (+ %s server %.1f%%)#
@@ -3463,19 +3463,19 @@ Guild level is at maximum, you can no longer contribute to guild exp.#
 To keep your account secure, please login to MOTP homepage.\nPlease try to log in to the home page.#
 Physical attack and magical attack have been improved.#
 Physical attack and magical attack have been reduced.#
-Server %s attendance reward#
-Event period: month %02d day %02d -  month %2d day %2d 24:00#
-day %d#
+Server %s Attendance Reward#
+Event period: %02d/%02d ~ %2d/%2d 24:00#
+Day %d#
 Click the item to claim day %d reward#
 You have claimed day %d reward#
-D-day#
+Day#
 #
 Attendance check failed. Please try again.#
 Attendance check#
 Currently there is no attendance check event.#
 Guild experience reaches max, You can no longer accumulate Guild EXP#
 Character experience reaches max, You can no longer accumulate Guild EXP#
-message#
+Message#
 Failed to send message to twitter#
 Must at least 4 characters in English, or 2 characters in Hangul.#
 Monster taming is prohibited in this map.#
@@ -3496,13 +3496,13 @@ Unable to find applicable party.#
 You can not join the party because your job level is low.#
 The current requestor is in an area where it's not possible to join the party.#
 Party number exceeded.#
-%s party leader has approved you to join the party.#
-%s party leader has rejected you from joining the party.#
-%s is already in the party.#
-%s has accepted party invitation.#
-%s refused party invitation.#
+[%s]'s party leader has approved your join request.#
+[%s]'s party leader has rejected your join request.#
+[%s] is already in the party.#
+[%s] accepted your party invitation.#
+[%s] refused your party invitation.#
 Since you can not receive party request, %s's party invitation has been rejected.#
-Adventurer's Agency List#
+Adventurer's Agency#
 Request to join the party#
 If you are not a party leader, you can not register party at the Adventurer's Agency.#
 You can not stop the party recruitment.#
@@ -3558,21 +3558,21 @@ Not enough items to exchange.#
 The item has been sold and out of stock.#
 KO'ed#
 PvP#
-Expand possession limit#
-Do you want to expand the maximum possession limit by using ^0000ff%s^000000? \nIt will expand from (^0000ff%d^000000) to (^0000ff%d^000000).\n^ff0000 Expanded item possession limit can't be reversed.^000000#
+Expand inventory limit#
+Do you want to expand the maximum inventory limit by using ^0000ff%s^000000? It will expand from (^0000ff%d^000000) to (^0000ff%d^000000). ^ff0000Expanded inventory limit can't be reversed.^000000#
 Failed to expand the maximum possession limit.#
-To expand the possession limit, please close other windows.#
-Failed to expand the maximum possession limit, insufficient required item.#
-You can no longer expand the maximum possession limit.#
-You have successfully expanded the possession limit.#
+To expand the inventory limit, please close other windows.#
+Failed to expand the maximum inventory limit, insufficient required item.#
+You can no longer expand your inventory limit.#
+You have successfully expanded your inventory limit.#
 You can't have more the same %d item at a time.#
 It is not possible to purchase as it will exceeds the possession limit.#
 You can only buy one item at a time.#
 Star Emperor#
 Soul Reaper#
-The settings are stored on the server on normal exit.#
+The hotkey settings are stored on the server on normal exit.#
 Capture Monster#
-message#
+Message#
 TITLE#
 Expand Damage#
 Display Map Name#
@@ -3593,8 +3593,8 @@ Retrieve selected#
 Retrieve all#
 Would you like to retrieve the attachment of the selected email?#
 Would you like to retrieve all attached items in the [%s] mailbox?#
-Skill Bar 2#
-Change Skill Bar#
+Hotkey Bar 2#
+Switch Hotkey Bar#
 ¢®c#
 ¢®e#
 ¢®©¡#
@@ -3866,7 +3866,7 @@ All users have been set to receive status.#
 RODEX has been returned.#
 RODEX return failed.#
 The sender of this RODEX is not a friend or guild member. Please be careful.#
-Recieve RODEX from all users#
+Receive RODEX from all users#
 The duration of the same effect exceeds the limit and cannot be used.#
 If successful, Refine Level is reset to 0!#
 Cards, Random Options and Enchantments are maintained.#

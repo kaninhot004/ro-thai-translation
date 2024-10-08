@@ -2,7 +2,7 @@
 -- Continuated by llchrisll at https://github.com/llchrisll/ROenglishRE
 -- This file can be distributed, used and modified freely
 -- This file shouldn't be claimed as part of your project, unless you fork it from https://github.com/llchrisll/ROenglishRE
--- Last updated: 20240624
+-- Last updated: 20240911
 
 PRIORITY_GOLD = 0
 PRIORITY_RED = 1
@@ -16,33 +16,7 @@ StateIconImgList = {
 		[EFST_IDs.EFST_GOLDENMACECLAN] = "GOLDENMACECLAN.tga",
 		[EFST_IDs.EFST_CROSSBOWCLAN] = "CROSSBOWCLAN.tga",
 		[EFST_IDs.EFST_JUMPINGCLAN] = "eldicastes.tga",
-		[EFST_IDs.EFST_ESSENCE_OF_TIME] = "EssenceOfTime.tga",
-		-- jRO entries
-		[EFST_IDs.EFST_PAD_READER_KNIGHT] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_CRUSADER] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_BLACKSMITH] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_ALCHEMIST] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_ASSASSIN] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_ROGUE] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_WIZARD] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_SAGE] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_PRIEST] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_MONK] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_HUNTER] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_BARD] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_DANCER] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_TAEKWON] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_NINJA] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_GUNSLINGER] = "gogi.tga",
-		[EFST_IDs.EFST_PAD_READER_SUPERNOVICE] = "gogi.tga",
-		[EFST_IDs.EFST_ABYSS_001] = "거머리.tga",
-		[EFST_IDs.EFST_ABYSS_002] = "i_sightblaster.tga",
-		[EFST_IDs.EFST_ABYSS_003] = "i_sightblaster.tga",
-		[EFST_IDs.EFST_ABYSS_004] = "i_sightblaster.tga",
-		[EFST_IDs.EFST_ABYSS_005] = "hl_blind.tga",
-		[EFST_IDs.EFST_ABYSS_006] = "hl_curse.tga",
-		[EFST_IDs.EFST_ABYSS_007] = "glastheim_trans.tga",
-		[EFST_IDs.EFST_ABYSS_008] = "클라우드킬.tga"
+		[EFST_IDs.EFST_ESSENCE_OF_TIME] = "EssenceOfTime.tga"
 	},
 	[PRIORITY_RED] = {
 		[EFST_IDs.EFST_HANDICAPSTATE_NORECOVER] = "NORECOVER.TGA",
@@ -132,14 +106,7 @@ StateIconImgList = {
 		[EFST_IDs.EFST_TARGET_MARKER] = "크림즌마커.tga",
 		[EFST_IDs.EFST_BLOCK_SEAL] = "REBOUND.TGA",
 		[EFST_IDs.EFST_FROST_STORM] = "EFST_MISTYFROST.tga",
-		[EFST_IDs.EFST_GROGGY] = "BD_Stun.tga",
-		-- Non-kRO
-		[EFST_IDs.EFST_BODYSTATE_UNDEAD] = "BD_Undead.tga",
-		[EFST_IDs.EFST_HEALTHSTATE_BLIND] = "HL_Blind.tga",
-		[EFST_IDs.EFST_HEALTHSTATE_ANGELUS] = "HL_ANGELUS.tga",
-		[EFST_IDs.EFST_HEALTHSTATE_BLOODING] = "HL_Blooding.tga",
-		[EFST_IDs.EFST_PROPERTYUNDEAD] = "BD_Undead.tga",
-		[EFST_IDs.EFST_PRONTERA_JP] = "GLASTHEIM_HEAL.tga"
+		[EFST_IDs.EFST_GROGGY] = "BD_Stun.tga"
 	},
 	[PRIORITY_BLUE] = {
 		[EFST_IDs.EFST_ATTHASTE_CASH] = "ASPDCASH.TGA",
@@ -308,27 +275,10 @@ StateIconImgList = {
 		[EFST_IDs.EFST_CONTENTS_18] = "워머.TGA",
 		[EFST_IDs.EFST_CONTENTS_19] = "mvpcard_taogunka.TGA",
 		[EFST_IDs.EFST_CONTENTS_20] = "i_bunsin.TGA",
-		-- jRO
-		[EFST_IDs.EFST_ACUO_MINT_GUM] = "i_starcomfort.tga",
-		[EFST_IDs.EFST_S_HEALPOTION] = "소형생명수.tga",
-		[EFST_IDs.EFST_HANDICAPTOLERANCE_LEVELGAP] = "HANDICAPTOLERANCE_LEVELGAP.tga",
-		[EFST_IDs.EFST_MTF_MARIONETTE] = "helloween.tga",
-		[EFST_IDs.EFST_MTF_LUDE] = "helloween.tga",
-		[EFST_IDs.EFST_MTF_CRUISER] = "helloween.tga",
-		[EFST_IDs.EFST_HELM_VERKANA] = "물리방어포션.tga",
-		[EFST_IDs.EFST_HELM_RHYDO] = "물리방어포션.tga",
-		[EFST_IDs.EFST_HELM_TURISUS] = "물리방어포션.tga",
-		[EFST_IDs.EFST_HELM_HAGALAS] = "물리방어포션.tga",
-		[EFST_IDs.EFST_HELM_ISIA] = "물리방어포션.tga",
-		[EFST_IDs.EFST_HELM_ASIR] = "물리방어포션.tga",
-		[EFST_IDs.EFST_HELM_URJ] = "물리방어포션.tga",
-		-- twRO
-		[EFST_IDs.EFST_CRI_DAMAGE] = "CRI_DAMAGE.tga",
-		[EFST_IDs.EFST_DEF_POWER] = "glastheim_def.tga",
-		[EFST_IDs.EFST_DEF_IGNORE] = "DEF_IGNORE.tga",
-		[EFST_IDs.EFST_BOW_ATK_POWER] = "BOW_ATK_POWER.tga",
-		[EFST_IDs.EFST_RED_ORG_POTION] = "Red_org_potion.tga",
-		[EFST_IDs.EFST_CAST_TIME] = "FAST_CAST_TIME.tga"
+		[EFST_IDs.EFST_CONTENTS_22] = "eldicastes.tga",
+		[EFST_IDs.EFST_CONTENTS_23] = "mvpcard_mistress.TGA",
+		[EFST_IDs.EFST_CONTENTS_24] = "mvpcard_taogunka.TGA",
+		[EFST_IDs.EFST_CONTENTS_25] = "mvpcard_orclord.TGA"
 	},
 	[PRIORITY_GREEN] = {
 		[EFST_IDs.EFST_SET_NUM_DEF] = "SETDEF.tga",
@@ -640,9 +590,11 @@ StateIconImgList = {
 		[EFST_IDs.EFST_VR_BOOK005] = "EFST_VRBOOK005.tga",
 		[EFST_IDs.EFST_VR_BOOK008] = "EFST_VRBOOK008.tga",
 		[EFST_IDs.EFST_VR_BOOK009] = "EFST_VRBOOK009.tga",
-		-- Other official effects
-		[EFST_IDs.EFST_YGGDRASIL_BLESS] = "vitata500.tga",
-		[EFST_IDs.EFST_PERIOD_RECEIVEITEM_2ND] = "ITEM_G.tga",
-		[EFST_IDs.EFST_PERIOD_PLUSEXP_2ND] = "EXP_G.tga"
+		[EFST_IDs.EFST_MYSTERY_POWDER] = "EFST_MYSTERY_POWDER.TGA",
+		[EFST_IDs.EFST_CHASING] = "EFST_CHASING.TGA",
+		[EFST_IDs.EFST_FIRE_CHARM_POWER] = "EFST_FIRE_CHARM_POWER.TGA",
+		[EFST_IDs.EFST_WATER_CHARM_POWER] = "EFST_WATER_CHARM_POWER.TGA",
+		[EFST_IDs.EFST_WIND_CHARM_POWER] = "EFST_WIND_CHARM_POWER.TGA",
+		[EFST_IDs.EFST_GROUND_CHARM_POWER] = "EFST_GROUND_CHARM_POWER.TGA"
 	}
 }
