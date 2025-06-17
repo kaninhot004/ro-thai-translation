@@ -197,7 +197,7 @@ This server provides English Text Characters Only.#
 : สามารถสนทนาส่วนตัวกับคุณได้แล้ว#
 : Command has failed.#
 : Command has failed. Block List is full.#
-เกิดข้อผิดพลาดในการเปลี่ยนชื่อตัวละคร# 
+เกิดข้อผิดพลาดในการเปลี่ยนชื่อตัวละคร#
 ส่วนตัว#
 ปกติ#
 เกิดข้อผิดพลาด: SP ไม่เพียงพอ#
@@ -3027,8 +3027,8 @@ Another work is in progress.#
 Overheat limit : %d#
 You can't invite or withdraw while in Memorial dungeon.#
 Profanity detected.\nPlease check again.#
-Please enter at least %d characters. If you don't have account, please click [Register] button to create account.#
-Please enter at least %d characters.#
+โปรดระบุอย่างน้อย %d ตัวอักษร หากคุณยังไม่มี ID ให้ทำการสมัครเสียก่อน#
+โปรดระบุอย่างน้อย %d ตัวอักษร#
 A work is in progress, please try again.#
 %.1f%% (PCcafe %.1f%% + TPLUS %.1f%% + %s Server %.1f%%)#
 Unable to register item#
