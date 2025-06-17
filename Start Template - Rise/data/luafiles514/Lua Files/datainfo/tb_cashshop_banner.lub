@@ -1,0 +1,13 @@
+tb_cashshop_banner = {
+	[1] = {
+		"banner.bmp",
+		"https://kanintemsrisukgames.wordpress.com/2019/04/05/support-kt-games/"
+	}
+}
+
+-- Function #0
+set_cashshop_banner = function()
+	for key, value in ipairs(tb_cashshop_banner) do
+		add_cashshop_banner(value[1], value[2])
+	end
+end
