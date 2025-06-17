@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="euc-kr" ?>
+<clientinfo>
+	<desc>Ragnarok Client Information</desc>
+	<servicetype>korea</servicetype>
+	<servertype>primary</servertype>
+	<connection>
+		<display>Start Template - Rise</display>
+      		<address>127.0.0.1</address>
+      		<port>6900</port>
+      		<version>55</version>
+      		<langtype>5</langtype>
+		<registrationweb></registrationweb>
+		<loading>
+			<image>loading00.jpg</image>
+		</loading>
+		<aid>
+		</aid>
+   	</connection>
+</clientinfo>
