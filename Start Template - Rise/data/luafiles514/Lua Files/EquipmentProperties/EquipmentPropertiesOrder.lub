@@ -96,10 +96,10 @@ ValuePreset = { ExtParam = { [3] = Operation.ADD } }
 SymbolPreset = {
 	IncSign = { "+", "-" },
 	DecSign = { "-", "+" },
-	IncWord = { "Increased", "Decreased" },
-	DecWord = { "Decreased", "Increased" },
-	SkillWord = { "Enables", "Clear" },
-	ApplyWord = { "", " Clear" },
+	IncWord = { "เพิ่ม", "ลด" },
+	DecWord = { "ลด", "เพิ่ม" },
+	SkillWord = { "รับ", "ล้าง" },
+	ApplyWord = { "", " ล้าง" },
 	OnlyDecSign = { "", "-" }
 }
 EquipmentPropertiesOrder = {
@@ -2420,7 +2420,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 1000, [ValueOption.FLOAT] = 2 }
 			},
 			[6] = {
-				name = "{val}%#{sym} {sep} แรงขึ้น",
+				name = "{val}%#{sym} พลังโจมตี {sep}",
 				func = { "AddDamage_SKID" },
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.Target },
