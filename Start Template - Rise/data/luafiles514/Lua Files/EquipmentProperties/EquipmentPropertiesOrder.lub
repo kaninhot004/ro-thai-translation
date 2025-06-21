@@ -1215,14 +1215,14 @@ EquipmentPropertiesOrder = {
 		name = "Race",
 		order = {
 			[1] = {
-				name = "{sym}{val}%#Physical Damage against enemies of every races",
+				name = "{sym}{val}%#ตีกายภาพ",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
 				sym = SymbolPreset.IncSign
 			},
 			[2] = {
-				name = "{sym}{val}%#Physical Damage against Plant race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Plant",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -1230,7 +1230,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_PLANT[1]
 			},
 			[3] = {
-				name = "{sym}{val}%#Physical Damage against Undead race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Undead",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -1238,7 +1238,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_UNDEAD[1]
 			},
 			[4] = {
-				name = "{sym}{val}%#Physical Damage against Formless race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Formless",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -1246,7 +1246,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_NOTHING[1]
 			},
 			[5] = {
-				name = "{sym}{val}%#Physical Damage against Angel race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Angel",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -1254,7 +1254,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_ANGEL[1]
 			},
 			[6] = {
-				name = "{sym}{val}%#Physical Damage against Dragon race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -1262,7 +1262,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_DRAGON[1]
 			},
 			[7] = {
-				name = "{sym}{val}%#Physical Damage against Fish race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Fish",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -1270,7 +1270,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_FISHS[1]
 			},
 			[8] = {
-				name = "{sym}{val}%#Physical Damage against Insect race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Insect",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -1278,7 +1278,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_INSECT[1]
 			},
 			[9] = {
-				name = "{sym}{val}%#Physical Damage against Brute race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Brute",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -1286,7 +1286,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_ANIMAL[1]
 			},
 			[10] = {
-				name = "{sym}{val}%#Physical Damage against Demon race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Demon",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -1294,7 +1294,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_DEVIL[1]
 			},
 			[11] = {
-				name = "{sym}{val}%#Physical Damage against Demi-Human race enemies",
+				name = "{sym}{val}%#ตีกายภาพ ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -1302,7 +1302,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_HUMAN[1]
 			},
 			[12] = {
-				name = "{sym}{val}%#Physical damage against Demi-Human race players",
+				name = "{sym}{val}%#ตีกายภาพ ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -1310,7 +1310,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_PLAYER_HUMAN[1]
 			},
 			[13] = {
-				name = "{sym}{val}%#Physical damage against Doram race players",
+				name = "{sym}{val}%#ตีกายภาพ ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IncDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -1318,7 +1318,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_DAMAGE_PLAYER_DORAM[1]
 			},
 			[14] = {
-				name = "{sym}100%#physical defense of enemies of every race will be ignored",
+				name = "{sym}100%#เจาะ DEF",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.All },
@@ -1326,7 +1326,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_All"
 			},
 			[15] = {
-				name = "{sym}{val}%#physical defense of enemies of every race will be ignored",
+				name = "{sym}{val}%#เจาะ DEF",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
@@ -1335,7 +1335,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[16] = {
-				name = "{sym}100%#physical defense of Plant race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Plant",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Plant },
@@ -1343,7 +1343,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Plant"
 			},
 			[17] = {
-				name = "{sym}{val}%#physical defense of Plant race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Plant",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -1353,7 +1353,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[18] = {
-				name = "{sym}100%#physical defense of Undead race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Undead",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Undead },
@@ -1361,7 +1361,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Undead"
 			},
 			[19] = {
-				name = "{sym}{val}%#physical defense of Undead race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Undead",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -1371,7 +1371,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[20] = {
-				name = "{sym}100%#physical defense of Formless race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Formless",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Nothing },
@@ -1379,7 +1379,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Nothing"
 			},
 			[21] = {
-				name = "{sym}{val}%#physical defense of Formless race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Formless",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -1389,7 +1389,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[22] = {
-				name = "{sym}100%#physical defense of Angel race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Angel",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Angel },
@@ -1397,7 +1397,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Angel"
 			},
 			[23] = {
-				name = "{sym}{val}%#physical defense of Angel race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Angel",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -1407,7 +1407,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[24] = {
-				name = "{sym}100%#physical defense of Dragon race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Dragon },
@@ -1415,7 +1415,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Dragon"
 			},
 			[25] = {
-				name = "{sym}{val}%#physical defense of Dragon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -1425,7 +1425,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[26] = {
-				name = "{sym}100%#physical defense of Fish race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Fish",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Fish },
@@ -1433,7 +1433,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Fish"
 			},
 			[27] = {
-				name = "{sym}{val}%#physical defense of Fish race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Fish",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -1443,7 +1443,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[28] = {
-				name = "{sym}100%#physical defense of Insect race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Insect",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Insect },
@@ -1451,7 +1451,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Insect"
 			},
 			[29] = {
-				name = "{sym}{val}%#physical defense of Insect race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Insect",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -1461,7 +1461,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[30] = {
-				name = "{sym}100%#physical defense of Brute race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Brute",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Animal },
@@ -1469,7 +1469,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Animal"
 			},
 			[31] = {
-				name = "{sym}{val}%#physical defense of Brute race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Brute",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -1479,7 +1479,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[32] = {
-				name = "{sym}100%#physical defense of Demon race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Demon",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Demon },
@@ -1487,7 +1487,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Demon"
 			},
 			[33] = {
-				name = "{sym}{val}%#physical defense of Demon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Demon",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -1497,7 +1497,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[34] = {
-				name = "{sym}100%#physical defense of Demi-Human race enemies will be ignored",
+				name = "{sym}100%#เจาะ DEF ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.Human },
@@ -1505,7 +1505,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_Human"
 			},
 			[35] = {
-				name = "{sym}{val}%#physical defense of Demi-Human race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -1515,7 +1515,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[36] = {
-				name = "{sym}100%#physical defense of Demi-Human race players will be ignored",
+				name = "{sym}100%#เจาะ DEF ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.HumanPlayer },
@@ -1523,7 +1523,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_HumanPlayer"
 			},
 			[37] = {
-				name = "{sym}{val}%#physical defense of Demi-Human race players will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -1533,7 +1533,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[38] = {
-				name = "{sym}100%#physical defense of Doram race players will be ignored",
+				name = "{sym}100%#เจาะ DEF ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IgnoreDefByUnitRace,
 				val = { [0] = Operation.ONE },
 				cond = { [1] = Race.DoramPlayer },
@@ -1541,7 +1541,7 @@ EquipmentPropertiesOrder = {
 				uniq1 = "IgnoreDEF_Race_DoramPlayer"
 			},
 			[39] = {
-				name = "{sym}{val}%#physical defense of Doram race players will be ignored",
+				name = "{sym}{val}%#เจาะ DEF ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IgnoreDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -1551,14 +1551,14 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[40] = {
-				name = "{sym}{val}%#Magical Damage against enemies of every races",
+				name = "{sym}{val}%#ตีเวทย์",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
 				sym = SymbolPreset.IncSign
 			},
 			[41] = {
-				name = "{sym}{val}%#Magical Damage against Plant race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Plant",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -1566,7 +1566,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_PLANT[1]
 			},
 			[42] = {
-				name = "{sym}{val}%#Magical Damage against Undead race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Undead",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -1574,7 +1574,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_UNDEAD[1]
 			},
 			[43] = {
-				name = "{sym}{val}%#Magical Damage against Formless race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Formless",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -1582,7 +1582,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_NOTHING[1]
 			},
 			[44] = {
-				name = "{sym}{val}%#Magical Damage against Angel race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Angel",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -1590,7 +1590,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_ANGEL[1]
 			},
 			[45] = {
-				name = "{sym}{val}%#Magical Damage against Dragon race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -1598,7 +1598,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_DRAGON[1]
 			},
 			[46] = {
-				name = "{sym}{val}%#Magical Damage against Fish race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Fish",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -1606,7 +1606,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_FISHS[1]
 			},
 			[47] = {
-				name = "{sym}{val}%#Magical Damage against Insect race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Insect",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -1614,7 +1614,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_INSECT[1]
 			},
 			[48] = {
-				name = "{sym}{val}%#Magical Damage against Brute race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Brute",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -1622,7 +1622,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_ANIMAL[1]
 			},
 			[49] = {
-				name = "{sym}{val}%#Magical Damage against Demon race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Demon",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -1630,7 +1630,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_DEVIL[1]
 			},
 			[50] = {
-				name = "{sym}{val}%#Magical Damage against Demi-Human race enemies",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -1638,7 +1638,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_HUMAN[1]
 			},
 			[51] = {
-				name = "{sym}{val}%#Magical Damage against Demi-Human race players",
+				name = "{sym}{val}%#ตีเวทย์ ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -1646,7 +1646,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_PLAYER_HUMAN[1]
 			},
 			[52] = {
-				name = "{sym}{val}%#Magical Damage against Doram race players",
+				name = "{sym}{val}%#ตีเวทย์ ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IncMDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -1654,7 +1654,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_MDAMAGE_PLAYER_DORAM[1]
 			},
 			[53] = {
-				name = "{sym}{val}%#magical defense of enemies of every race will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
@@ -1662,7 +1662,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[54] = {
-				name = "{sym}{val}%#magical defense of Plant race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Plant",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -1671,7 +1671,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[55] = {
-				name = "{sym}{val}%#magical defense of Undead race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Undead",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -1680,7 +1680,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[56] = {
-				name = "{sym}{val}%#magical defense of Formless race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Formless",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -1689,7 +1689,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[57] = {
-				name = "{sym}{val}%#magical defense of Angel race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Angel",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -1698,7 +1698,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[58] = {
-				name = "{sym}{val}%#magical defense of Dragon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -1707,7 +1707,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[59] = {
-				name = "{sym}{val}%#magical defense of Fish race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Fish",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -1716,7 +1716,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[60] = {
-				name = "{sym}{val}%#magical defense of Insect race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Insect",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -1725,7 +1725,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[61] = {
-				name = "{sym}{val}%#magical defense of Brute race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Brute",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -1734,7 +1734,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[62] = {
-				name = "{sym}{val}%#magical defense of Demon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Demon",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -1743,7 +1743,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[63] = {
-				name = "{sym}{val}%#magical defense of Demi-Human race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -1752,7 +1752,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[64] = {
-				name = "{sym}{val}%#magical defense of Demi-Human race players will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -1761,7 +1761,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[65] = {
-				name = "{sym}{val}%#magical defense of Doram race players will be ignored",
+				name = "{sym}{val}%#เจาะ MDEF ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IgnoreMDefRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -1770,7 +1770,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[66] = {
-				name = "{sym}{val}#Critical against Formless race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Formless",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -1779,7 +1779,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[67] = {
-				name = "{sym}{val}#Critical against Undead race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Undead",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -1788,7 +1788,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[68] = {
-				name = "{sym}{val}#Critical against Brute race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Brute",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -1797,7 +1797,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[69] = {
-				name = "{sym}{val}#Critical against Plant race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Plant",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -1806,7 +1806,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[70] = {
-				name = "{sym}{val}#Critical against Insect race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Insect",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -1815,7 +1815,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[71] = {
-				name = "{sym}{val}#Critical against Fish race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Fish",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -1824,7 +1824,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[72] = {
-				name = "{sym}{val}#Critical against Demon race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Demon",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -1833,7 +1833,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[73] = {
-				name = "{sym}{val}#Critical against Demi-Human race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -1842,7 +1842,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[74] = {
-				name = "{sym}{val}#Critical against Angel race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Angel",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -1851,7 +1851,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[75] = {
-				name = "{sym}{val}#Critical against Dragon race enemies",
+				name = "{sym}{val}#Critical ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -1860,7 +1860,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[76] = {
-				name = "{sym}{val}#Critical against Demi-Human race players",
+				name = "{sym}{val}#Critical ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -1869,7 +1869,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[77] = {
-				name = "{sym}{val}#Critical against Doram race players",
+				name = "{sym}{val}#Critical ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IncCriByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -1878,14 +1878,14 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 10, [ValueOption.FLOAT] = 0 }
 			},
 			[78] = {
-				name = "{sym}{val}%#Damage recieved from enemies of all races",
+				name = "{sym}{val}%#พลังป้องกัน",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
 				sym = SymbolPreset.DecSign
 			},
 			[79] = {
-				name = "{sym}{val}%#Damage recieved from Plant race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Plant",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -1893,7 +1893,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_PLANT[1]
 			},
 			[80] = {
-				name = "{sym}{val}%#Damage recieved from Undead race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Undead",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -1901,7 +1901,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_UNDEAD[1]
 			},
 			[81] = {
-				name = "{sym}{val}%#Damage recieved from Formless race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Formless",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -1909,7 +1909,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_NOTHING[1]
 			},
 			[82] = {
-				name = "{sym}{val}%#Damage recieved from Angel race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Angel",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -1917,7 +1917,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_ANGEL[1]
 			},
 			[83] = {
-				name = "{sym}{val}%#Damage recieved from Dragon race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Dragon",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -1925,7 +1925,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_DRAGON[1]
 			},
 			[84] = {
-				name = "{sym}{val}%#Damage recieved from Fish race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Fish",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -1933,7 +1933,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_FISHS[1]
 			},
 			[85] = {
-				name = "{sym}{val}%#Damage recieved from Insect race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Insect",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -1941,7 +1941,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_INSECT[1]
 			},
 			[86] = {
-				name = "{sym}{val}%#Damage recieved from Brute race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Brute",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -1949,7 +1949,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_ANIMAL[1]
 			},
 			[87] = {
-				name = "{sym}{val}%#Damage recieved from Demon race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Demon",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -1957,7 +1957,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_DEVIL[1]
 			},
 			[88] = {
-				name = "{sym}{val}%#Damage recieved from Demi-Human race enemies",
+				name = "{sym}{val}%#กัน ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -1965,7 +1965,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_HUMAN[1]
 			},
 			[89] = {
-				name = "{sym}{val}%#Damage recieved from Demi-Human race players",
+				name = "{sym}{val}%#กัน ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -1973,7 +1973,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_PLAYER_HUMAN[1]
 			},
 			[90] = {
-				name = "{sym}{val}%#Damage recieved from Doram race players",
+				name = "{sym}{val}%#กัน ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.DecDmgByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -1981,98 +1981,98 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.RACE_TOLERACE_PLAYER_DORAM[1]
 			},
 			[91] = {
-				name = "{sym}{val}%#Physical Damage recieved from enemies of all races",
+				name = "{sym}{val}%#กันกายภาพ",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
 				sym = SymbolPreset.DecSign
 			},
 			[92] = {
-				name = "{sym}{val}%#Physical Damage recieved from Plant race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Plant",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
 				sym = SymbolPreset.DecSign
 			},
 			[93] = {
-				name = "{sym}{val}%#Physical Damage recieved from Undead race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Undead",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
 				sym = SymbolPreset.DecSign
 			},
 			[94] = {
-				name = "{sym}{val}%#Physical Damage recieved from Formless race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Formless",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
 				sym = SymbolPreset.DecSign
 			},
 			[95] = {
-				name = "{sym}{val}%#Physical Damage recieved from Angel race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Angel",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
 				sym = SymbolPreset.DecSign
 			},
 			[96] = {
-				name = "{sym}{val}%#Physical Damage recieved from Dragon race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Dragon",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
 				sym = SymbolPreset.DecSign
 			},
 			[97] = {
-				name = "{sym}{val}%#Physical Damage recieved from Fish race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Fish",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
 				sym = SymbolPreset.DecSign
 			},
 			[98] = {
-				name = "{sym}{val}%#Physical Damage recieved from Insect race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Insect",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
 				sym = SymbolPreset.DecSign
 			},
 			[99] = {
-				name = "{sym}{val}%#Physical Damage recieved from Brute race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Brute",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
 				sym = SymbolPreset.DecSign
 			},
 			[100] = {
-				name = "{sym}{val}%#Physical Damage recieved from Demon race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Demon",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
 				sym = SymbolPreset.DecSign
 			},
 			[101] = {
-				name = "{sym}{val}%#Physical Damage recieved from Demi-Human race enemies",
+				name = "{sym}{val}%#กันกายภาพ ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
 				sym = SymbolPreset.DecSign
 			},
 			[102] = {
-				name = "{sym}{val}%#Physical Damage recieved from Demi-Human race players",
+				name = "{sym}{val}%#กันกายภาพ ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
 				sym = SymbolPreset.DecSign
 			},
 			[103] = {
-				name = "{sym}{val}%#Physical Damage recieved from Doram race players",
+				name = "{sym}{val}%#กันกายภาพ ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.DecDmgByUnitRaceSelf,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
 				sym = SymbolPreset.DecSign
 			},
 			[104] = {
-				name = "{sym}{val}%#Ignores physical resistance of enemies of all races",
+				name = "{sym}{val}%#เจาะ RES",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
@@ -2080,7 +2080,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[105] = {
-				name = "{sym}{val}%#physical resistance of Plant race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Plant",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -2088,7 +2088,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[106] = {
-				name = "{sym}{val}%#physical resistance of Undead race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Undead",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -2096,7 +2096,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[107] = {
-				name = "{sym}{val}%#physical resistance of Formless race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Formless",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -2104,7 +2104,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[108] = {
-				name = "{sym}{val}%#physical resistance of Angel race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Angel",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -2112,7 +2112,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[109] = {
-				name = "{sym}{val}%#physical resistance of Dragon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -2120,7 +2120,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[110] = {
-				name = "{sym}{val}%#physical resistance of Fish race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Fish",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -2128,7 +2128,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[111] = {
-				name = "{sym}{val}%#physical resistance of Insect race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Insect",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -2136,7 +2136,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[112] = {
-				name = "{sym}{val}%#physical resistance of Brute race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Brute",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -2144,7 +2144,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[113] = {
-				name = "{sym}{val}%#physical resistance of Demon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Demon",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -2152,7 +2152,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[114] = {
-				name = "{sym}{val}%#physical resistance of Demi-Human race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ RES ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -2160,7 +2160,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[115] = {
-				name = "{sym}{val}%#physical resistance of Demi-Human race players will be ignored",
+				name = "{sym}{val}%#เจาะ RES ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -2168,7 +2168,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[116] = {
-				name = "{sym}{val}%#physical resistance of Doram race players will be ignored",
+				name = "{sym}{val}%#เจาะ RES ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IgnoreResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -2176,7 +2176,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[117] = {
-				name = "{sym}{val}%#magical resistance of enemies of every race will be ignored",
+				name = "{sym}{val}%#เจาะ MRES",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
@@ -2184,7 +2184,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[118] = {
-				name = "{sym}{val}%#magical resistance of Plant race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Plant",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -2192,7 +2192,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[119] = {
-				name = "{sym}{val}%#magical resistance of Undead race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Undead",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -2200,7 +2200,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[120] = {
-				name = "{sym}{val}%#magical resistance of Formless race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Formless",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -2208,7 +2208,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[121] = {
-				name = "{sym}{val}%#magical resistance of Angel race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Angel",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -2216,7 +2216,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[122] = {
-				name = "{sym}{val}%#magical resistance of Dragon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Dragon",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -2224,7 +2224,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[123] = {
-				name = "{sym}{val}%#magical resistance of Fish race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Fish",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -2232,7 +2232,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[124] = {
-				name = "{sym}{val}%#magical resistance of Insect race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Insect",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -2240,7 +2240,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[125] = {
-				name = "{sym}{val}%#magical resistance of Brute race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Brute",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -2248,7 +2248,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[126] = {
-				name = "{sym}{val}%#magical resistance of Demon race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Demon",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -2256,7 +2256,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[127] = {
-				name = "{sym}{val}%#magical resistance of Demi-Human race enemies will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
@@ -2264,7 +2264,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[128] = {
-				name = "{sym}{val}%#magical resistance of Demi-Human race players will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ผู้เล่นศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.HumanPlayer },
@@ -2272,7 +2272,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[129] = {
-				name = "{sym}{val}%#magical resistance of Doram race players will be ignored",
+				name = "{sym}{val}%#เจาะ MRES ผู้เล่นศัตรูเผ่า Doram",
 				func = FunctionPreset.IgnoreMResRateByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.DoramPlayer },
@@ -2280,7 +2280,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 50 }
 			},
 			[130] = {
-				name = "{sym}{val}%#Experience gained from monsters",
+				name = "{sym}{val}%#EXP จากศัตรู",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.All },
@@ -2289,7 +2289,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[131] = {
-				name = "{sym}{val}%#Experience gained from Plant race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Plant",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Plant },
@@ -2298,7 +2298,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[132] = {
-				name = "{sym}{val}%#Experience gained from Undead race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Undead",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Undead },
@@ -2307,7 +2307,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[133] = {
-				name = "{sym}{val}%#Experience gained from Formless race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Formless",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Nothing },
@@ -2316,7 +2316,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[134] = {
-				name = "{sym}{val}%#Experience gained from Angel race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Angel",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Angel },
@@ -2325,7 +2325,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[135] = {
-				name = "{sym}{val}%#Experience gained from Dragon race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Dragon",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Dragon },
@@ -2334,7 +2334,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[136] = {
-				name = "{sym}{val}%#Experience gained from Fish race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Fish",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Fish },
@@ -2343,7 +2343,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[137] = {
-				name = "{sym}{val}%#Experience gained from Insect race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Insect",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Insect },
@@ -2352,7 +2352,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[138] = {
-				name = "{sym}{val}%#Experience gained from Brute race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Brute",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Animal },
@@ -2361,7 +2361,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[139] = {
-				name = "{sym}{val}%#Experience gained from Demon race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Demon",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Demon },
@@ -2370,7 +2370,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0 }
 			},
 			[140] = {
-				name = "{sym}{val}%#Experience gained from Demi-Human race monsters",
+				name = "{sym}{val}%#EXP จากศัตรูเผ่า Demi-Human",
 				func = FunctionPreset.IncExpByUnitRace,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Race.Human },
