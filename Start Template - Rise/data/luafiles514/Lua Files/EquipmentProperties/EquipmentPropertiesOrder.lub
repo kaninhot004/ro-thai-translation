@@ -609,7 +609,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.MIN] = 0, [ValueOption.MAX] = 100 }
 			},
 			[24] = {
-				name = "{sym}{val}%#ตีเวทย์ ศัตรู Small",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูขนาด Small",
 				func = FunctionPreset.IncMDmgByUnitSize,
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.Target, [2] = Size.Small },
@@ -617,7 +617,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.MDAMAGE_SIZE_SMALL_TARGET[1]
 			},
 			[25] = {
-				name = "{sym}{val}%#ตีเวทย์ ศัตรู Medium",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูขนาด Medium",
 				func = FunctionPreset.IncMDmgByUnitSize,
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.Target, [2] = Size.Medium },
@@ -625,7 +625,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.MDAMAGE_SIZE_MIDIUM_TARGET[1]
 			},
 			[26] = {
-				name = "{sym}{val}%#ตีเวทย์ ศัตรู Large",
+				name = "{sym}{val}%#ตีเวทย์ ศัตรูขนาด Large",
 				func = FunctionPreset.IncMDmgByUnitSize,
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.Target, [2] = Size.Large },
@@ -949,7 +949,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.ATTR_TOLERACE_ALLBUTNOTHING[1]
 			},
 			[35] = {
-				name = "{sym}{val}%#กันกายภาพทุกธาตุ",
+				name = "{sym}{val}%#กันกายภาพ",
 				func = FunctionPreset.DecPDmgBySkillProp,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Element.All, [3] = 1 },
@@ -1004,7 +1004,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.ATTR_TOLERACE_DARKNESS[1]
 			},
 			[42] = {
-				name = "{sym}{val}%#กัน ธาตุ Ghost",
+				name = "{sym}{val}%#กัน ธาตุ Holy",
 				func = FunctionPreset.DecDmgBySkillProp,
 				val = { [2] = Operation.ADD },
 				cond = { [1] = Element.Saint },
@@ -1036,7 +1036,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.ATTR_TOLERACE_UNDEAD[1]
 			},
 			[46] = {
-				name = "{sym}{val}%#กันทุกธาตุ",
+				name = "{sym}{val}%#พลังป้องกัน",
 				func = FunctionPreset.DecDmgByUnitProp,
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.User, [2] = Element.All },
@@ -1123,7 +1123,7 @@ EquipmentPropertiesOrder = {
 				rndOpt = EnumVAR.DAMAGE_PROPERTY_UNDEAD_USER[1]
 			},
 			[57] = {
-				name = "{sym}{val}%#กันเวทย์ ทุกธาตุ",
+				name = "{sym}{val}%#กันเวทย์",
 				func = FunctionPreset.DecMDmgByUnitProp,
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.User, [2] = Element.All },
@@ -2420,7 +2420,7 @@ EquipmentPropertiesOrder = {
 				valOpt = { [ValueOption.DIV] = 1000, [ValueOption.FLOAT] = 2 }
 			},
 			[6] = {
-				name = "{val}%#{sym} พลังโจมตี {sep} แรงขึ้น",
+				name = "{val}%#{sym} {sep} แรงขึ้น",
 				func = { "AddDamage_SKID" },
 				val = { [3] = Operation.ADD },
 				cond = { [1] = Unit.Target },
